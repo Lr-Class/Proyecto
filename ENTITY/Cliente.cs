@@ -16,6 +16,6 @@ namespace ENTITY
         public string Telefono { get; set; }
         public string DireccionNegocio { get; set; }
         public string NombreUsuario { get; set; }
-        public string Contraseña { get; set; }
+        public string Contrasena { get; set; }
     }
 }
