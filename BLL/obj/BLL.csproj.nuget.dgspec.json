@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\luism\\source\\repos\\DCosta\\BLL\\BLL.csproj": {}
+    "C:\\Users\\yeimm\\Documents\\OneDrive\\Escritorio\\ProyectoCosta\\Proyecto\\BLL\\BLL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\luism\\source\\repos\\DCosta\\BLL\\BLL.csproj": {
+    "C:\\Users\\yeimm\\Documents\\OneDrive\\Escritorio\\ProyectoCosta\\Proyecto\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\luism\\source\\repos\\DCosta\\BLL\\BLL.csproj",
+        "projectUniqueName": "C:\\Users\\yeimm\\Documents\\OneDrive\\Escritorio\\ProyectoCosta\\Proyecto\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "C:\\Users\\luism\\source\\repos\\DCosta\\BLL\\BLL.csproj",
-        "packagesPath": "C:\\Users\\luism\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\luism\\source\\repos\\DCosta\\BLL\\obj\\",
+        "projectPath": "C:\\Users\\yeimm\\Documents\\OneDrive\\Escritorio\\ProyectoCosta\\Proyecto\\BLL\\BLL.csproj",
+        "packagesPath": "C:\\Users\\yeimm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yeimm\\Documents\\OneDrive\\Escritorio\\ProyectoCosta\\Proyecto\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\luism\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yeimm\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -38,11 +38,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -59,12 +54,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
