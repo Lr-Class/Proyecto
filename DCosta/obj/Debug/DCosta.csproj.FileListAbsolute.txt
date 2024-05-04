@@ -1,0 +1,10 @@
+C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\bin\Debug\DCosta.exe.config
+C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\bin\Debug\DCosta.exe
+C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\bin\Debug\DCosta.pdb
+C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.csproj.AssemblyReference.cache
+C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.FrmInicial.resources
+C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.Properties.Resources.resources
+C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.csproj.GenerateResource.cache
+C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.csproj.CoreCompileInputs.cache
+C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.exe
+C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.pdb
