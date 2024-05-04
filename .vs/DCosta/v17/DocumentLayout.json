@@ -35,8 +35,7 @@
               "ViewState": "AQIAAAEAAAAAAAAAAAAqwAsAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-02T20:13:13.232Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -72,7 +71,8 @@
               "RelativeToolTip": "ENTITY\\Class1.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T21:08:00.631Z"
+              "WhenOpened": "2024-05-02T21:08:00.631Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -83,8 +83,7 @@
               "ToolTip": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\DCosta\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "DCosta\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T20:12:58.777Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-05-02T20:12:58.777Z"
             }
           ]
         }
