@@ -1,0 +1,12 @@
+C:\Users\luism\OneDrive\Escritorio\DCosta\DLL\bin\Debug\net8.0\DLL.deps.json
+C:\Users\luism\OneDrive\Escritorio\DCosta\DLL\bin\Debug\net8.0\DLL.dll
+C:\Users\luism\OneDrive\Escritorio\DCosta\DLL\bin\Debug\net8.0\DLL.pdb
+C:\Users\luism\OneDrive\Escritorio\DCosta\DLL\obj\Debug\net8.0\DLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luism\OneDrive\Escritorio\DCosta\DLL\obj\Debug\net8.0\DLL.AssemblyInfoInputs.cache
+C:\Users\luism\OneDrive\Escritorio\DCosta\DLL\obj\Debug\net8.0\DLL.AssemblyInfo.cs
+C:\Users\luism\OneDrive\Escritorio\DCosta\DLL\obj\Debug\net8.0\DLL.csproj.CoreCompileInputs.cache
+C:\Users\luism\OneDrive\Escritorio\DCosta\DLL\obj\Debug\net8.0\DLL.sourcelink.json
+C:\Users\luism\OneDrive\Escritorio\DCosta\DLL\obj\Debug\net8.0\DLL.dll
+C:\Users\luism\OneDrive\Escritorio\DCosta\DLL\obj\Debug\net8.0\refint\DLL.dll
+C:\Users\luism\OneDrive\Escritorio\DCosta\DLL\obj\Debug\net8.0\DLL.pdb
+C:\Users\luism\OneDrive\Escritorio\DCosta\DLL\obj\Debug\net8.0\ref\DLL.dll

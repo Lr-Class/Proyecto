@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{15BCDF2D-CEA3-443C-A854-8A4B3747EBD5}|BLL\\BLL.csproj|c:\\users\\luism\\onedrive\\escritorio\\dcosta\\bll\\serviciorepartidor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15BCDF2D-CEA3-443C-A854-8A4B3747EBD5}|BLL\\BLL.csproj|solutionrelative:bll\\serviciorepartidor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|c:\\users\\luism\\onedrive\\escritorio\\dcosta\\dcosta\\frminiciocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|solutionrelative:dcosta\\frminiciocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|c:\\users\\luism\\onedrive\\escritorio\\dcosta\\dcosta\\frmproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|solutionrelative:dcosta\\frmproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|c:\\users\\luism\\onedrive\\escritorio\\dcosta\\dcosta\\frmproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|solutionrelative:dcosta\\frmproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\dcosta\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|solutionrelative:dcosta\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|c:\\users\\luism\\onedrive\\escritorio\\dcosta\\dcosta\\frminiciocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|solutionrelative:dcosta\\frminiciocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|c:\\users\\luism\\onedrive\\escritorio\\dcosta\\dcosta\\registrocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|solutionrelative:dcosta\\registrocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -29,16 +49,83 @@
               "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ServicioRepartidor.cs",
-              "DocumentMoniker": "C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\BLL\\ServicioRepartidor.cs",
-              "RelativeDocumentMoniker": "BLL\\ServicioRepartidor.cs",
-              "ToolTip": "C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\BLL\\ServicioRepartidor.cs",
-              "RelativeToolTip": "BLL\\ServicioRepartidor.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAjAAAA",
+              "Title": "FrmInicioCliente.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\DCosta\\FrmInicioCliente.cs",
+              "RelativeDocumentMoniker": "DCosta\\FrmInicioCliente.cs",
+              "ToolTip": "C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\DCosta\\FrmInicioCliente.cs [Dise\u00F1o]",
+              "RelativeToolTip": "DCosta\\FrmInicioCliente.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T13:58:30.923Z",
+              "WhenOpened": "2024-05-05T17:20:14.576Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmProductos.cs",
+              "DocumentMoniker": "C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\DCosta\\FrmProductos.cs",
+              "RelativeDocumentMoniker": "DCosta\\FrmProductos.cs",
+              "ToolTip": "C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\DCosta\\FrmProductos.cs",
+              "RelativeToolTip": "DCosta\\FrmProductos.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAUwC4AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T16:44:50.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmProductos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\DCosta\\FrmProductos.cs",
+              "RelativeDocumentMoniker": "DCosta\\FrmProductos.cs",
+              "ToolTip": "C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\DCosta\\FrmProductos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "DCosta\\FrmProductos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T16:20:22.2Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RegistroCliente.cs",
+              "DocumentMoniker": "C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\DCosta\\RegistroCliente.cs",
+              "RelativeDocumentMoniker": "DCosta\\RegistroCliente.cs",
+              "ToolTip": "C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\DCosta\\RegistroCliente.cs",
+              "RelativeToolTip": "DCosta\\RegistroCliente.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T15:51:41.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FrmInicioCliente.cs",
+              "DocumentMoniker": "C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\DCosta\\FrmInicioCliente.cs",
+              "RelativeDocumentMoniker": "DCosta\\FrmInicioCliente.cs",
+              "ToolTip": "C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\DCosta\\FrmInicioCliente.cs",
+              "RelativeToolTip": "DCosta\\FrmInicioCliente.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAswCEAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T15:49:12.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\DCosta\\Program.cs",
+              "RelativeDocumentMoniker": "DCosta\\Program.cs",
+              "ToolTip": "C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\DCosta\\Program.cs",
+              "RelativeToolTip": "DCosta\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T23:14:26.41Z",
               "EditorCaption": ""
             }
           ]
