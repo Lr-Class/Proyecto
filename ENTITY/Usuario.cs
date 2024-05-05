@@ -10,10 +10,10 @@ namespace ENTITY
     {
         public string TipoDocumento { get; set; }
         public string NumeroDocumento { get; set; }
-        public string Nombre {  get; set; }
-        public string Apellido { get; set; }    
-        public string NombreUsuario {  get; set; }
-        public string Contraseña {  get; set; }
+        public string Nombre { get; set; }
+        public string Apellido { get; set; }
+        public string NombreUsuario { get; set; }
+        public string Contraseña { get; set; }
 
         public Usuario(string tipoDocumento, string numeroDocumento, string nombre, string apellido, string nombreUsuario, string contraseña)
         {

@@ -17,7 +17,7 @@ namespace ENTITY
         public string Codigo { get => _codigo; set => _codigo = value; }
         public string EstadoPedido { get => _estadoPedido; set => _estadoPedido = value; }
         public DateTime FechaPedido { get => _fechaPedido; set => _fechaPedido = value; }
-        
+
         public TimeSpan HoraInicio => _horaInicio;
 
         public TimeSpan HoraFinalizacion => _horaFinalizacion;
@@ -30,9 +30,5 @@ namespace ENTITY
             _horaFinalizacion = horaFinalizacion;
             FechaPedido = fechaPedido;
         }
-        
-
-
-
     }
 }

@@ -28,5 +28,4 @@ namespace ENTITY
             FechaVentaRepartidor = fechaVentaRepartidor;
         }
     }
-    
 }

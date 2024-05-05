@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ENTITY
 {
-  public class Factura
+    public class Factura
     {
         public DateTime FechaFactura { get; set; }
         public string CodigoFactura { get; set; }
@@ -20,6 +20,5 @@ namespace ENTITY
         public double TotalFactura { get; set; }
         public double SubTotalFactura { get; set; }
         public double TotalIvaFactura { get; set; }
-
     }
 }

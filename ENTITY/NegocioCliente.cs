@@ -10,7 +10,7 @@ namespace ENTITY
     {
         private string _nombre;
         private string _direccion;
-        public NegocioCliente(string nombre, string direccion) 
+        public NegocioCliente(string nombre, string direccion)
         {
             Nombre = nombre;
             Direccion = direccion;
