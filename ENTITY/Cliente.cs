@@ -6,16 +6,14 @@ using System.Threading.Tasks;
 
 namespace ENTITY
 {
-   public class Cliente
+   public class Cliente : Usuario
     {
-        public string NumeroDocumento { get; set; }
-        public string Nombre { get; set; }
-        public string Apellido { get; set; }
-        public string TipoDocumento { get; set; }
-        public string NombreNegocio { get; set; }
-        public string Telefono { get; set; }
-        public string DireccionNegocio { get; set; }
-        public string NombreUsuario { get; set; }
-        public string Contraseña { get; set; }
+        public Cliente(string tipoDocumento, string numeroDocumento, string nombre, string apellido, string nombreUsuario, string contraseña, string telefono) : base(tipoDocumento, numeroDocumento, nombre, apellido, nombreUsuario, contraseña)
+        {
+
+            this.Telefono = telefono;
+        }
+
+        public string Telefono { get; set; }    
     }
 }

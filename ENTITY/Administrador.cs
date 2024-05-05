@@ -6,18 +6,12 @@ using System.Threading.Tasks;
 
 namespace ENTITY
 {
-    public class Administrador
+    public class Administrador : Usuario
     {
-        private string _nombreUsuario;
-        private string _contraseña;
-
-        public Administrador(string nombreUsuario, string contraseña)
+        public Administrador(string nombreUsuario, string contraseña,string tipoDocumento = "", string numeroDocumento = "", string nombre = "", string apellido = ""  ) : base(tipoDocumento, numeroDocumento, nombre, apellido, nombreUsuario, contraseña)
         {
-            NombreUsuario = nombreUsuario;
-            Contraseña = contraseña;
+            this.NombreUsuario = nombreUsuario;
+            this.Contraseña = contraseña;
         }
-
-        public string NombreUsuario { get => _nombreUsuario; set => _nombreUsuario = value; }
-        public string Contraseña { get => _contraseña; set => _contraseña = value; }
     }
 }
