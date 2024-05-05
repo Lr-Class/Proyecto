@@ -1,10 +1,26 @@
-C:\Users\yeimm\Documents\OneDrive\Escritorio\ProyectoCosta\Proyecto\DCosta\bin\Debug\DCosta.exe.config
-C:\Users\yeimm\Documents\OneDrive\Escritorio\ProyectoCosta\Proyecto\DCosta\bin\Debug\DCosta.exe
-C:\Users\yeimm\Documents\OneDrive\Escritorio\ProyectoCosta\Proyecto\DCosta\bin\Debug\DCosta.pdb
-C:\Users\yeimm\Documents\OneDrive\Escritorio\ProyectoCosta\Proyecto\DCosta\obj\Debug\DCosta.csproj.AssemblyReference.cache
-C:\Users\yeimm\Documents\OneDrive\Escritorio\ProyectoCosta\Proyecto\DCosta\obj\Debug\DCosta.FrmInicial.resources
-C:\Users\yeimm\Documents\OneDrive\Escritorio\ProyectoCosta\Proyecto\DCosta\obj\Debug\DCosta.Properties.Resources.resources
-C:\Users\yeimm\Documents\OneDrive\Escritorio\ProyectoCosta\Proyecto\DCosta\obj\Debug\DCosta.csproj.GenerateResource.cache
-C:\Users\yeimm\Documents\OneDrive\Escritorio\ProyectoCosta\Proyecto\DCosta\obj\Debug\DCosta.csproj.CoreCompileInputs.cache
-C:\Users\yeimm\Documents\OneDrive\Escritorio\ProyectoCosta\Proyecto\DCosta\obj\Debug\DCosta.exe
-C:\Users\yeimm\Documents\OneDrive\Escritorio\ProyectoCosta\Proyecto\DCosta\obj\Debug\DCosta.pdb
+C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\bin\Debug\DCosta.exe.config
+C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\bin\Debug\DCosta.exe
+C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\bin\Debug\DCosta.pdb
+C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.csproj.AssemblyReference.cache
+C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.FrmInicial.resources
+C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.Properties.Resources.resources
+C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.csproj.GenerateResource.cache
+C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.csproj.CoreCompileInputs.cache
+C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.exe
+C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.pdb
+C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.RegistroCliente.resources
+C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.FrmInicioCliente.resources
+C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.FrmProductos.resources
+C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\bin\Debug\DCosta.exe.config
+C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\bin\Debug\DCosta.exe
+C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\bin\Debug\DCosta.pdb
+C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.FrmInicioCliente.resources
+C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.FrmProductos.resources
+C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.RegistroCliente.resources
+C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.FrmInicial.resources
+C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.Properties.Resources.resources
+C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.exe
+C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.pdb
