@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ENTITY
 {
-    public class Pedidos
+    public class ClsPedidos
     {
         private string _codigo;
         private string _estadoPedido; // Verifica que el pedido se haya entregado
@@ -22,7 +22,7 @@ namespace ENTITY
 
         public TimeSpan HoraFinalizacion => _horaFinalizacion;
 
-        public Pedidos(string codigo, string estadoPedido, TimeSpan horaInicio, TimeSpan horaFinalizacion, DateTime fechaPedido)
+        public ClsPedidos(string codigo, string estadoPedido, TimeSpan horaInicio, TimeSpan horaFinalizacion, DateTime fechaPedido)
         {
             Codigo = codigo;
             EstadoPedido = estadoPedido;

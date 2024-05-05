@@ -71,5 +71,15 @@ namespace DCosta
             this.Hide();
             frmregistroCliente.ShowDialog();
         }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FrmInicial_Load(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ENTITY
 {
-    public class Ventas
+    public class ClsVentas
     {
         private string _codigoVenta;
         private double _ventaRepartidor;
@@ -19,7 +19,7 @@ namespace ENTITY
         public double VentaTotal { get => _ventaTotal; set => _ventaTotal = value; }
         public DateTime FechaVentaTotal { get => _fechaVentaTotal; set => _fechaVentaTotal = value; }
         public DateTime FechaVentaRepartidor { get => _fechaVentaRepartidor; set => _fechaVentaRepartidor = value; }
-        public Ventas(string codigoVenta, double ventaRepartidor, double ventaTotal, DateTime fechaVentaTotal, DateTime fechaVentaRepartidor)
+        public ClsVentas(string codigoVenta, double ventaRepartidor, double ventaTotal, DateTime fechaVentaTotal, DateTime fechaVentaRepartidor)
         {
             CodigoVenta = codigoVenta;
             VentaRepartidor = ventaRepartidor;

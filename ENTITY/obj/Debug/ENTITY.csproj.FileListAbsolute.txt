@@ -1,0 +1,6 @@
+C:\Users\User\Desktop\Project DCostaFood\Proyecto\ENTITY\bin\Debug\ENTITY.dll
+C:\Users\User\Desktop\Project DCostaFood\Proyecto\ENTITY\bin\Debug\ENTITY.pdb
+C:\Users\User\Desktop\Project DCostaFood\Proyecto\ENTITY\obj\Debug\ENTITY.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Project DCostaFood\Proyecto\ENTITY\obj\Debug\ENTITY.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Project DCostaFood\Proyecto\ENTITY\obj\Debug\ENTITY.dll
+C:\Users\User\Desktop\Project DCostaFood\Proyecto\ENTITY\obj\Debug\ENTITY.pdb

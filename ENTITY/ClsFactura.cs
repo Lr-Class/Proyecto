@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ENTITY
 {
-    public class Factura
+    public class ClsFactura
     {
         public DateTime FechaFactura { get; set; }
         public string CodigoFactura { get; set; }

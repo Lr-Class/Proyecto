@@ -167,5 +167,15 @@
   <ItemGroup>
     <None Include="Resources\maximizar %281%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{a2ee5df0-62ff-456b-b47e-a9f8f1cc428a}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ENTITY\ENTITY.csproj">
+      <Project>{391c6aab-a3f4-4532-8a8c-d4525d93361e}</Project>
+      <Name>ENTITY</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

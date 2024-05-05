@@ -1,4 +1,6 @@
-﻿using System;
+﻿using BLL;
+using ENTITY;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -77,6 +79,100 @@ namespace DCosta
             {
                 this.Close();
             }
+        }
+
+        private void cbTipoInicio_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cbTipoInicio_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
+
+        }
+        private string RegistrarCliente()
+        {
+            if (ValidarTextosVacios())
+            {
+                ClsCliente cliente = MapearTextoCliente();
+                string mensaje = ClsServicioCliente.RegistroCliente(cliente);
+                NegocioCliente negocio = MapearTextoNegocio();
+                string mensaje2 = ClsServicioNegocioCliente.RegistroNegocio(negocio);
+                return mensaje + " - " + mensaje2;  
+
+            }else
+            {
+                return "Rellene los datos faltantes";
+            }
+        }
+        private ClsCliente MapearTextoCliente()
+        {
+            var cliente = new ClsCliente("", "", "", "", "", "", "", "");
+            cliente.TipoDocumento = MapearComboTipoDocumento(cbTipoInicio.Text);
+            cliente.NumeroDocumento = txtNumDocumento.Text;
+            cliente.Nombre = txtNombres.Text;
+            cliente.Apellido = txtApellidos.Text;
+            cliente.NombreUsuario = txtNombreUsuario.Text;
+            cliente.Contraseña = txtPassword.Text;
+            cliente.Telefono = txtTelefono.Text;
+            cliente.Direccion = txtDireccionDomicilio.Text;
+            return cliente;
+            
+        }
+        private NegocioCliente MapearTextoNegocio ()
+        {
+            var negocio = new NegocioCliente();
+            if (rbSiNegocio.Checked)
+            {
+                negocio.Direccion = txtDireccionNegocio.Text;
+                negocio.Nombre = txtNombreNegocio.Text; 
+            } else
+            {
+                negocio.Nombre = "";
+                negocio.Direccion = "";
+            }
+            return negocio;
+        }
+       
+        private bool ValidarTextosVacios()
+        {
+            foreach (Control itemcontrol in this.Controls)
+            {
+                if (itemcontrol is TextBox textBox && string.IsNullOrEmpty(textBox.Text))
+                {
+                    return false;
+                }
+
+            }
+            return true;
+        }
+        private string MapearComboTipoDocumento(string tipoDocumento)
+        {
+            if (tipoDocumento.Equals("TI"))
+            {
+                return "Tarjeta de identidad";
+
+                
+            } 
+            else if (tipoDocumento.Equals("CC"))
+            {
+                return "Cedula";
+            } 
+            else
+            {
+                return "Cedula de extranjeria";
+            }
+            
+        }
+
+        private void txtNumDocumento_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ENTITY
 {
-    public class Usuario
+    public class ClsUsuario
     {
         public string TipoDocumento { get; set; }
         public string NumeroDocumento { get; set; }
@@ -15,7 +15,7 @@ namespace ENTITY
         public string NombreUsuario { get; set; }
         public string Contraseña { get; set; }
 
-        public Usuario(string tipoDocumento, string numeroDocumento, string nombre, string apellido, string nombreUsuario, string contraseña)
+        public ClsUsuario(string tipoDocumento, string numeroDocumento, string nombre, string apellido, string nombreUsuario, string contraseña)
         {
             TipoDocumento = tipoDocumento;
             NumeroDocumento = numeroDocumento;

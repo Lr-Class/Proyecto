@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ENTITY
 {
-    public class Almacen
+    public class ClsAlmacen
     {
         private long _stock;
         private string nombreProducto;
@@ -17,7 +17,7 @@ namespace ENTITY
         public string NombreProducto { get => nombreProducto; set => nombreProducto = value; }
         public string TipoProducto { get => tipoProducto; set => tipoProducto = value; }
         public string PresentacionProducto { get => presentacionProducto; set => presentacionProducto = value; }
-        public Almacen(long stock, string nombreProducto, string tipoProducto, string presentacionProducto)
+        public ClsAlmacen(long stock, string nombreProducto, string tipoProducto, string presentacionProducto)
         {
             Stock = stock;
             NombreProducto = nombreProducto;

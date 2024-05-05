@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace ENTITY
 {
-    public class Login
+    public class ClsLogin
     {
         private string _nombreUsuario;
         private string _Contraseña;
-        public Login(string nombreUsuario, string contraseña)
+        public ClsLogin(string nombreUsuario, string contraseña)
         {
             NombreUsuario = nombreUsuario;
             Contraseña = contraseña;
