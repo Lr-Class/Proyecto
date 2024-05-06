@@ -24,3 +24,5 @@ C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.csproj
 C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.exe
 C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.pdb
+C:\Users\yeimm\Documents\OneDrive\Escritorio\ProyectoCosta\Proyecto\DCosta\obj\Debug\DCosta.exe
+C:\Users\yeimm\Documents\OneDrive\Escritorio\ProyectoCosta\Proyecto\DCosta\obj\Debug\DCosta.pdb
