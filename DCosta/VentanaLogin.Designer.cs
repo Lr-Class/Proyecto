@@ -40,6 +40,7 @@
             this.btnMinimizar = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.pnlBarraMovimiento = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
@@ -127,6 +128,7 @@
             this.btnIniciar.TabIndex = 4;
             this.btnIniciar.Text = "INICIAR";
             this.btnIniciar.UseVisualStyleBackColor = false;
+            this.btnIniciar.Click += new System.EventHandler(this.btnIniciar_Click);
             // 
             // panel2
             // 
@@ -189,6 +191,14 @@
             this.linkLabel1.Text = "¿Registrar Cliente? ";
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
+            // pnlBarraMovimiento
+            // 
+            this.pnlBarraMovimiento.Location = new System.Drawing.Point(324, 0);
+            this.pnlBarraMovimiento.Name = "pnlBarraMovimiento";
+            this.pnlBarraMovimiento.Size = new System.Drawing.Size(456, 36);
+            this.pnlBarraMovimiento.TabIndex = 10;
+            this.pnlBarraMovimiento.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pnlBarraMovimiento_MouseDown);
+            // 
             // FrmInicial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -206,6 +216,7 @@
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.txtUser);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pnlBarraMovimiento);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmInicial";
             this.Opacity = 0.9D;
@@ -234,6 +245,7 @@
         private System.Windows.Forms.PictureBox btnMinimizar;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.Panel pnlBarraMovimiento;
     }
 }
 

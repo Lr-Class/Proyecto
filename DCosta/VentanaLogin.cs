@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Runtime.InteropServices;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace DCosta
 {
@@ -16,6 +18,12 @@ namespace DCosta
         {
             InitializeComponent();
         }
+
+        [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
+        private extern static void ReleaseCapture();
+        [DllImport("user32.DLL", EntryPoint = "SendMessage")]
+        private extern static void SendMessage(System.IntPtr hwnd, int wmsg, int wparam, int lparam);
+
 
         private void btnCerrar_Click(object sender, EventArgs e)
         {
@@ -70,6 +78,23 @@ namespace DCosta
             RegistroCliente frmregistroCliente = new RegistroCliente();
             this.Hide();
             frmregistroCliente.ShowDialog();
+        }
+
+        private void pnlBarraMovimiento_MouseDown(object sender, MouseEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
+
+        private void btnIniciar_Click(object sender, EventArgs e)
+        {
+            if (cbTipoInicio.SelectedItem.ToString() == "Cliente")
+            {
+                FrmInicioCliente frmInicioCliente = new FrmInicioCliente();
+                this.Hide();
+                frmInicioCliente.Show();
+                
+            }
         }
     }
 }

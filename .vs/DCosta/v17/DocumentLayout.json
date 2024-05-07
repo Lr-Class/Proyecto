@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|c:\\users\\luism\\onedrive\\escritorio\\dcosta\\dcosta\\frminiciocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|solutionrelative:dcosta\\frminiciocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|c:\\users\\luism\\onedrive\\escritorio\\dcosta\\dcosta\\frminiciocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|solutionrelative:dcosta\\frminiciocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|c:\\users\\luism\\onedrive\\escritorio\\dcosta\\dcosta\\frmproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|solutionrelative:dcosta\\frmproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|c:\\users\\luism\\onedrive\\escritorio\\dcosta\\dcosta\\frmproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|solutionrelative:dcosta\\frmproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\dcosta\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|solutionrelative:dcosta\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|c:\\users\\luism\\onedrive\\escritorio\\dcosta\\dcosta\\frminiciocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|solutionrelative:dcosta\\frminiciocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|c:\\users\\luism\\onedrive\\escritorio\\dcosta\\dcosta\\registrocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|solutionrelative:dcosta\\registrocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|c:\\users\\luism\\onedrive\\escritorio\\dcosta\\dcosta\\frmpedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|solutionrelative:dcosta\\frmpedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -55,77 +47,51 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "FrmInicioCliente.cs",
+              "DocumentMoniker": "C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\DCosta\\FrmInicioCliente.cs",
+              "RelativeDocumentMoniker": "DCosta\\FrmInicioCliente.cs",
+              "ToolTip": "C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\DCosta\\FrmInicioCliente.cs",
+              "RelativeToolTip": "DCosta\\FrmInicioCliente.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAA4wDYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T20:09:15.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "FrmInicioCliente.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\DCosta\\FrmInicioCliente.cs",
               "RelativeDocumentMoniker": "DCosta\\FrmInicioCliente.cs",
               "ToolTip": "C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\DCosta\\FrmInicioCliente.cs [Dise\u00F1o]",
               "RelativeToolTip": "DCosta\\FrmInicioCliente.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T17:20:14.576Z",
+              "WhenOpened": "2024-05-07T20:09:13.178Z",
               "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FrmProductos.cs",
-              "DocumentMoniker": "C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\DCosta\\FrmProductos.cs",
-              "RelativeDocumentMoniker": "DCosta\\FrmProductos.cs",
-              "ToolTip": "C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\DCosta\\FrmProductos.cs",
-              "RelativeToolTip": "DCosta\\FrmProductos.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAUwC4AAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T16:44:50.126Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FrmProductos.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\DCosta\\FrmProductos.cs",
-              "RelativeDocumentMoniker": "DCosta\\FrmProductos.cs",
-              "ToolTip": "C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\DCosta\\FrmProductos.cs [Dise\u00F1o]",
-              "RelativeToolTip": "DCosta\\FrmProductos.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T16:20:22.2Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RegistroCliente.cs",
-              "DocumentMoniker": "C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\DCosta\\RegistroCliente.cs",
-              "RelativeDocumentMoniker": "DCosta\\RegistroCliente.cs",
-              "ToolTip": "C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\DCosta\\RegistroCliente.cs",
-              "RelativeToolTip": "DCosta\\RegistroCliente.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEIAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T15:51:41.937Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FrmInicioCliente.cs",
-              "DocumentMoniker": "C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\DCosta\\FrmInicioCliente.cs",
-              "RelativeDocumentMoniker": "DCosta\\FrmInicioCliente.cs",
-              "ToolTip": "C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\DCosta\\FrmInicioCliente.cs",
-              "RelativeToolTip": "DCosta\\FrmInicioCliente.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAswCEAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T15:49:12.157Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "FrmPedidos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\DCosta\\FrmPedidos.cs",
+              "RelativeDocumentMoniker": "DCosta\\FrmPedidos.cs",
+              "ToolTip": "C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\DCosta\\FrmPedidos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "DCosta\\FrmPedidos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T18:59:35.676Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\DCosta\\Program.cs",
               "RelativeDocumentMoniker": "DCosta\\Program.cs",
               "ToolTip": "C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\DCosta\\Program.cs",
               "RelativeToolTip": "DCosta\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T23:14:26.41Z",
+              "WhenOpened": "2024-05-06T18:11:24.418Z",
               "EditorCaption": ""
             }
           ]

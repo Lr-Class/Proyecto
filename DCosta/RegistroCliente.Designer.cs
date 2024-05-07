@@ -59,6 +59,7 @@
             this.btnCerrar = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pnlBarraMovimiento = new System.Windows.Forms.Panel();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -443,6 +444,14 @@
             this.pictureBox3.TabIndex = 0;
             this.pictureBox3.TabStop = false;
             // 
+            // pnlBarraMovimiento
+            // 
+            this.pnlBarraMovimiento.Location = new System.Drawing.Point(324, 3);
+            this.pnlBarraMovimiento.Name = "pnlBarraMovimiento";
+            this.pnlBarraMovimiento.Size = new System.Drawing.Size(567, 31);
+            this.pnlBarraMovimiento.TabIndex = 12;
+            this.pnlBarraMovimiento.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pnlBarraMovimiento_MouseDown);
+            // 
             // RegistroCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -455,6 +464,7 @@
             this.Controls.Add(this.btnRegistro);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pnlBarraMovimiento);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "RegistroCliente";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -507,5 +517,6 @@
         private System.Windows.Forms.TextBox txtNombreNegocio;
         private System.Windows.Forms.RadioButton rbNoNegocio;
         private System.Windows.Forms.RadioButton rbSiNegocio;
+        private System.Windows.Forms.Panel pnlBarraMovimiento;
     }
 }

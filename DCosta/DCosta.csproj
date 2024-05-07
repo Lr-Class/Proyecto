@@ -46,17 +46,71 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmButifarras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmButifarras.Designer.cs">
+      <DependentUpon>FrmButifarras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPedidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPedidos.Designer.cs">
+      <DependentUpon>FrmPedidos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSalchichones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSalchichones.Designer.cs">
+      <DependentUpon>FrmSalchichones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHamburguesa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHamburguesa.Designer.cs">
+      <DependentUpon>FrmHamburguesa.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmInicioCliente.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmInicioCliente.Designer.cs">
       <DependentUpon>FrmInicioCliente.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmJamon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmJamon.Designer.cs">
+      <DependentUpon>FrmJamon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMortadela.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMortadela.Designer.cs">
+      <DependentUpon>FrmMortadela.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmProductos.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmProductos.Designer.cs">
       <DependentUpon>FrmProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSalchichas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSalchichas.Designer.cs">
+      <DependentUpon>FrmSalchichas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmChorizos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmChorizos.Designer.cs">
+      <DependentUpon>FrmChorizos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTocineta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTocineta.Designer.cs">
+      <DependentUpon>FrmTocineta.cs</DependentUpon>
     </Compile>
     <Compile Include="RegistroCliente.cs">
       <SubType>Form</SubType>
@@ -75,11 +129,38 @@
     <Compile Include="RJButton.cs">
       <SubType>Component</SubType>
     </Compile>
+    <EmbeddedResource Include="FrmButifarras.resx">
+      <DependentUpon>FrmButifarras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPedidos.resx">
+      <DependentUpon>FrmPedidos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSalchichones.resx">
+      <DependentUpon>FrmSalchichones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHamburguesa.resx">
+      <DependentUpon>FrmHamburguesa.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmInicioCliente.resx">
       <DependentUpon>FrmInicioCliente.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmJamon.resx">
+      <DependentUpon>FrmJamon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMortadela.resx">
+      <DependentUpon>FrmMortadela.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmProductos.resx">
       <DependentUpon>FrmProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSalchichas.resx">
+      <DependentUpon>FrmSalchichas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmChorizos.resx">
+      <DependentUpon>FrmChorizos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTocineta.resx">
+      <DependentUpon>FrmTocineta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RegistroCliente.resx">
       <DependentUpon>RegistroCliente.cs</DependentUpon>
@@ -166,6 +247,93 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\maximizar %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jamon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hamburguesa-con-queso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tocino.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salchichas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chorizo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\butifarra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mortadela.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Salchichon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Linea_productos_carnicos_Salchicha_suprema.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Linea_productos_carnicos__Salchicha_Extralarga.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Linea_productos_carnicos_Salchikids.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Linea_productos_carnicos__Salchicha_Parrillera.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Linea_productos_carnicos__Salchicha_Parrillera1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Linea_productos_carnicos__Salchicha_Miniperro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Linea_productos_carnicos__Salchicha_Super.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Linea_productos_carnicos__Salchicha_Extralarga %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Linea_productos_carnicos__Salchicha_Extralarga1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Linea_productos_carnicos_salchicha_maxiperro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carnicos_Butifarra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Linea_productos_carnicos_Hamburguesa_de_res.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carnicos_Jamon-Especial.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carnicos_Mortadela.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carnicos_Tocineta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carnicos_Salchichon-Res.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carnicos_Salchichon-Pollo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carnicos_Salchichon-cervecero.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carnicos_Chorizo-Parrila-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carnicos_Choripincho-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carnicos_Chorizo-Costeno.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
