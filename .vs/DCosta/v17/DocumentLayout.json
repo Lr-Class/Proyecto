@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{391C6AAB-A3F4-4532-8A8C-D4525D93361E}|ENTITY\\ENTITY.csproj|c:\\users\\user\\desktop\\project dcostafood\\proyecto\\entity\\clsrepartidor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{391C6AAB-A3F4-4532-8A8C-D4525D93361E}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\clsrepartidor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E988C115-41EC-44EA-814B-F6AA118CA8D8}|DLL\\DLL.csproj|c:\\users\\user\\desktop\\project dcostafood\\proyecto\\dll\\conexiondbdcostafood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E988C115-41EC-44EA-814B-F6AA118CA8D8}|DLL\\DLL.csproj|solutionrelative:dll\\conexiondbdcostafood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,7 +19,7 @@
       "RelativeMoniker": "D:0:0:{A2EE5DF0-62FF-456B-B47E-A9F8F1CC428A}|BLL\\BLL.csproj|solutionrelative:bll\\clsserviciocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2EE5DF0-62FF-456B-B47E-A9F8F1CC428A}|BLL\\BLL.csproj|c:\\users\\user\\desktop\\project dcostafood\\proyecto\\bll\\clsservicionegociocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2EE5DF0-62FF-456B-B47E-A9F8F1CC428A}|BLL\\BLL.csproj|C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\bll\\clsservicionegociocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2EE5DF0-62FF-456B-B47E-A9F8F1CC428A}|BLL\\BLL.csproj|solutionrelative:bll\\clsservicionegociocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -54,7 +58,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\DCosta\\Form1.cs",
               "RelativeDocumentMoniker": "DCosta\\Form1.cs",
@@ -68,14 +72,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ConexionDbDCostaFood.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\DLL\\ConexionDbDCostaFood.cs",
-              "RelativeDocumentMoniker": "DLL\\ConexionDbDCostaFood.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\DLL\\ConexionDbDCostaFood.cs",
-              "RelativeToolTip": "DLL\\ConexionDbDCostaFood.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAowDMAAAAAAAAA",
+              "Title": "ClsRepartidor.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\ENTITY\\ClsRepartidor.cs",
+              "RelativeDocumentMoniker": "ENTITY\\ClsRepartidor.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\ENTITY\\ClsRepartidor.cs",
+              "RelativeToolTip": "ENTITY\\ClsRepartidor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T16:16:12.078Z",
+              "WhenOpened": "2024-05-07T14:22:51.639Z",
               "EditorCaption": ""
             },
             {
@@ -104,7 +108,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "ConexionDbDCostaFood.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\DLL\\ConexionDbDCostaFood.cs",
+              "RelativeDocumentMoniker": "DLL\\ConexionDbDCostaFood.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\DLL\\ConexionDbDCostaFood.cs*",
+              "RelativeToolTip": "DLL\\ConexionDbDCostaFood.cs*",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwC0AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T16:16:12.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ClsServicioNegocioCliente.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\BLL\\ClsServicioNegocioCliente.cs",
               "RelativeDocumentMoniker": "BLL\\ClsServicioNegocioCliente.cs",
@@ -112,12 +129,11 @@
               "RelativeToolTip": "BLL\\ClsServicioNegocioCliente.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T21:10:19.933Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-05T21:10:19.933Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ClsNegocioCliente.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\ENTITY\\ClsNegocioCliente.cs",
               "RelativeDocumentMoniker": "ENTITY\\ClsNegocioCliente.cs",
@@ -129,7 +145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ClsCliente.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\ENTITY\\ClsCliente.cs",
               "RelativeDocumentMoniker": "ENTITY\\ClsCliente.cs",
@@ -137,12 +153,11 @@
               "RelativeToolTip": "ENTITY\\ClsCliente.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAxwBUAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T19:56:55.435Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-05T19:56:55.435Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "RegistroCliente.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\DCosta\\RegistroCliente.cs",
               "RelativeDocumentMoniker": "DCosta\\RegistroCliente.cs",
@@ -153,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "RegistroCliente.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\DCosta\\RegistroCliente.cs",
               "RelativeDocumentMoniker": "DCosta\\RegistroCliente.cs",
@@ -165,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ClsServicioCliente.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\BLL\\ClsServicioCliente.cs",
               "RelativeDocumentMoniker": "BLL\\ClsServicioCliente.cs",
@@ -173,12 +188,11 @@
               "RelativeToolTip": "BLL\\ClsServicioCliente.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAQwBUAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T01:35:52.231Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-05T01:35:52.231Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "VentanaLogin.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\DCosta\\VentanaLogin.cs",
               "RelativeDocumentMoniker": "DCosta\\VentanaLogin.cs",
@@ -190,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "VentanaLogin.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\DCosta\\VentanaLogin.cs",
               "RelativeDocumentMoniker": "DCosta\\VentanaLogin.cs",
