@@ -46,17 +46,59 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmButifarrasPedidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmButifarrasPedidos.Designer.cs">
+      <DependentUpon>FrmButifarrasPedidos.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmButifarras.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmButifarras.Designer.cs">
       <DependentUpon>FrmButifarras.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmChorizosPedidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmChorizosPedidos.Designer.cs">
+      <DependentUpon>FrmChorizosPedidos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHamburguesaPedidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHamburguesaPedidos.Designer.cs">
+      <DependentUpon>FrmHamburguesaPedidos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmJamonPedidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmJamonPedidos.Designer.cs">
+      <DependentUpon>FrmJamonPedidos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMortadelaPedidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMortadelaPedidos.Designer.cs">
+      <DependentUpon>FrmMortadelaPedidos.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmPedidos.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmPedidos.Designer.cs">
       <DependentUpon>FrmPedidos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSalchichasPedidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSalchichasPedidos.Designer.cs">
+      <DependentUpon>FrmSalchichasPedidos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSalchichonesPedidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSalchichonesPedidos.Designer.cs">
+      <DependentUpon>FrmSalchichonesPedidos.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmSalchichones.cs">
       <SubType>Form</SubType>
@@ -106,6 +148,12 @@
     <Compile Include="FrmChorizos.Designer.cs">
       <DependentUpon>FrmChorizos.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmTocinetaPedidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTocinetaPedidos.Designer.cs">
+      <DependentUpon>FrmTocinetaPedidos.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmTocineta.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -129,11 +177,32 @@
     <Compile Include="RJButton.cs">
       <SubType>Component</SubType>
     </Compile>
+    <EmbeddedResource Include="FrmButifarrasPedidos.resx">
+      <DependentUpon>FrmButifarrasPedidos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmButifarras.resx">
       <DependentUpon>FrmButifarras.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmChorizosPedidos.resx">
+      <DependentUpon>FrmChorizosPedidos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHamburguesaPedidos.resx">
+      <DependentUpon>FrmHamburguesaPedidos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmJamonPedidos.resx">
+      <DependentUpon>FrmJamonPedidos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMortadelaPedidos.resx">
+      <DependentUpon>FrmMortadelaPedidos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmPedidos.resx">
       <DependentUpon>FrmPedidos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSalchichasPedidos.resx">
+      <DependentUpon>FrmSalchichasPedidos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSalchichonesPedidos.resx">
+      <DependentUpon>FrmSalchichonesPedidos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmSalchichones.resx">
       <DependentUpon>FrmSalchichones.cs</DependentUpon>
@@ -158,6 +227,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmChorizos.resx">
       <DependentUpon>FrmChorizos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTocinetaPedidos.resx">
+      <DependentUpon>FrmTocinetaPedidos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmTocineta.resx">
       <DependentUpon>FrmTocineta.cs</DependentUpon>

@@ -31,149 +31,160 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmPedidos));
             this.pnlArriba = new System.Windows.Forms.Panel();
+            this.btnCerrar = new System.Windows.Forms.PictureBox();
             this.lblLine2 = new System.Windows.Forms.Label();
             this.lblLine1 = new System.Windows.Forms.Label();
+            this.btnPedidosGuardar = new System.Windows.Forms.Button();
             this.imageList = new System.Windows.Forms.ImageList(this.components);
+            this.btnPedidoComplementarios = new System.Windows.Forms.Button();
+            this.btnPedidoCarnicos = new System.Windows.Forms.Button();
             this.pnlPrincipal = new System.Windows.Forms.Panel();
-            this.pnlGuardarPedido = new System.Windows.Forms.Panel();
-            this.pnlComplementarios = new System.Windows.Forms.Panel();
             this.pnlCarnicos = new System.Windows.Forms.Panel();
+            this.pnlContenedor = new System.Windows.Forms.Panel();
             this.btnMostrar = new System.Windows.Forms.Button();
             this.cbTipoCarnico = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.pnlComplementarios = new System.Windows.Forms.Panel();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel16 = new System.Windows.Forms.Panel();
             this.panel17 = new System.Windows.Forms.Panel();
+            this.button6 = new System.Windows.Forms.Button();
+            this.label41 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.lblSalsas = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.panel14 = new System.Windows.Forms.Panel();
             this.panel15 = new System.Windows.Forms.Panel();
+            this.button5 = new System.Windows.Forms.Button();
+            this.label39 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
+            this.label40 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.panel12 = new System.Windows.Forms.Panel();
             this.panel13 = new System.Windows.Forms.Panel();
+            this.button4 = new System.Windows.Forms.Button();
+            this.label31 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
+            this.label38 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.panel10 = new System.Windows.Forms.Panel();
             this.panel11 = new System.Windows.Forms.Panel();
+            this.button3 = new System.Windows.Forms.Button();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
+            this.label43 = new System.Windows.Forms.Label();
+            this.button8 = new System.Windows.Forms.Button();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.label37 = new System.Windows.Forms.Label();
+            this.label36 = new System.Windows.Forms.Label();
+            this.label35 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel8 = new System.Windows.Forms.Panel();
             this.panel18 = new System.Windows.Forms.Panel();
+            this.label42 = new System.Windows.Forms.Label();
+            this.button7 = new System.Windows.Forms.Button();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.label34 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.btnPedidosGuardar = new System.Windows.Forms.Button();
-            this.btnPedidoComplementarios = new System.Windows.Forms.Button();
-            this.btnPedidoCarnicos = new System.Windows.Forms.Button();
-            this.label33 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
-            this.label35 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
-            this.label37 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
-            this.label31 = new System.Windows.Forms.Label();
-            this.label38 = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
-            this.label39 = new System.Windows.Forms.Label();
-            this.label40 = new System.Windows.Forms.Label();
-            this.button6 = new System.Windows.Forms.Button();
-            this.label41 = new System.Windows.Forms.Label();
-            this.lblSalsas = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.button7 = new System.Windows.Forms.Button();
-            this.label42 = new System.Windows.Forms.Label();
-            this.label43 = new System.Windows.Forms.Label();
-            this.button8 = new System.Windows.Forms.Button();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.btnCerrar = new System.Windows.Forms.PictureBox();
+            this.pnlGuardarPedido = new System.Windows.Forms.Panel();
             this.pnlArriba.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
             this.pnlPrincipal.SuspendLayout();
-            this.pnlComplementarios.SuspendLayout();
             this.pnlCarnicos.SuspendLayout();
+            this.pnlComplementarios.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel16.SuspendLayout();
             this.panel17.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.panel14.SuspendLayout();
             this.panel15.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.panel12.SuspendLayout();
             this.panel13.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.panel10.SuspendLayout();
             this.panel11.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.panel6.SuspendLayout();
+            this.panel9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel4.SuspendLayout();
             this.panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel3.SuspendLayout();
             this.panel7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel8.SuspendLayout();
             this.panel18.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            this.panel9.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
             this.SuspendLayout();
             // 
             // pnlArriba
             // 
             this.pnlArriba.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(3)))), ((int)(((byte)(16)))));
+            this.pnlArriba.Controls.Add(this.btnPedidoCarnicos);
+            this.pnlArriba.Controls.Add(this.btnPedidosGuardar);
+            this.pnlArriba.Controls.Add(this.btnPedidoComplementarios);
             this.pnlArriba.Controls.Add(this.btnCerrar);
             this.pnlArriba.Controls.Add(this.lblLine2);
             this.pnlArriba.Controls.Add(this.lblLine1);
-            this.pnlArriba.Controls.Add(this.btnPedidosGuardar);
-            this.pnlArriba.Controls.Add(this.btnPedidoComplementarios);
-            this.pnlArriba.Controls.Add(this.btnPedidoCarnicos);
             this.pnlArriba.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlArriba.Location = new System.Drawing.Point(5, 5);
             this.pnlArriba.Margin = new System.Windows.Forms.Padding(0);
             this.pnlArriba.Name = "pnlArriba";
             this.pnlArriba.Size = new System.Drawing.Size(1017, 150);
             this.pnlArriba.TabIndex = 0;
+            // 
+            // btnCerrar
+            // 
+            this.btnCerrar.Image = global::DCosta.Properties.Resources.boton_x;
+            this.btnCerrar.Location = new System.Drawing.Point(994, 3);
+            this.btnCerrar.Name = "btnCerrar";
+            this.btnCerrar.Size = new System.Drawing.Size(20, 20);
+            this.btnCerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnCerrar.TabIndex = 10;
+            this.btnCerrar.TabStop = false;
+            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
             // 
             // lblLine2
             // 
@@ -191,6 +202,28 @@
             this.lblLine1.Size = new System.Drawing.Size(270, 5);
             this.lblLine1.TabIndex = 4;
             // 
+            // btnPedidosGuardar
+            // 
+            this.btnPedidosGuardar.BackColor = System.Drawing.Color.Transparent;
+            this.btnPedidosGuardar.FlatAppearance.BorderSize = 0;
+            this.btnPedidosGuardar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnPedidosGuardar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnPedidosGuardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPedidosGuardar.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPedidosGuardar.ForeColor = System.Drawing.Color.White;
+            this.btnPedidosGuardar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnPedidosGuardar.ImageIndex = 0;
+            this.btnPedidosGuardar.ImageList = this.imageList;
+            this.btnPedidosGuardar.Location = new System.Drawing.Point(845, 22);
+            this.btnPedidosGuardar.Margin = new System.Windows.Forms.Padding(0);
+            this.btnPedidosGuardar.Name = "btnPedidosGuardar";
+            this.btnPedidosGuardar.Size = new System.Drawing.Size(150, 104);
+            this.btnPedidosGuardar.TabIndex = 3;
+            this.btnPedidosGuardar.Text = "Guardar";
+            this.btnPedidosGuardar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnPedidosGuardar.UseVisualStyleBackColor = false;
+            this.btnPedidosGuardar.Click += new System.EventHandler(this.btnPedidosGuardar_Click);
+            // 
             // imageList
             // 
             this.imageList.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList.ImageStream")));
@@ -198,6 +231,50 @@
             this.imageList.Images.SetKeyName(0, "p1.png");
             this.imageList.Images.SetKeyName(1, "p2.png");
             this.imageList.Images.SetKeyName(2, "p3.png");
+            // 
+            // btnPedidoComplementarios
+            // 
+            this.btnPedidoComplementarios.BackColor = System.Drawing.Color.Transparent;
+            this.btnPedidoComplementarios.FlatAppearance.BorderSize = 0;
+            this.btnPedidoComplementarios.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnPedidoComplementarios.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnPedidoComplementarios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPedidoComplementarios.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPedidoComplementarios.ForeColor = System.Drawing.Color.White;
+            this.btnPedidoComplementarios.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnPedidoComplementarios.ImageIndex = 0;
+            this.btnPedidoComplementarios.ImageList = this.imageList;
+            this.btnPedidoComplementarios.Location = new System.Drawing.Point(410, 22);
+            this.btnPedidoComplementarios.Margin = new System.Windows.Forms.Padding(0);
+            this.btnPedidoComplementarios.Name = "btnPedidoComplementarios";
+            this.btnPedidoComplementarios.Size = new System.Drawing.Size(190, 104);
+            this.btnPedidoComplementarios.TabIndex = 2;
+            this.btnPedidoComplementarios.Text = "Complementarios";
+            this.btnPedidoComplementarios.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnPedidoComplementarios.UseVisualStyleBackColor = false;
+            this.btnPedidoComplementarios.Click += new System.EventHandler(this.btnPedidoComplementarios_Click);
+            // 
+            // btnPedidoCarnicos
+            // 
+            this.btnPedidoCarnicos.BackColor = System.Drawing.Color.Transparent;
+            this.btnPedidoCarnicos.FlatAppearance.BorderSize = 0;
+            this.btnPedidoCarnicos.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnPedidoCarnicos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnPedidoCarnicos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPedidoCarnicos.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPedidoCarnicos.ForeColor = System.Drawing.Color.White;
+            this.btnPedidoCarnicos.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnPedidoCarnicos.ImageIndex = 0;
+            this.btnPedidoCarnicos.ImageList = this.imageList;
+            this.btnPedidoCarnicos.Location = new System.Drawing.Point(13, 22);
+            this.btnPedidoCarnicos.Margin = new System.Windows.Forms.Padding(0);
+            this.btnPedidoCarnicos.Name = "btnPedidoCarnicos";
+            this.btnPedidoCarnicos.Size = new System.Drawing.Size(150, 104);
+            this.btnPedidoCarnicos.TabIndex = 0;
+            this.btnPedidoCarnicos.Text = "Carnicos";
+            this.btnPedidoCarnicos.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnPedidoCarnicos.UseVisualStyleBackColor = false;
+            this.btnPedidoCarnicos.Click += new System.EventHandler(this.btnPedidoCarnicos_Click);
             // 
             // pnlPrincipal
             // 
@@ -211,28 +288,9 @@
             this.pnlPrincipal.Size = new System.Drawing.Size(1017, 509);
             this.pnlPrincipal.TabIndex = 1;
             // 
-            // pnlGuardarPedido
-            // 
-            this.pnlGuardarPedido.Dock = System.Windows.Forms.DockStyle.Right;
-            this.pnlGuardarPedido.Location = new System.Drawing.Point(1005, 0);
-            this.pnlGuardarPedido.Margin = new System.Windows.Forms.Padding(0);
-            this.pnlGuardarPedido.Name = "pnlGuardarPedido";
-            this.pnlGuardarPedido.Size = new System.Drawing.Size(12, 509);
-            this.pnlGuardarPedido.TabIndex = 0;
-            // 
-            // pnlComplementarios
-            // 
-            this.pnlComplementarios.Controls.Add(this.flowLayoutPanel1);
-            this.pnlComplementarios.Dock = System.Windows.Forms.DockStyle.Right;
-            this.pnlComplementarios.Location = new System.Drawing.Point(995, 0);
-            this.pnlComplementarios.Margin = new System.Windows.Forms.Padding(0);
-            this.pnlComplementarios.Name = "pnlComplementarios";
-            this.pnlComplementarios.Size = new System.Drawing.Size(10, 509);
-            this.pnlComplementarios.TabIndex = 6;
-            // 
             // pnlCarnicos
             // 
-            this.pnlCarnicos.Controls.Add(this.panel1);
+            this.pnlCarnicos.Controls.Add(this.pnlContenedor);
             this.pnlCarnicos.Controls.Add(this.btnMostrar);
             this.pnlCarnicos.Controls.Add(this.cbTipoCarnico);
             this.pnlCarnicos.Controls.Add(this.label1);
@@ -240,8 +298,15 @@
             this.pnlCarnicos.Location = new System.Drawing.Point(0, 0);
             this.pnlCarnicos.Margin = new System.Windows.Forms.Padding(0);
             this.pnlCarnicos.Name = "pnlCarnicos";
-            this.pnlCarnicos.Size = new System.Drawing.Size(995, 509);
+            this.pnlCarnicos.Size = new System.Drawing.Size(996, 509);
             this.pnlCarnicos.TabIndex = 7;
+            // 
+            // pnlContenedor
+            // 
+            this.pnlContenedor.Location = new System.Drawing.Point(98, 63);
+            this.pnlContenedor.Name = "pnlContenedor";
+            this.pnlContenedor.Size = new System.Drawing.Size(830, 408);
+            this.pnlContenedor.TabIndex = 9;
             // 
             // btnMostrar
             // 
@@ -258,6 +323,7 @@
             this.btnMostrar.TabIndex = 8;
             this.btnMostrar.Text = "Mostrar";
             this.btnMostrar.UseVisualStyleBackColor = false;
+            this.btnMostrar.Click += new System.EventHandler(this.btnMostrar_Click);
             // 
             // cbTipoCarnico
             // 
@@ -288,12 +354,15 @@
             this.label1.TabIndex = 6;
             this.label1.Text = "Producto:";
             // 
-            // panel1
+            // pnlComplementarios
             // 
-            this.panel1.Location = new System.Drawing.Point(98, 63);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(830, 408);
-            this.panel1.TabIndex = 9;
+            this.pnlComplementarios.Controls.Add(this.flowLayoutPanel1);
+            this.pnlComplementarios.Dock = System.Windows.Forms.DockStyle.Right;
+            this.pnlComplementarios.Location = new System.Drawing.Point(996, 0);
+            this.pnlComplementarios.Margin = new System.Windows.Forms.Padding(0);
+            this.pnlComplementarios.Name = "pnlComplementarios";
+            this.pnlComplementarios.Size = new System.Drawing.Size(11, 509);
+            this.pnlComplementarios.TabIndex = 6;
             // 
             // flowLayoutPanel1
             // 
@@ -303,7 +372,7 @@
             this.flowLayoutPanel1.AutoScroll = true;
             this.flowLayoutPanel1.BackColor = System.Drawing.Color.Transparent;
             this.flowLayoutPanel1.Controls.Add(this.panel2);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(30, 17);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(29, 17);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Padding = new System.Windows.Forms.Padding(10);
             this.flowLayoutPanel1.Size = new System.Drawing.Size(0, 480);
@@ -354,6 +423,57 @@
             this.panel17.Size = new System.Drawing.Size(546, 151);
             this.panel17.TabIndex = 1;
             // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(445, 95);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(76, 26);
+            this.button6.TabIndex = 24;
+            this.button6.Text = "Agregar";
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // label41
+            // 
+            this.label41.AutoSize = true;
+            this.label41.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label41.Location = new System.Drawing.Point(279, 98);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(73, 23);
+            this.label41.TabIndex = 22;
+            this.label41.Text = "Precio:";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Salsa de Tomate",
+            "Mayonesa",
+            "Mostaza",
+            "Salsa Rosada",
+            "Salsa Tartara",
+            "Salsa de Piña",
+            "Salsa BBQ",
+            "Salsa de Ajo",
+            "Salsa Negra",
+            "Salsa de Soya",
+            "Miel",
+            "Vinagreta Dulce"});
+            this.comboBox1.Location = new System.Drawing.Point(18, 92);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(241, 29);
+            this.comboBox1.TabIndex = 7;
+            // 
+            // lblSalsas
+            // 
+            this.lblSalsas.AutoSize = true;
+            this.lblSalsas.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSalsas.Location = new System.Drawing.Point(358, 99);
+            this.lblSalsas.Name = "lblSalsas";
+            this.lblSalsas.Size = new System.Drawing.Size(81, 22);
+            this.lblSalsas.TabIndex = 23;
+            this.lblSalsas.Text = "3200.00";
+            // 
             // label23
             // 
             this.label23.AutoSize = true;
@@ -374,6 +494,16 @@
             this.label24.Size = new System.Drawing.Size(101, 36);
             this.label24.TabIndex = 4;
             this.label24.Text = "Salsas";
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Image = global::DCosta.Properties.Resources.lineas_productos_complementarios_salsas;
+            this.pictureBox8.Location = new System.Drawing.Point(18, 19);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(250, 180);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox8.TabIndex = 0;
+            this.pictureBox8.TabStop = false;
             // 
             // panel14
             // 
@@ -404,6 +534,25 @@
             this.panel15.Size = new System.Drawing.Size(546, 149);
             this.panel15.TabIndex = 1;
             // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(445, 110);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(76, 26);
+            this.button5.TabIndex = 21;
+            this.button5.Text = "Agregar";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // label39
+            // 
+            this.label39.AutoSize = true;
+            this.label39.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label39.Location = new System.Drawing.Point(279, 113);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(73, 23);
+            this.label39.TabIndex = 19;
+            this.label39.Text = "Precio:";
+            // 
             // label19
             // 
             this.label19.AutoSize = true;
@@ -413,6 +562,16 @@
             this.label19.Size = new System.Drawing.Size(104, 21);
             this.label19.TabIndex = 6;
             this.label19.Text = "10 unidades";
+            // 
+            // label40
+            // 
+            this.label40.AutoSize = true;
+            this.label40.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label40.Location = new System.Drawing.Point(358, 114);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(81, 22);
+            this.label40.TabIndex = 20;
+            this.label40.Text = "9400.00";
             // 
             // label20
             // 
@@ -434,6 +593,16 @@
             this.label21.Size = new System.Drawing.Size(207, 36);
             this.label21.TabIndex = 4;
             this.label21.Text = "Pan Miniperro";
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = global::DCosta.Properties.Resources.lineas_productos_complementarios_pan_mini_perro;
+            this.pictureBox7.Location = new System.Drawing.Point(18, 19);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(250, 180);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox7.TabIndex = 0;
+            this.pictureBox7.TabStop = false;
             // 
             // panel12
             // 
@@ -464,6 +633,25 @@
             this.panel13.Size = new System.Drawing.Size(546, 149);
             this.panel13.TabIndex = 1;
             // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(445, 110);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(76, 26);
+            this.button4.TabIndex = 18;
+            this.button4.Text = "Agregar";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.Location = new System.Drawing.Point(279, 113);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(73, 23);
+            this.label31.TabIndex = 16;
+            this.label31.Text = "Precio:";
+            // 
             // label30
             // 
             this.label30.AutoSize = true;
@@ -473,6 +661,16 @@
             this.label30.Size = new System.Drawing.Size(95, 21);
             this.label30.TabIndex = 12;
             this.label30.Text = "8 unidades";
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label38.Location = new System.Drawing.Point(358, 114);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(81, 22);
+            this.label38.TabIndex = 17;
+            this.label38.Text = "5190.00";
             // 
             // label17
             // 
@@ -494,6 +692,16 @@
             this.label18.Size = new System.Drawing.Size(147, 36);
             this.label18.TabIndex = 4;
             this.label18.Text = "Pan Perro";
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::DCosta.Properties.Resources.lineas_productos_complementarios_pan_perro;
+            this.pictureBox6.Location = new System.Drawing.Point(18, 19);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(250, 180);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 0;
+            this.pictureBox6.TabStop = false;
             // 
             // panel10
             // 
@@ -523,6 +731,35 @@
             this.panel11.Padding = new System.Windows.Forms.Padding(10);
             this.panel11.Size = new System.Drawing.Size(546, 149);
             this.panel11.TabIndex = 1;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(445, 110);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(76, 26);
+            this.button3.TabIndex = 15;
+            this.button3.Text = "Agregar";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.Location = new System.Drawing.Point(279, 113);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(73, 23);
+            this.label28.TabIndex = 13;
+            this.label28.Text = "Precio:";
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.Location = new System.Drawing.Point(358, 114);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(81, 22);
+            this.label29.TabIndex = 14;
+            this.label29.Text = "5100.00";
             // 
             // label13
             // 
@@ -555,6 +792,16 @@
             this.label15.TabIndex = 4;
             this.label15.Text = "Pan Tajado";
             // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::DCosta.Properties.Resources.lineas_productos_complementarios_pan_tajado;
+            this.pictureBox5.Location = new System.Drawing.Point(18, 19);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(250, 180);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 0;
+            this.pictureBox5.TabStop = false;
+            // 
             // panel6
             // 
             this.panel6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -569,6 +816,90 @@
             this.panel6.Padding = new System.Windows.Forms.Padding(10);
             this.panel6.Size = new System.Drawing.Size(850, 214);
             this.panel6.TabIndex = 3;
+            // 
+            // panel9
+            // 
+            this.panel9.Controls.Add(this.button2);
+            this.panel9.Controls.Add(this.label22);
+            this.panel9.Controls.Add(this.label26);
+            this.panel9.Controls.Add(this.label27);
+            this.panel9.Controls.Add(this.label8);
+            this.panel9.Controls.Add(this.label9);
+            this.panel9.Location = new System.Drawing.Point(289, 29);
+            this.panel9.Name = "panel9";
+            this.panel9.Padding = new System.Windows.Forms.Padding(10);
+            this.panel9.Size = new System.Drawing.Size(546, 149);
+            this.panel9.TabIndex = 1;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(445, 110);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(76, 26);
+            this.button2.TabIndex = 15;
+            this.button2.Text = "Agregar";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.Location = new System.Drawing.Point(279, 113);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(73, 23);
+            this.label22.TabIndex = 13;
+            this.label22.Text = "Precio:";
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.Location = new System.Drawing.Point(358, 114);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(81, 22);
+            this.label26.TabIndex = 14;
+            this.label26.Text = "7300.00";
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.Location = new System.Drawing.Point(56, 97);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(95, 21);
+            this.label27.TabIndex = 9;
+            this.label27.Text = "6 unidades";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(23, 71);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(149, 25);
+            this.label8.TabIndex = 5;
+            this.label8.Text = "Presentacion:";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(0)))), ((int)(((byte)(8)))));
+            this.label9.Location = new System.Drawing.Point(17, 10);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(273, 36);
+            this.label9.TabIndex = 4;
+            this.label9.Text = "Pan Hamburguesa";
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::DCosta.Properties.Resources.lineas_productos_complementarios_pan_hamburguesa;
+            this.pictureBox3.Location = new System.Drawing.Point(18, 19);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(250, 180);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 0;
+            this.pictureBox3.TabStop = false;
             // 
             // panel4
             // 
@@ -598,6 +929,35 @@
             this.panel5.Padding = new System.Windows.Forms.Padding(10);
             this.panel5.Size = new System.Drawing.Size(546, 149);
             this.panel5.TabIndex = 1;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(445, 110);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(76, 26);
+            this.button1.TabIndex = 12;
+            this.button1.Text = "Agregar";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(279, 113);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(73, 23);
+            this.label7.TabIndex = 0;
+            this.label7.Text = "Precio:";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(358, 114);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(81, 22);
+            this.label16.TabIndex = 1;
+            this.label16.Text = "3200.00";
             // 
             // label4
             // 
@@ -629,6 +989,16 @@
             this.label6.Size = new System.Drawing.Size(221, 36);
             this.label6.TabIndex = 4;
             this.label6.Text = "Suero Costeño";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::DCosta.Properties.Resources.Suero_Costeno_Dcosta_inicio;
+            this.pictureBox2.Location = new System.Drawing.Point(18, 19);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(250, 180);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
             // 
             // panel3
             // 
@@ -662,6 +1032,70 @@
             this.panel7.Padding = new System.Windows.Forms.Padding(10);
             this.panel7.Size = new System.Drawing.Size(546, 149);
             this.panel7.TabIndex = 1;
+            // 
+            // label43
+            // 
+            this.label43.AutoSize = true;
+            this.label43.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label43.Location = new System.Drawing.Point(251, 120);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(73, 23);
+            this.label43.TabIndex = 17;
+            this.label43.Text = "Precio:";
+            // 
+            // button8
+            // 
+            this.button8.Location = new System.Drawing.Point(457, 117);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(76, 26);
+            this.button8.TabIndex = 16;
+            this.button8.Text = "Agregar";
+            this.button8.UseVisualStyleBackColor = true;
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Items.AddRange(new object[] {
+            "4825.17",
+            "9650.34",
+            "24125.85",
+            "48251.7",
+            "73780.00"});
+            this.comboBox3.Location = new System.Drawing.Point(330, 116);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(121, 29);
+            this.comboBox3.TabIndex = 15;
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label37.Location = new System.Drawing.Point(329, 86);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(72, 21);
+            this.label37.TabIndex = 10;
+            this.label37.Text = "4. 2.5 kg";
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label36.Location = new System.Drawing.Point(238, 86);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(85, 21);
+            this.label36.TabIndex = 9;
+            this.label36.Text = "3. 1.25  kg";
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label35.Location = new System.Drawing.Point(163, 86);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(69, 21);
+            this.label35.TabIndex = 8;
+            this.label35.Text = "2. 500 g";
             // 
             // label25
             // 
@@ -704,6 +1138,16 @@
             this.label10.TabIndex = 4;
             this.label10.Text = "Queso Doble Crema";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::DCosta.Properties.Resources.lineas_productos_complementarios_queso_doble_crema;
+            this.pictureBox1.Location = new System.Drawing.Point(18, 19);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(250, 180);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // panel8
             // 
             this.panel8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -734,6 +1178,58 @@
             this.panel18.Padding = new System.Windows.Forms.Padding(10);
             this.panel18.Size = new System.Drawing.Size(546, 149);
             this.panel18.TabIndex = 1;
+            // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label42.Location = new System.Drawing.Point(260, 64);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(73, 23);
+            this.label42.TabIndex = 14;
+            this.label42.Text = "Precio:";
+            // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(466, 66);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(76, 26);
+            this.button7.TabIndex = 13;
+            this.button7.Text = "Agregar";
+            this.button7.UseVisualStyleBackColor = true;
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "18000.00",
+            "36000.00",
+            "90000.00"});
+            this.comboBox2.Location = new System.Drawing.Point(339, 64);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(121, 29);
+            this.comboBox2.TabIndex = 9;
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label34.Location = new System.Drawing.Point(56, 118);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(77, 21);
+            this.label34.TabIndex = 8;
+            this.label34.Text = "3.  2.5 Kg";
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label33.Location = new System.Drawing.Point(135, 89);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(86, 21);
+            this.label33.TabIndex = 7;
+            this.label33.Text = "2.  1.000 g";
             // 
             // label11
             // 
@@ -766,76 +1262,6 @@
             this.label32.TabIndex = 4;
             this.label32.Text = "Queso Costeño";
             // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Image = global::DCosta.Properties.Resources.lineas_productos_complementarios_salsas;
-            this.pictureBox8.Location = new System.Drawing.Point(18, 19);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(250, 180);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox8.TabIndex = 0;
-            this.pictureBox8.TabStop = false;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Image = global::DCosta.Properties.Resources.lineas_productos_complementarios_pan_mini_perro;
-            this.pictureBox7.Location = new System.Drawing.Point(18, 19);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(250, 180);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox7.TabIndex = 0;
-            this.pictureBox7.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = global::DCosta.Properties.Resources.lineas_productos_complementarios_pan_perro;
-            this.pictureBox6.Location = new System.Drawing.Point(18, 19);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(250, 180);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 0;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::DCosta.Properties.Resources.lineas_productos_complementarios_pan_tajado;
-            this.pictureBox5.Location = new System.Drawing.Point(18, 19);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(250, 180);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 0;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::DCosta.Properties.Resources.lineas_productos_complementarios_pan_hamburguesa;
-            this.pictureBox3.Location = new System.Drawing.Point(18, 19);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(250, 180);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 0;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::DCosta.Properties.Resources.Suero_Costeno_Dcosta_inicio;
-            this.pictureBox2.Location = new System.Drawing.Point(18, 19);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(250, 180);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::DCosta.Properties.Resources.lineas_productos_complementarios_queso_doble_crema;
-            this.pictureBox1.Location = new System.Drawing.Point(18, 19);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(250, 180);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
             // pictureBox4
             // 
             this.pictureBox4.Image = global::DCosta.Properties.Resources.Linea_prodcutos_complementarios_queso_costeno;
@@ -846,436 +1272,14 @@
             this.pictureBox4.TabIndex = 0;
             this.pictureBox4.TabStop = false;
             // 
-            // btnPedidosGuardar
-            // 
-            this.btnPedidosGuardar.BackColor = System.Drawing.Color.Transparent;
-            this.btnPedidosGuardar.FlatAppearance.BorderSize = 0;
-            this.btnPedidosGuardar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnPedidosGuardar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnPedidosGuardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPedidosGuardar.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPedidosGuardar.ForeColor = System.Drawing.Color.White;
-            this.btnPedidosGuardar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnPedidosGuardar.ImageIndex = 0;
-            this.btnPedidosGuardar.ImageList = this.imageList;
-            this.btnPedidosGuardar.Location = new System.Drawing.Point(845, 22);
-            this.btnPedidosGuardar.Margin = new System.Windows.Forms.Padding(0);
-            this.btnPedidosGuardar.Name = "btnPedidosGuardar";
-            this.btnPedidosGuardar.Size = new System.Drawing.Size(150, 104);
-            this.btnPedidosGuardar.TabIndex = 3;
-            this.btnPedidosGuardar.Text = "Guardar";
-            this.btnPedidosGuardar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnPedidosGuardar.UseVisualStyleBackColor = false;
-            // 
-            // btnPedidoComplementarios
-            // 
-            this.btnPedidoComplementarios.BackColor = System.Drawing.Color.Transparent;
-            this.btnPedidoComplementarios.FlatAppearance.BorderSize = 0;
-            this.btnPedidoComplementarios.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnPedidoComplementarios.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnPedidoComplementarios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPedidoComplementarios.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPedidoComplementarios.ForeColor = System.Drawing.Color.White;
-            this.btnPedidoComplementarios.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnPedidoComplementarios.ImageIndex = 0;
-            this.btnPedidoComplementarios.ImageList = this.imageList;
-            this.btnPedidoComplementarios.Location = new System.Drawing.Point(401, 22);
-            this.btnPedidoComplementarios.Margin = new System.Windows.Forms.Padding(0);
-            this.btnPedidoComplementarios.Name = "btnPedidoComplementarios";
-            this.btnPedidoComplementarios.Size = new System.Drawing.Size(190, 104);
-            this.btnPedidoComplementarios.TabIndex = 2;
-            this.btnPedidoComplementarios.Text = "Complementarios";
-            this.btnPedidoComplementarios.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnPedidoComplementarios.UseVisualStyleBackColor = false;
-            // 
-            // btnPedidoCarnicos
-            // 
-            this.btnPedidoCarnicos.BackColor = System.Drawing.Color.Transparent;
-            this.btnPedidoCarnicos.FlatAppearance.BorderSize = 0;
-            this.btnPedidoCarnicos.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnPedidoCarnicos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnPedidoCarnicos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPedidoCarnicos.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPedidoCarnicos.ForeColor = System.Drawing.Color.White;
-            this.btnPedidoCarnicos.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnPedidoCarnicos.ImageIndex = 0;
-            this.btnPedidoCarnicos.ImageList = this.imageList;
-            this.btnPedidoCarnicos.Location = new System.Drawing.Point(13, 22);
-            this.btnPedidoCarnicos.Margin = new System.Windows.Forms.Padding(0);
-            this.btnPedidoCarnicos.Name = "btnPedidoCarnicos";
-            this.btnPedidoCarnicos.Size = new System.Drawing.Size(150, 104);
-            this.btnPedidoCarnicos.TabIndex = 0;
-            this.btnPedidoCarnicos.Text = "Carnicos";
-            this.btnPedidoCarnicos.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnPedidoCarnicos.UseVisualStyleBackColor = false;
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.Location = new System.Drawing.Point(135, 89);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(86, 21);
-            this.label33.TabIndex = 7;
-            this.label33.Text = "2.  1.000 g";
-            // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.label34.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label34.Location = new System.Drawing.Point(56, 118);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(77, 21);
-            this.label34.TabIndex = 8;
-            this.label34.Text = "3.  2.5 Kg";
-            // 
-            // label35
-            // 
-            this.label35.AutoSize = true;
-            this.label35.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label35.Location = new System.Drawing.Point(163, 86);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(69, 21);
-            this.label35.TabIndex = 8;
-            this.label35.Text = "2. 500 g";
-            // 
-            // label36
-            // 
-            this.label36.AutoSize = true;
-            this.label36.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label36.Location = new System.Drawing.Point(238, 86);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(85, 21);
-            this.label36.TabIndex = 9;
-            this.label36.Text = "3. 1.25  kg";
-            // 
-            // label37
-            // 
-            this.label37.AutoSize = true;
-            this.label37.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label37.Location = new System.Drawing.Point(329, 86);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(72, 21);
-            this.label37.TabIndex = 10;
-            this.label37.Text = "4. 2.5 kg";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(0)))), ((int)(((byte)(8)))));
-            this.label9.Location = new System.Drawing.Point(17, 10);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(273, 36);
-            this.label9.TabIndex = 4;
-            this.label9.Text = "Pan Hamburguesa";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(23, 71);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(149, 25);
-            this.label8.TabIndex = 5;
-            this.label8.Text = "Presentacion:";
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(56, 97);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(95, 21);
-            this.label27.TabIndex = 9;
-            this.label27.Text = "6 unidades";
-            // 
-            // panel9
-            // 
-            this.panel9.Controls.Add(this.button2);
-            this.panel9.Controls.Add(this.label22);
-            this.panel9.Controls.Add(this.label26);
-            this.panel9.Controls.Add(this.label27);
-            this.panel9.Controls.Add(this.label8);
-            this.panel9.Controls.Add(this.label9);
-            this.panel9.Location = new System.Drawing.Point(289, 29);
-            this.panel9.Name = "panel9";
-            this.panel9.Padding = new System.Windows.Forms.Padding(10);
-            this.panel9.Size = new System.Drawing.Size(546, 149);
-            this.panel9.TabIndex = 1;
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Salsa de Tomate",
-            "Mayonesa",
-            "Mostaza",
-            "Salsa Rosada",
-            "Salsa Tartara",
-            "Salsa de Piña",
-            "Salsa BBQ",
-            "Salsa de Ajo",
-            "Salsa Negra",
-            "Salsa de Soya",
-            "Miel",
-            "Vinagreta Dulce"});
-            this.comboBox1.Location = new System.Drawing.Point(18, 92);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(241, 29);
-            this.comboBox1.TabIndex = 7;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(279, 113);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(73, 23);
-            this.label7.TabIndex = 0;
-            this.label7.Text = "Precio:";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(358, 114);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(81, 22);
-            this.label16.TabIndex = 1;
-            this.label16.Text = "3200.00";
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(445, 110);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(76, 26);
-            this.button1.TabIndex = 12;
-            this.button1.Text = "Agregar";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(445, 110);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(76, 26);
-            this.button2.TabIndex = 15;
-            this.button2.Text = "Agregar";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(279, 113);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(73, 23);
-            this.label22.TabIndex = 13;
-            this.label22.Text = "Precio:";
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.Location = new System.Drawing.Point(358, 114);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(81, 22);
-            this.label26.TabIndex = 14;
-            this.label26.Text = "7300.00";
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(445, 110);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(76, 26);
-            this.button3.TabIndex = 15;
-            this.button3.Text = "Agregar";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.Location = new System.Drawing.Point(279, 113);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(73, 23);
-            this.label28.TabIndex = 13;
-            this.label28.Text = "Precio:";
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.Location = new System.Drawing.Point(358, 114);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(81, 22);
-            this.label29.TabIndex = 14;
-            this.label29.Text = "5100.00";
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(445, 110);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(76, 26);
-            this.button4.TabIndex = 18;
-            this.button4.Text = "Agregar";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label31.Location = new System.Drawing.Point(279, 113);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(73, 23);
-            this.label31.TabIndex = 16;
-            this.label31.Text = "Precio:";
-            // 
-            // label38
-            // 
-            this.label38.AutoSize = true;
-            this.label38.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label38.Location = new System.Drawing.Point(358, 114);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(81, 22);
-            this.label38.TabIndex = 17;
-            this.label38.Text = "5190.00";
-            // 
-            // button5
-            // 
-            this.button5.Location = new System.Drawing.Point(445, 110);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(76, 26);
-            this.button5.TabIndex = 21;
-            this.button5.Text = "Agregar";
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // label39
-            // 
-            this.label39.AutoSize = true;
-            this.label39.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label39.Location = new System.Drawing.Point(279, 113);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(73, 23);
-            this.label39.TabIndex = 19;
-            this.label39.Text = "Precio:";
-            // 
-            // label40
-            // 
-            this.label40.AutoSize = true;
-            this.label40.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label40.Location = new System.Drawing.Point(358, 114);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(81, 22);
-            this.label40.TabIndex = 20;
-            this.label40.Text = "9400.00";
-            // 
-            // button6
-            // 
-            this.button6.Location = new System.Drawing.Point(445, 95);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(76, 26);
-            this.button6.TabIndex = 24;
-            this.button6.Text = "Agregar";
-            this.button6.UseVisualStyleBackColor = true;
-            // 
-            // label41
-            // 
-            this.label41.AutoSize = true;
-            this.label41.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label41.Location = new System.Drawing.Point(279, 98);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(73, 23);
-            this.label41.TabIndex = 22;
-            this.label41.Text = "Precio:";
-            // 
-            // lblSalsas
-            // 
-            this.lblSalsas.AutoSize = true;
-            this.lblSalsas.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSalsas.Location = new System.Drawing.Point(358, 99);
-            this.lblSalsas.Name = "lblSalsas";
-            this.lblSalsas.Size = new System.Drawing.Size(81, 22);
-            this.lblSalsas.TabIndex = 23;
-            this.lblSalsas.Text = "3200.00";
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
-            "18000.00",
-            "36000.00",
-            "90000.00"});
-            this.comboBox2.Location = new System.Drawing.Point(339, 64);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 29);
-            this.comboBox2.TabIndex = 9;
-            // 
-            // button7
-            // 
-            this.button7.Location = new System.Drawing.Point(466, 66);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(76, 26);
-            this.button7.TabIndex = 13;
-            this.button7.Text = "Agregar";
-            this.button7.UseVisualStyleBackColor = true;
-            // 
-            // label42
-            // 
-            this.label42.AutoSize = true;
-            this.label42.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label42.Location = new System.Drawing.Point(260, 64);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(73, 23);
-            this.label42.TabIndex = 14;
-            this.label42.Text = "Precio:";
-            // 
-            // label43
-            // 
-            this.label43.AutoSize = true;
-            this.label43.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label43.Location = new System.Drawing.Point(251, 120);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(73, 23);
-            this.label43.TabIndex = 17;
-            this.label43.Text = "Precio:";
-            // 
-            // button8
-            // 
-            this.button8.Location = new System.Drawing.Point(457, 117);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(76, 26);
-            this.button8.TabIndex = 16;
-            this.button8.Text = "Agregar";
-            this.button8.UseVisualStyleBackColor = true;
-            // 
-            // comboBox3
-            // 
-            this.comboBox3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
-            "4825.17",
-            "9650.34",
-            "24125.85",
-            "48251.7",
-            "73780.00"});
-            this.comboBox3.Location = new System.Drawing.Point(330, 116);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(121, 29);
-            this.comboBox3.TabIndex = 15;
-            // 
-            // btnCerrar
-            // 
-            this.btnCerrar.Image = global::DCosta.Properties.Resources.boton_x;
-            this.btnCerrar.Location = new System.Drawing.Point(994, 3);
-            this.btnCerrar.Name = "btnCerrar";
-            this.btnCerrar.Size = new System.Drawing.Size(20, 20);
-            this.btnCerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnCerrar.TabIndex = 10;
-            this.btnCerrar.TabStop = false;
-            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
+            // pnlGuardarPedido
+            // 
+            this.pnlGuardarPedido.Dock = System.Windows.Forms.DockStyle.Right;
+            this.pnlGuardarPedido.Location = new System.Drawing.Point(1007, 0);
+            this.pnlGuardarPedido.Margin = new System.Windows.Forms.Padding(0);
+            this.pnlGuardarPedido.Name = "pnlGuardarPedido";
+            this.pnlGuardarPedido.Size = new System.Drawing.Size(10, 509);
+            this.pnlGuardarPedido.TabIndex = 0;
             // 
             // FrmPedidos
             // 
@@ -1290,45 +1294,45 @@
             this.Padding = new System.Windows.Forms.Padding(5);
             this.Text = "FrmPedidos";
             this.pnlArriba.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).EndInit();
             this.pnlPrincipal.ResumeLayout(false);
-            this.pnlComplementarios.ResumeLayout(false);
             this.pnlCarnicos.ResumeLayout(false);
             this.pnlCarnicos.PerformLayout();
+            this.pnlComplementarios.ResumeLayout(false);
             this.flowLayoutPanel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel16.ResumeLayout(false);
             this.panel17.ResumeLayout(false);
             this.panel17.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.panel14.ResumeLayout(false);
             this.panel15.ResumeLayout(false);
             this.panel15.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.panel12.ResumeLayout(false);
             this.panel13.ResumeLayout(false);
             this.panel13.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.panel10.ResumeLayout(false);
             this.panel11.ResumeLayout(false);
             this.panel11.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.panel6.ResumeLayout(false);
+            this.panel9.ResumeLayout(false);
+            this.panel9.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel8.ResumeLayout(false);
             this.panel18.ResumeLayout(false);
             this.panel18.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            this.panel9.ResumeLayout(false);
-            this.panel9.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1345,7 +1349,7 @@
         private System.Windows.Forms.Label lblLine1;
         private System.Windows.Forms.Panel pnlGuardarPedido;
         private System.Windows.Forms.Panel pnlCarnicos;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel pnlContenedor;
         private System.Windows.Forms.Button btnMostrar;
         private System.Windows.Forms.ComboBox cbTipoCarnico;
         private System.Windows.Forms.Label label1;

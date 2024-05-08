@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|c:\\users\\luism\\onedrive\\escritorio\\dcosta\\dcosta\\frmsalchichas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|solutionrelative:dcosta\\frmsalchichas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|c:\\users\\luism\\onedrive\\escritorio\\dcosta\\dcosta\\frmpedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|solutionrelative:dcosta\\frmpedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|c:\\users\\luism\\onedrive\\escritorio\\dcosta\\dcosta\\frmpedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|solutionrelative:dcosta\\frmpedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,14 +38,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FrmSalchichas.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\DCosta\\FrmSalchichas.cs",
-              "RelativeDocumentMoniker": "DCosta\\FrmSalchichas.cs",
-              "ToolTip": "C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\DCosta\\FrmSalchichas.cs [Dise\u00F1o]",
-              "RelativeToolTip": "DCosta\\FrmSalchichas.cs [Dise\u00F1o]",
+              "DocumentIndex": 1,
+              "Title": "FrmPedidos.cs",
+              "DocumentMoniker": "C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\DCosta\\FrmPedidos.cs",
+              "RelativeDocumentMoniker": "DCosta\\FrmPedidos.cs",
+              "ToolTip": "C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\DCosta\\FrmPedidos.cs",
+              "RelativeToolTip": "DCosta\\FrmPedidos.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAYwGgAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T14:38:31.102Z",
+              "WhenOpened": "2024-05-08T16:01:56.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmPedidos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\DCosta\\FrmPedidos.cs",
+              "RelativeDocumentMoniker": "DCosta\\FrmPedidos.cs",
+              "ToolTip": "C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\DCosta\\FrmPedidos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "DCosta\\FrmPedidos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T16:01:36.557Z",
               "EditorCaption": " [Dise\u00F1o]"
             }
           ]
