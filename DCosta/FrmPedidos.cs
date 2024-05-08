@@ -16,5 +16,12 @@ namespace DCosta
         {
             InitializeComponent();
         }
+
+        private void btnCerrar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            FrmInicioCliente frmInicioCliente = new FrmInicioCliente();
+            frmInicioCliente.ShowDialog();
+        }
     }
 }

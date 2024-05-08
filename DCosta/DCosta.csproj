@@ -335,5 +335,29 @@
   <ItemGroup>
     <None Include="Resources\Carnicos_Chorizo-Costeno.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Linea_prodcutos_complementarios_queso_costeno.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lineas_productos_complementarios_queso_doble_crema.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Suero-Costeno-Dcosta-inicio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lineas_productos_complementarios_pan_hamburguesa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lineas_productos_complementarios_pan_tajado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lineas_productos_complementarios_pan_perro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lineas_productos_complementarios_pan_mini_perro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lineas_productos_complementarios_salsas.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

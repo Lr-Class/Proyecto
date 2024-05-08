@@ -263,6 +263,16 @@ namespace DCosta.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Linea_prodcutos_complementarios_queso_costeno {
+            get {
+                object obj = ResourceManager.GetObject("Linea_prodcutos_complementarios_queso_costeno", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Linea_productos_carnicos__Salchicha_Extralarga {
             get {
                 object obj = ResourceManager.GetObject("Linea_productos_carnicos__Salchicha_Extralarga", resourceCulture);
@@ -366,6 +376,66 @@ namespace DCosta.Properties {
         internal static System.Drawing.Bitmap Linea_productos_carnicos_Salchikids {
             get {
                 object obj = ResourceManager.GetObject("Linea_productos_carnicos_Salchikids", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap lineas_productos_complementarios_pan_hamburguesa {
+            get {
+                object obj = ResourceManager.GetObject("lineas_productos_complementarios_pan_hamburguesa", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap lineas_productos_complementarios_pan_mini_perro {
+            get {
+                object obj = ResourceManager.GetObject("lineas_productos_complementarios_pan_mini_perro", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap lineas_productos_complementarios_pan_perro {
+            get {
+                object obj = ResourceManager.GetObject("lineas_productos_complementarios_pan_perro", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap lineas_productos_complementarios_pan_tajado {
+            get {
+                object obj = ResourceManager.GetObject("lineas_productos_complementarios_pan_tajado", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap lineas_productos_complementarios_queso_doble_crema {
+            get {
+                object obj = ResourceManager.GetObject("lineas_productos_complementarios_queso_doble_crema", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap lineas_productos_complementarios_salsas {
+            get {
+                object obj = ResourceManager.GetObject("lineas_productos_complementarios_salsas", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -496,6 +566,16 @@ namespace DCosta.Properties {
         internal static System.Drawing.Bitmap Salchichon {
             get {
                 object obj = ResourceManager.GetObject("Salchichon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Suero_Costeno_Dcosta_inicio {
+            get {
+                object obj = ResourceManager.GetObject("Suero-Costeno-Dcosta-inicio", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
