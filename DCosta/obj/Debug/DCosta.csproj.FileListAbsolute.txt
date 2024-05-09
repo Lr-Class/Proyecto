@@ -24,3 +24,13 @@ C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.csproj
 C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.exe
 C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.pdb
+C:\Users\yeimm\Documents\OneDrive\Escritorio\ProyectoCosta\Proyecto\Proyecto\DCosta\obj\Debug\DCosta.csproj.AssemblyReference.cache
+C:\Users\yeimm\Documents\OneDrive\Escritorio\ProyectoCosta\Proyecto\Proyecto\DCosta\obj\Debug\DCosta.FrmInicioCliente.resources
+C:\Users\yeimm\Documents\OneDrive\Escritorio\ProyectoCosta\Proyecto\Proyecto\DCosta\obj\Debug\DCosta.FrmProductos.resources
+C:\Users\yeimm\Documents\OneDrive\Escritorio\ProyectoCosta\Proyecto\Proyecto\DCosta\obj\Debug\DCosta.RegistroCliente.resources
+C:\Users\yeimm\Documents\OneDrive\Escritorio\ProyectoCosta\Proyecto\Proyecto\DCosta\obj\Debug\DCosta.FrmInicial.resources
+C:\Users\yeimm\Documents\OneDrive\Escritorio\ProyectoCosta\Proyecto\Proyecto\DCosta\obj\Debug\DCosta.Properties.Resources.resources
+C:\Users\yeimm\Documents\OneDrive\Escritorio\ProyectoCosta\Proyecto\Proyecto\DCosta\obj\Debug\DCosta.csproj.GenerateResource.cache
+C:\Users\yeimm\Documents\OneDrive\Escritorio\ProyectoCosta\Proyecto\Proyecto\DCosta\obj\Debug\DCosta.csproj.CoreCompileInputs.cache
+C:\Users\yeimm\Documents\OneDrive\Escritorio\ProyectoCosta\Proyecto\Proyecto\DCosta\obj\Debug\DCosta.exe
+C:\Users\yeimm\Documents\OneDrive\Escritorio\ProyectoCosta\Proyecto\Proyecto\DCosta\obj\Debug\DCosta.pdb

@@ -1,2 +1,4 @@
 C:\Users\User\Desktop\Project DCostaFood\Proyecto\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
 C:\Users\User\Desktop\Project DCostaFood\Proyecto\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\yeimm\Documents\OneDrive\Escritorio\ProyectoCosta\Proyecto\Proyecto\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\yeimm\Documents\OneDrive\Escritorio\ProyectoCosta\Proyecto\Proyecto\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache

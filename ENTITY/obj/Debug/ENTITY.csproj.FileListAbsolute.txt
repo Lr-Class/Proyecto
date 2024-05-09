@@ -4,3 +4,9 @@ C:\Users\User\Desktop\Project DCostaFood\Proyecto\ENTITY\obj\Debug\ENTITY.csproj
 C:\Users\User\Desktop\Project DCostaFood\Proyecto\ENTITY\obj\Debug\ENTITY.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\Project DCostaFood\Proyecto\ENTITY\obj\Debug\ENTITY.dll
 C:\Users\User\Desktop\Project DCostaFood\Proyecto\ENTITY\obj\Debug\ENTITY.pdb
+C:\Users\yeimm\Documents\OneDrive\Escritorio\ProyectoCosta\Proyecto\Proyecto\ENTITY\bin\Debug\ENTITY.dll
+C:\Users\yeimm\Documents\OneDrive\Escritorio\ProyectoCosta\Proyecto\Proyecto\ENTITY\bin\Debug\ENTITY.pdb
+C:\Users\yeimm\Documents\OneDrive\Escritorio\ProyectoCosta\Proyecto\Proyecto\ENTITY\obj\Debug\ENTITY.csproj.AssemblyReference.cache
+C:\Users\yeimm\Documents\OneDrive\Escritorio\ProyectoCosta\Proyecto\Proyecto\ENTITY\obj\Debug\ENTITY.csproj.CoreCompileInputs.cache
+C:\Users\yeimm\Documents\OneDrive\Escritorio\ProyectoCosta\Proyecto\Proyecto\ENTITY\obj\Debug\ENTITY.dll
+C:\Users\yeimm\Documents\OneDrive\Escritorio\ProyectoCosta\Proyecto\Proyecto\ENTITY\obj\Debug\ENTITY.pdb

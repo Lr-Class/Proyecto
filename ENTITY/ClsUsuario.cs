@@ -24,5 +24,9 @@ namespace ENTITY
             NombreUsuario = nombreUsuario;
             Contraseña = contraseña;
         }
+
+        public ClsUsuario() { 
+        
+        }
     }
 }

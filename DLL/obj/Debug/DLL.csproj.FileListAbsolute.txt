@@ -4,3 +4,12 @@ C:\Users\User\Desktop\Project DCostaFood\Proyecto\DLL\obj\Debug\DLL.csproj.Assem
 C:\Users\User\Desktop\Project DCostaFood\Proyecto\DLL\obj\Debug\DLL.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\Project DCostaFood\Proyecto\DLL\obj\Debug\DLL.dll
 C:\Users\User\Desktop\Project DCostaFood\Proyecto\DLL\obj\Debug\DLL.pdb
+C:\Users\yeimm\Documents\OneDrive\Escritorio\ProyectoCosta\Proyecto\Proyecto\DLL\bin\Debug\DLL.dll
+C:\Users\yeimm\Documents\OneDrive\Escritorio\ProyectoCosta\Proyecto\Proyecto\DLL\bin\Debug\DLL.pdb
+C:\Users\yeimm\Documents\OneDrive\Escritorio\ProyectoCosta\Proyecto\Proyecto\DLL\bin\Debug\ENTITY.dll
+C:\Users\yeimm\Documents\OneDrive\Escritorio\ProyectoCosta\Proyecto\Proyecto\DLL\bin\Debug\ENTITY.pdb
+C:\Users\yeimm\Documents\OneDrive\Escritorio\ProyectoCosta\Proyecto\Proyecto\DLL\obj\Debug\DLL.csproj.AssemblyReference.cache
+C:\Users\yeimm\Documents\OneDrive\Escritorio\ProyectoCosta\Proyecto\Proyecto\DLL\obj\Debug\DLL.csproj.CoreCompileInputs.cache
+C:\Users\yeimm\Documents\OneDrive\Escritorio\ProyectoCosta\Proyecto\Proyecto\DLL\obj\Debug\DLL.csproj.CopyComplete
+C:\Users\yeimm\Documents\OneDrive\Escritorio\ProyectoCosta\Proyecto\Proyecto\DLL\obj\Debug\DLL.dll
+C:\Users\yeimm\Documents\OneDrive\Escritorio\ProyectoCosta\Proyecto\Proyecto\DLL\obj\Debug\DLL.pdb
