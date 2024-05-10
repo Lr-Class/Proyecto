@@ -18,6 +18,12 @@ namespace DCosta
             InitializeComponent();
         }
 
+        public FrmInicioCliente(string usuario)
+        {
+            InitializeComponent();
+            lblNombreUsuario.Text = usuario;
+        }
+
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
         private extern static void ReleaseCapture();
         [DllImport("user32.DLL", EntryPoint = "SendMessage")]
@@ -38,6 +44,7 @@ namespace DCosta
             FrmProductos productos = new FrmProductos();
             this.Close();
             productos.Show();
+            
         }
 
         private void pnlBarraMovimiento_MouseDown(object sender, MouseEventArgs e)

@@ -203,6 +203,16 @@ namespace DCosta.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap controlar {
+            get {
+                object obj = ResourceManager.GetObject("controlar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cuadro {
             get {
                 object obj = ResourceManager.GetObject("cuadro", resourceCulture);
@@ -236,6 +246,16 @@ namespace DCosta.Properties {
         internal static System.Drawing.Bitmap EMBUTIDOS_1200x750 {
             get {
                 object obj = ResourceManager.GetObject("EMBUTIDOS-1200x750", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap entrega {
+            get {
+                object obj = ResourceManager.GetObject("entrega", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -473,6 +493,16 @@ namespace DCosta.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap mensajero {
+            get {
+                object obj = ResourceManager.GetObject("mensajero", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap menu {
             get {
                 object obj = ResourceManager.GetObject("menu", resourceCulture);
@@ -486,6 +516,16 @@ namespace DCosta.Properties {
         internal static System.Drawing.Bitmap Mortadela {
             get {
                 object obj = ResourceManager.GetObject("Mortadela", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap nuevo_producto {
+            get {
+                object obj = ResourceManager.GetObject("nuevo-producto", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -516,6 +556,46 @@ namespace DCosta.Properties {
         internal static System.Drawing.Bitmap R {
             get {
                 object obj = ResourceManager.GetObject("R", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap repartidor {
+            get {
+                object obj = ResourceManager.GetObject("repartidor", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap repartidor__1_ {
+            get {
+                object obj = ResourceManager.GetObject("repartidor (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap repartidor__1_1 {
+            get {
+                object obj = ResourceManager.GetObject("repartidor (1)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap repartidor1 {
+            get {
+                object obj = ResourceManager.GetObject("repartidor1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -88,6 +88,12 @@
     <Compile Include="FrmPedidos.Designer.cs">
       <DependentUpon>FrmPedidos.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmAdministrador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAdministrador.Designer.cs">
+      <DependentUpon>FrmAdministrador.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmSalchichasPedidos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -197,6 +203,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmPedidos.resx">
       <DependentUpon>FrmPedidos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAdministrador.resx">
+      <DependentUpon>FrmAdministrador.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmSalchichasPedidos.resx">
       <DependentUpon>FrmSalchichasPedidos.cs</DependentUpon>
@@ -430,6 +439,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\lineas_productos_complementarios_salsas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\repartidor %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\repartidor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mensajero.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nuevo-producto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\controlar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\entrega.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

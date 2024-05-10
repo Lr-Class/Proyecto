@@ -31,7 +31,7 @@
             this.pnlBarraMovimiento = new System.Windows.Forms.Panel();
             this.btnMinimizar = new System.Windows.Forms.PictureBox();
             this.btnCerrar = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblNombreUsuario = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
@@ -53,7 +53,7 @@
             this.pnlBarraMovimiento.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pnlBarraMovimiento.Controls.Add(this.btnMinimizar);
             this.pnlBarraMovimiento.Controls.Add(this.btnCerrar);
-            this.pnlBarraMovimiento.Controls.Add(this.label1);
+            this.pnlBarraMovimiento.Controls.Add(this.lblNombreUsuario);
             this.pnlBarraMovimiento.Controls.Add(this.pictureBox3);
             this.pnlBarraMovimiento.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlBarraMovimiento.Location = new System.Drawing.Point(4, 4);
@@ -84,16 +84,16 @@
             this.btnCerrar.TabStop = false;
             this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
             // 
-            // label1
+            // lblNombreUsuario
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label1.Location = new System.Drawing.Point(190, 35);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(206, 24);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "Nombre de usuario";
+            this.lblNombreUsuario.AutoSize = true;
+            this.lblNombreUsuario.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNombreUsuario.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.lblNombreUsuario.Location = new System.Drawing.Point(190, 35);
+            this.lblNombreUsuario.Name = "lblNombreUsuario";
+            this.lblNombreUsuario.Size = new System.Drawing.Size(74, 24);
+            this.lblNombreUsuario.TabIndex = 5;
+            this.lblNombreUsuario.Text = "label1";
             // 
             // pictureBox3
             // 
@@ -202,7 +202,7 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox btnVerProductos;
         private System.Windows.Forms.PictureBox btnHacerPedidos;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblNombreUsuario;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox btnMinimizar;

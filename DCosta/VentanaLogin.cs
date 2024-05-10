@@ -90,7 +90,8 @@ namespace DCosta
         {
             if (cbTipoInicio.SelectedItem.ToString() == "Cliente")
             {
-                FrmInicioCliente frmInicioCliente = new FrmInicioCliente();
+                string usuario = txtUser.Text;
+                FrmInicioCliente frmInicioCliente = new FrmInicioCliente(usuario);
                 this.Hide();
                 frmInicioCliente.Show();
                 
