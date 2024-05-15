@@ -33,8 +33,8 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label42 = new System.Windows.Forms.Label();
-            this.button7 = new System.Windows.Forms.Button();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.btnAgregarTocineta = new System.Windows.Forms.Button();
+            this.cbEscogerPrecio = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -84,8 +84,8 @@
             // panel2
             // 
             this.panel2.Controls.Add(this.label42);
-            this.panel2.Controls.Add(this.button7);
-            this.panel2.Controls.Add(this.comboBox2);
+            this.panel2.Controls.Add(this.btnAgregarTocineta);
+            this.panel2.Controls.Add(this.cbEscogerPrecio);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.label3);
@@ -106,26 +106,26 @@
             this.label42.TabIndex = 20;
             this.label42.Text = "Precio:";
             // 
-            // button7
+            // btnAgregarTocineta
             // 
-            this.button7.Location = new System.Drawing.Point(363, 123);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(76, 26);
-            this.button7.TabIndex = 19;
-            this.button7.Text = "Agregar";
-            this.button7.UseVisualStyleBackColor = true;
+            this.btnAgregarTocineta.Location = new System.Drawing.Point(363, 123);
+            this.btnAgregarTocineta.Name = "btnAgregarTocineta";
+            this.btnAgregarTocineta.Size = new System.Drawing.Size(76, 26);
+            this.btnAgregarTocineta.TabIndex = 19;
+            this.btnAgregarTocineta.Text = "Agregar";
+            this.btnAgregarTocineta.UseVisualStyleBackColor = true;
             // 
-            // comboBox2
+            // cbEscogerPrecio
             // 
-            this.comboBox2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.cbEscogerPrecio.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbEscogerPrecio.FormattingEnabled = true;
+            this.cbEscogerPrecio.Items.AddRange(new object[] {
             "7500.00",
             "9500.00"});
-            this.comboBox2.Location = new System.Drawing.Point(227, 121);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(130, 29);
-            this.comboBox2.TabIndex = 18;
+            this.cbEscogerPrecio.Location = new System.Drawing.Point(227, 121);
+            this.cbEscogerPrecio.Name = "cbEscogerPrecio";
+            this.cbEscogerPrecio.Size = new System.Drawing.Size(130, 29);
+            this.cbEscogerPrecio.TabIndex = 18;
             // 
             // label1
             // 
@@ -210,7 +210,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label42;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.Button btnAgregarTocineta;
+        private System.Windows.Forms.ComboBox cbEscogerPrecio;
     }
 }

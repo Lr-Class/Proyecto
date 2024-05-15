@@ -32,13 +32,13 @@
             this.panel18 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.lblPrecioHamburguesa = new System.Windows.Forms.Label();
+            this.label36 = new System.Windows.Forms.Label();
+            this.btnAgregarHamburguesa = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label39 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
             this.flowLayoutPanel2.SuspendLayout();
             this.panel18.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -82,9 +82,9 @@
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.label39);
+            this.panel2.Controls.Add(this.lblPrecioHamburguesa);
             this.panel2.Controls.Add(this.label36);
-            this.panel2.Controls.Add(this.button5);
+            this.panel2.Controls.Add(this.btnAgregarHamburguesa);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.label4);
@@ -93,6 +93,35 @@
             this.panel2.Padding = new System.Windows.Forms.Padding(10);
             this.panel2.Size = new System.Drawing.Size(439, 149);
             this.panel2.TabIndex = 1;
+            // 
+            // lblPrecioHamburguesa
+            // 
+            this.lblPrecioHamburguesa.AutoSize = true;
+            this.lblPrecioHamburguesa.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPrecioHamburguesa.Location = new System.Drawing.Point(263, 127);
+            this.lblPrecioHamburguesa.Name = "lblPrecioHamburguesa";
+            this.lblPrecioHamburguesa.Size = new System.Drawing.Size(81, 22);
+            this.lblPrecioHamburguesa.TabIndex = 23;
+            this.lblPrecioHamburguesa.Text = "8000.00";
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label36.Location = new System.Drawing.Point(187, 126);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(73, 23);
+            this.label36.TabIndex = 22;
+            this.label36.Text = "Precio:";
+            // 
+            // btnAgregarHamburguesa
+            // 
+            this.btnAgregarHamburguesa.Location = new System.Drawing.Point(361, 124);
+            this.btnAgregarHamburguesa.Name = "btnAgregarHamburguesa";
+            this.btnAgregarHamburguesa.Size = new System.Drawing.Size(76, 26);
+            this.btnAgregarHamburguesa.TabIndex = 21;
+            this.btnAgregarHamburguesa.Text = "Agregar";
+            this.btnAgregarHamburguesa.UseVisualStyleBackColor = true;
             // 
             // label2
             // 
@@ -135,35 +164,6 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // label39
-            // 
-            this.label39.AutoSize = true;
-            this.label39.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label39.Location = new System.Drawing.Point(263, 127);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(81, 22);
-            this.label39.TabIndex = 23;
-            this.label39.Text = "8000.00";
-            // 
-            // label36
-            // 
-            this.label36.AutoSize = true;
-            this.label36.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label36.Location = new System.Drawing.Point(187, 126);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(73, 23);
-            this.label36.TabIndex = 22;
-            this.label36.Text = "Precio:";
-            // 
-            // button5
-            // 
-            this.button5.Location = new System.Drawing.Point(361, 124);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(76, 26);
-            this.button5.TabIndex = 21;
-            this.button5.Text = "Agregar";
-            this.button5.UseVisualStyleBackColor = true;
-            // 
             // FrmHamburguesaPedidos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -194,8 +194,8 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label39;
+        private System.Windows.Forms.Label lblPrecioHamburguesa;
         private System.Windows.Forms.Label label36;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btnAgregarHamburguesa;
     }
 }

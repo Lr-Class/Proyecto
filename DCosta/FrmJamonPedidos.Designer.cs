@@ -31,6 +31,9 @@
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel18 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label42 = new System.Windows.Forms.Label();
+            this.btnAgregarJamon = new System.Windows.Forms.Button();
+            this.cbPrecioJamon = new System.Windows.Forms.ComboBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -42,9 +45,6 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label42 = new System.Windows.Forms.Label();
-            this.button7 = new System.Windows.Forms.Button();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.flowLayoutPanel2.SuspendLayout();
             this.panel18.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -79,8 +79,8 @@
             this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.label42);
-            this.panel1.Controls.Add(this.button7);
-            this.panel1.Controls.Add(this.comboBox2);
+            this.panel1.Controls.Add(this.btnAgregarJamon);
+            this.panel1.Controls.Add(this.cbPrecioJamon);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Location = new System.Drawing.Point(13, 13);
@@ -88,6 +88,41 @@
             this.panel1.Padding = new System.Windows.Forms.Padding(10);
             this.panel1.Size = new System.Drawing.Size(761, 239);
             this.panel1.TabIndex = 5;
+            // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label42.Location = new System.Drawing.Point(464, 208);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(73, 23);
+            this.label42.TabIndex = 20;
+            this.label42.Text = "Precio:";
+            // 
+            // btnAgregarJamon
+            // 
+            this.btnAgregarJamon.Location = new System.Drawing.Point(670, 205);
+            this.btnAgregarJamon.Name = "btnAgregarJamon";
+            this.btnAgregarJamon.Size = new System.Drawing.Size(76, 26);
+            this.btnAgregarJamon.TabIndex = 19;
+            this.btnAgregarJamon.Text = "Agregar";
+            this.btnAgregarJamon.UseVisualStyleBackColor = true;
+            // 
+            // cbPrecioJamon
+            // 
+            this.cbPrecioJamon.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbPrecioJamon.FormattingEnabled = true;
+            this.cbPrecioJamon.Items.AddRange(new object[] {
+            "3200.00",
+            "4800.00",
+            "11000.00",
+            "12500.00",
+            "24000.00",
+            "30000.00"});
+            this.cbPrecioJamon.Location = new System.Drawing.Point(543, 203);
+            this.cbPrecioJamon.Name = "cbPrecioJamon";
+            this.cbPrecioJamon.Size = new System.Drawing.Size(121, 29);
+            this.cbPrecioJamon.TabIndex = 18;
             // 
             // panel2
             // 
@@ -207,41 +242,6 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // label42
-            // 
-            this.label42.AutoSize = true;
-            this.label42.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label42.Location = new System.Drawing.Point(464, 208);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(73, 23);
-            this.label42.TabIndex = 20;
-            this.label42.Text = "Precio:";
-            // 
-            // button7
-            // 
-            this.button7.Location = new System.Drawing.Point(670, 205);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(76, 26);
-            this.button7.TabIndex = 19;
-            this.button7.Text = "Agregar";
-            this.button7.UseVisualStyleBackColor = true;
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
-            "3200.00",
-            "4800.00",
-            "11000.00",
-            "12500.00",
-            "24000.00",
-            "30000.00"});
-            this.comboBox2.Location = new System.Drawing.Point(543, 203);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 29);
-            this.comboBox2.TabIndex = 18;
-            // 
             // FrmJamonPedidos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -280,7 +280,7 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label42;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.Button btnAgregarJamon;
+        private System.Windows.Forms.ComboBox cbPrecioJamon;
     }
 }

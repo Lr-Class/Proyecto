@@ -99,15 +99,15 @@
             // 
             // cbTipoInicio
             // 
-            this.cbTipoInicio.BackColor = System.Drawing.Color.Black;
+            this.cbTipoInicio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.cbTipoInicio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cbTipoInicio.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbTipoInicio.ForeColor = System.Drawing.Color.LightGray;
+            this.cbTipoInicio.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.cbTipoInicio.FormattingEnabled = true;
             this.cbTipoInicio.Items.AddRange(new object[] {
             "Administrador",
             "Cliente",
-            "Administrador"});
+            "Repartidor"});
             this.cbTipoInicio.Location = new System.Drawing.Point(450, 212);
             this.cbTipoInicio.Name = "cbTipoInicio";
             this.cbTipoInicio.Size = new System.Drawing.Size(183, 28);
@@ -172,7 +172,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.LightGray;
+            this.label1.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label1.Location = new System.Drawing.Point(508, 12);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(64, 24);
@@ -182,7 +182,7 @@
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
-            this.linkLabel1.LinkColor = System.Drawing.Color.LightGray;
+            this.linkLabel1.LinkColor = System.Drawing.Color.Transparent;
             this.linkLabel1.Location = new System.Drawing.Point(490, 319);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(99, 13);

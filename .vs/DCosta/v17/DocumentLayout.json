@@ -1,20 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|c:\\users\\luism\\onedrive\\escritorio\\dcosta\\dcosta\\frmadministrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|solutionrelative:dcosta\\frmadministrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|c:\\users\\luism\\onedrive\\escritorio\\dcosta\\dcosta\\frmadministrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|solutionrelative:dcosta\\frmadministrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|c:\\users\\luism\\onedrive\\escritorio\\dcosta\\dcosta\\frmadministrador.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|solutionrelative:dcosta\\frmadministrador.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -22,46 +9,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": -1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FrmAdministrador.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\DCosta\\FrmAdministrador.cs",
-              "RelativeDocumentMoniker": "DCosta\\FrmAdministrador.cs",
-              "ToolTip": "C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\DCosta\\FrmAdministrador.cs [Dise\u00F1o]",
-              "RelativeToolTip": "DCosta\\FrmAdministrador.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T18:11:58.555Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FrmAdministrador.cs",
-              "DocumentMoniker": "C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\DCosta\\FrmAdministrador.cs",
-              "RelativeDocumentMoniker": "DCosta\\FrmAdministrador.cs",
-              "ToolTip": "C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\DCosta\\FrmAdministrador.cs",
-              "RelativeToolTip": "DCosta\\FrmAdministrador.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAIwFYAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T18:11:28.085Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FrmAdministrador.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\DCosta\\FrmAdministrador.Designer.cs",
-              "RelativeDocumentMoniker": "DCosta\\FrmAdministrador.Designer.cs",
-              "ToolTip": "C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\DCosta\\FrmAdministrador.Designer.cs",
-              "RelativeToolTip": "DCosta\\FrmAdministrador.Designer.cs",
-              "ViewState": "AQIAAAsBAAAAAAAAAAAYwPYAAABGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T18:11:14.877Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"

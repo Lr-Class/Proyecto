@@ -32,6 +32,9 @@
             this.panel18 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
+            this.btnAgregarSalchichonCervecero = new System.Windows.Forms.Button();
+            this.cbPrecioSalchichonCervecero = new System.Windows.Forms.ComboBox();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
@@ -39,6 +42,9 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.label6 = new System.Windows.Forms.Label();
+            this.btnAgregarSalchichondePollo = new System.Windows.Forms.Button();
+            this.cbPrecioSalchichondePollo = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
@@ -48,20 +54,14 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label42 = new System.Windows.Forms.Label();
+            this.btnAgregarSalchichondeRes = new System.Windows.Forms.Button();
+            this.cbPrecioSallchichondeRes = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label42 = new System.Windows.Forms.Label();
-            this.button7 = new System.Windows.Forms.Button();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.flowLayoutPanel2.SuspendLayout();
             this.panel18.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -113,9 +113,9 @@
             // 
             // panel6
             // 
+            this.panel6.Controls.Add(this.btnAgregarSalchichonCervecero);
             this.panel6.Controls.Add(this.label5);
-            this.panel6.Controls.Add(this.button1);
-            this.panel6.Controls.Add(this.comboBox1);
+            this.panel6.Controls.Add(this.cbPrecioSalchichonCervecero);
             this.panel6.Controls.Add(this.label15);
             this.panel6.Controls.Add(this.label16);
             this.panel6.Controls.Add(this.label17);
@@ -125,6 +125,37 @@
             this.panel6.Padding = new System.Windows.Forms.Padding(10);
             this.panel6.Size = new System.Drawing.Size(439, 149);
             this.panel6.TabIndex = 1;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(164, 125);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(73, 23);
+            this.label5.TabIndex = 20;
+            this.label5.Text = "Precio:";
+            // 
+            // btnAgregarSalchichonCervecero
+            // 
+            this.btnAgregarSalchichonCervecero.Location = new System.Drawing.Point(370, 122);
+            this.btnAgregarSalchichonCervecero.Name = "btnAgregarSalchichonCervecero";
+            this.btnAgregarSalchichonCervecero.Size = new System.Drawing.Size(76, 26);
+            this.btnAgregarSalchichonCervecero.TabIndex = 19;
+            this.btnAgregarSalchichonCervecero.Text = "Agregar";
+            this.btnAgregarSalchichonCervecero.UseVisualStyleBackColor = true;
+            // 
+            // cbPrecioSalchichonCervecero
+            // 
+            this.cbPrecioSalchichonCervecero.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbPrecioSalchichonCervecero.FormattingEnabled = true;
+            this.cbPrecioSalchichonCervecero.Items.AddRange(new object[] {
+            "5000.00",
+            "10000.00"});
+            this.cbPrecioSalchichonCervecero.Location = new System.Drawing.Point(243, 120);
+            this.cbPrecioSalchichonCervecero.Name = "cbPrecioSalchichonCervecero";
+            this.cbPrecioSalchichonCervecero.Size = new System.Drawing.Size(121, 29);
+            this.cbPrecioSalchichonCervecero.TabIndex = 18;
             // 
             // label15
             // 
@@ -192,8 +223,8 @@
             // panel4
             // 
             this.panel4.Controls.Add(this.label6);
-            this.panel4.Controls.Add(this.button2);
-            this.panel4.Controls.Add(this.comboBox3);
+            this.panel4.Controls.Add(this.btnAgregarSalchichondePollo);
+            this.panel4.Controls.Add(this.cbPrecioSalchichondePollo);
             this.panel4.Controls.Add(this.label7);
             this.panel4.Controls.Add(this.label8);
             this.panel4.Controls.Add(this.label9);
@@ -205,6 +236,39 @@
             this.panel4.Padding = new System.Windows.Forms.Padding(10);
             this.panel4.Size = new System.Drawing.Size(439, 149);
             this.panel4.TabIndex = 1;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(164, 125);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(73, 23);
+            this.label6.TabIndex = 20;
+            this.label6.Text = "Precio:";
+            // 
+            // btnAgregarSalchichondePollo
+            // 
+            this.btnAgregarSalchichondePollo.Location = new System.Drawing.Point(370, 122);
+            this.btnAgregarSalchichondePollo.Name = "btnAgregarSalchichondePollo";
+            this.btnAgregarSalchichondePollo.Size = new System.Drawing.Size(76, 26);
+            this.btnAgregarSalchichondePollo.TabIndex = 19;
+            this.btnAgregarSalchichondePollo.Text = "Agregar";
+            this.btnAgregarSalchichondePollo.UseVisualStyleBackColor = true;
+            // 
+            // cbPrecioSalchichondePollo
+            // 
+            this.cbPrecioSalchichondePollo.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbPrecioSalchichondePollo.FormattingEnabled = true;
+            this.cbPrecioSalchichondePollo.Items.AddRange(new object[] {
+            "3000.00",
+            "6000.00",
+            "6500.00",
+            "7250.00"});
+            this.cbPrecioSalchichondePollo.Location = new System.Drawing.Point(243, 120);
+            this.cbPrecioSalchichondePollo.Name = "cbPrecioSalchichondePollo";
+            this.cbPrecioSalchichondePollo.Size = new System.Drawing.Size(121, 29);
+            this.cbPrecioSalchichondePollo.TabIndex = 18;
             // 
             // label7
             // 
@@ -292,8 +356,8 @@
             // panel2
             // 
             this.panel2.Controls.Add(this.label42);
-            this.panel2.Controls.Add(this.button7);
-            this.panel2.Controls.Add(this.comboBox2);
+            this.panel2.Controls.Add(this.btnAgregarSalchichondeRes);
+            this.panel2.Controls.Add(this.cbPrecioSallchichondeRes);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.label3);
@@ -303,6 +367,37 @@
             this.panel2.Padding = new System.Windows.Forms.Padding(10);
             this.panel2.Size = new System.Drawing.Size(439, 149);
             this.panel2.TabIndex = 1;
+            // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label42.Location = new System.Drawing.Point(164, 125);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(73, 23);
+            this.label42.TabIndex = 20;
+            this.label42.Text = "Precio:";
+            // 
+            // btnAgregarSalchichondeRes
+            // 
+            this.btnAgregarSalchichondeRes.Location = new System.Drawing.Point(370, 122);
+            this.btnAgregarSalchichondeRes.Name = "btnAgregarSalchichondeRes";
+            this.btnAgregarSalchichondeRes.Size = new System.Drawing.Size(76, 26);
+            this.btnAgregarSalchichondeRes.TabIndex = 19;
+            this.btnAgregarSalchichondeRes.Text = "Agregar";
+            this.btnAgregarSalchichondeRes.UseVisualStyleBackColor = true;
+            // 
+            // cbPrecioSallchichondeRes
+            // 
+            this.cbPrecioSallchichondeRes.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbPrecioSallchichondeRes.FormattingEnabled = true;
+            this.cbPrecioSallchichondeRes.Items.AddRange(new object[] {
+            "5500.00",
+            "7500.00"});
+            this.cbPrecioSallchichondeRes.Location = new System.Drawing.Point(243, 120);
+            this.cbPrecioSallchichondeRes.Name = "cbPrecioSallchichondeRes";
+            this.cbPrecioSallchichondeRes.Size = new System.Drawing.Size(121, 29);
+            this.cbPrecioSallchichondeRes.TabIndex = 18;
             // 
             // label1
             // 
@@ -354,101 +449,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            // 
-            // label42
-            // 
-            this.label42.AutoSize = true;
-            this.label42.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label42.Location = new System.Drawing.Point(164, 125);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(73, 23);
-            this.label42.TabIndex = 20;
-            this.label42.Text = "Precio:";
-            // 
-            // button7
-            // 
-            this.button7.Location = new System.Drawing.Point(370, 122);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(76, 26);
-            this.button7.TabIndex = 19;
-            this.button7.Text = "Agregar";
-            this.button7.UseVisualStyleBackColor = true;
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
-            "5500.00",
-            "7500.00"});
-            this.comboBox2.Location = new System.Drawing.Point(243, 120);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 29);
-            this.comboBox2.TabIndex = 18;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(164, 125);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(73, 23);
-            this.label5.TabIndex = 20;
-            this.label5.Text = "Precio:";
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(370, 122);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(76, 26);
-            this.button1.TabIndex = 19;
-            this.button1.Text = "Agregar";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "5000.00",
-            "10000.00"});
-            this.comboBox1.Location = new System.Drawing.Point(243, 120);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 29);
-            this.comboBox1.TabIndex = 18;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(164, 125);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(73, 23);
-            this.label6.TabIndex = 20;
-            this.label6.Text = "Precio:";
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(370, 122);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(76, 26);
-            this.button2.TabIndex = 19;
-            this.button2.Text = "Agregar";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // comboBox3
-            // 
-            this.comboBox3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
-            "3000.00",
-            "6000.00",
-            "6500.00",
-            "7250.00"});
-            this.comboBox3.Location = new System.Drawing.Point(243, 120);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(121, 29);
-            this.comboBox3.TabIndex = 18;
             // 
             // FrmSalchichonesPedidos
             // 
@@ -506,13 +506,13 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label42;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.Button btnAgregarSalchichondeRes;
+        private System.Windows.Forms.ComboBox cbPrecioSallchichondeRes;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Button btnAgregarSalchichonCervecero;
+        private System.Windows.Forms.ComboBox cbPrecioSalchichonCervecero;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.Button btnAgregarSalchichondePollo;
+        private System.Windows.Forms.ComboBox cbPrecioSalchichondePollo;
     }
 }

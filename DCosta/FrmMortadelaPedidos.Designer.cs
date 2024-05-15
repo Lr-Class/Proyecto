@@ -31,6 +31,9 @@
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel18 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label42 = new System.Windows.Forms.Label();
+            this.btnAgregarMortadela = new System.Windows.Forms.Button();
+            this.cbPrecioMortadela = new System.Windows.Forms.ComboBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -39,9 +42,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label42 = new System.Windows.Forms.Label();
-            this.button7 = new System.Windows.Forms.Button();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.flowLayoutPanel2.SuspendLayout();
             this.panel18.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -76,8 +76,8 @@
             this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.label42);
-            this.panel1.Controls.Add(this.button7);
-            this.panel1.Controls.Add(this.comboBox2);
+            this.panel1.Controls.Add(this.btnAgregarMortadela);
+            this.panel1.Controls.Add(this.cbPrecioMortadela);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Location = new System.Drawing.Point(13, 13);
@@ -85,6 +85,39 @@
             this.panel1.Padding = new System.Windows.Forms.Padding(10);
             this.panel1.Size = new System.Drawing.Size(761, 227);
             this.panel1.TabIndex = 5;
+            // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label42.Location = new System.Drawing.Point(453, 175);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(73, 23);
+            this.label42.TabIndex = 20;
+            this.label42.Text = "Precio:";
+            // 
+            // btnAgregarMortadela
+            // 
+            this.btnAgregarMortadela.Location = new System.Drawing.Point(659, 172);
+            this.btnAgregarMortadela.Name = "btnAgregarMortadela";
+            this.btnAgregarMortadela.Size = new System.Drawing.Size(76, 26);
+            this.btnAgregarMortadela.TabIndex = 19;
+            this.btnAgregarMortadela.Text = "Agregar";
+            this.btnAgregarMortadela.UseVisualStyleBackColor = true;
+            // 
+            // cbPrecioMortadela
+            // 
+            this.cbPrecioMortadela.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbPrecioMortadela.FormattingEnabled = true;
+            this.cbPrecioMortadela.Items.AddRange(new object[] {
+            "2000.00",
+            "4500.00",
+            "9000.00",
+            "8500.00"});
+            this.cbPrecioMortadela.Location = new System.Drawing.Point(532, 170);
+            this.cbPrecioMortadela.Name = "cbPrecioMortadela";
+            this.cbPrecioMortadela.Size = new System.Drawing.Size(121, 29);
+            this.cbPrecioMortadela.TabIndex = 18;
             // 
             // panel2
             // 
@@ -171,39 +204,6 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // label42
-            // 
-            this.label42.AutoSize = true;
-            this.label42.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label42.Location = new System.Drawing.Point(453, 175);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(73, 23);
-            this.label42.TabIndex = 20;
-            this.label42.Text = "Precio:";
-            // 
-            // button7
-            // 
-            this.button7.Location = new System.Drawing.Point(659, 172);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(76, 26);
-            this.button7.TabIndex = 19;
-            this.button7.Text = "Agregar";
-            this.button7.UseVisualStyleBackColor = true;
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
-            "2000.00",
-            "4500.00",
-            "9000.00",
-            "8500.00"});
-            this.comboBox2.Location = new System.Drawing.Point(532, 170);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 29);
-            this.comboBox2.TabIndex = 18;
-            // 
             // FrmMortadelaPedidos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -239,7 +239,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label42;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.Button btnAgregarMortadela;
+        private System.Windows.Forms.ComboBox cbPrecioMortadela;
     }
 }

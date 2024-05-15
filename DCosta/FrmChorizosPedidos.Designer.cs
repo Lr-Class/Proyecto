@@ -31,6 +31,9 @@
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel18 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.btnAgregarChoripincho = new System.Windows.Forms.Button();
+            this.cbPrecioChoripincho = new System.Windows.Forms.ComboBox();
             this.panel6 = new System.Windows.Forms.Panel();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
@@ -40,6 +43,9 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.label42 = new System.Windows.Forms.Label();
+            this.btnAgregarChorizoParrilla = new System.Windows.Forms.Button();
+            this.cbPrecioChorizoParrilla = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
@@ -48,19 +54,13 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.lblPrecioChorizodeRes = new System.Windows.Forms.Label();
+            this.label36 = new System.Windows.Forms.Label();
+            this.btnAgregarChorizodeRes = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label39 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
-            this.label42 = new System.Windows.Forms.Label();
-            this.button7 = new System.Windows.Forms.Button();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.flowLayoutPanel2.SuspendLayout();
             this.panel18.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -103,8 +103,8 @@
             this.panel5.BackColor = System.Drawing.Color.Transparent;
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel5.Controls.Add(this.label1);
-            this.panel5.Controls.Add(this.button1);
-            this.panel5.Controls.Add(this.comboBox1);
+            this.panel5.Controls.Add(this.btnAgregarChoripincho);
+            this.panel5.Controls.Add(this.cbPrecioChoripincho);
             this.panel5.Controls.Add(this.panel6);
             this.panel5.Controls.Add(this.pictureBox3);
             this.panel5.Location = new System.Drawing.Point(13, 479);
@@ -112,6 +112,38 @@
             this.panel5.Padding = new System.Windows.Forms.Padding(10);
             this.panel5.Size = new System.Drawing.Size(761, 227);
             this.panel5.TabIndex = 6;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(448, 170);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(73, 23);
+            this.label1.TabIndex = 20;
+            this.label1.Text = "Precio:";
+            // 
+            // btnAgregarChoripincho
+            // 
+            this.btnAgregarChoripincho.Location = new System.Drawing.Point(654, 167);
+            this.btnAgregarChoripincho.Name = "btnAgregarChoripincho";
+            this.btnAgregarChoripincho.Size = new System.Drawing.Size(76, 26);
+            this.btnAgregarChoripincho.TabIndex = 19;
+            this.btnAgregarChoripincho.Text = "Agregar";
+            this.btnAgregarChoripincho.UseVisualStyleBackColor = true;
+            // 
+            // cbPrecioChoripincho
+            // 
+            this.cbPrecioChoripincho.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbPrecioChoripincho.FormattingEnabled = true;
+            this.cbPrecioChoripincho.Items.AddRange(new object[] {
+            "5000.00",
+            "9000.00",
+            "9500.00"});
+            this.cbPrecioChoripincho.Location = new System.Drawing.Point(527, 165);
+            this.cbPrecioChoripincho.Name = "cbPrecioChoripincho";
+            this.cbPrecioChoripincho.Size = new System.Drawing.Size(121, 29);
+            this.cbPrecioChoripincho.TabIndex = 18;
             // 
             // panel6
             // 
@@ -202,8 +234,8 @@
             // panel4
             // 
             this.panel4.Controls.Add(this.label42);
-            this.panel4.Controls.Add(this.button7);
-            this.panel4.Controls.Add(this.comboBox2);
+            this.panel4.Controls.Add(this.btnAgregarChorizoParrilla);
+            this.panel4.Controls.Add(this.cbPrecioChorizoParrilla);
             this.panel4.Controls.Add(this.label8);
             this.panel4.Controls.Add(this.label9);
             this.panel4.Controls.Add(this.label10);
@@ -214,6 +246,38 @@
             this.panel4.Padding = new System.Windows.Forms.Padding(10);
             this.panel4.Size = new System.Drawing.Size(439, 149);
             this.panel4.TabIndex = 1;
+            // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label42.Location = new System.Drawing.Point(159, 125);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(73, 23);
+            this.label42.TabIndex = 20;
+            this.label42.Text = "Precio:";
+            // 
+            // btnAgregarChorizoParrilla
+            // 
+            this.btnAgregarChorizoParrilla.Location = new System.Drawing.Point(365, 122);
+            this.btnAgregarChorizoParrilla.Name = "btnAgregarChorizoParrilla";
+            this.btnAgregarChorizoParrilla.Size = new System.Drawing.Size(76, 26);
+            this.btnAgregarChorizoParrilla.TabIndex = 19;
+            this.btnAgregarChorizoParrilla.Text = "Agregar";
+            this.btnAgregarChorizoParrilla.UseVisualStyleBackColor = true;
+            // 
+            // cbPrecioChorizoParrilla
+            // 
+            this.cbPrecioChorizoParrilla.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbPrecioChorizoParrilla.FormattingEnabled = true;
+            this.cbPrecioChorizoParrilla.Items.AddRange(new object[] {
+            "2500.00",
+            "5000.00",
+            "10000.00"});
+            this.cbPrecioChorizoParrilla.Location = new System.Drawing.Point(238, 120);
+            this.cbPrecioChorizoParrilla.Name = "cbPrecioChorizoParrilla";
+            this.cbPrecioChorizoParrilla.Size = new System.Drawing.Size(121, 29);
+            this.cbPrecioChorizoParrilla.TabIndex = 18;
             // 
             // label8
             // 
@@ -290,9 +354,9 @@
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.label39);
+            this.panel2.Controls.Add(this.lblPrecioChorizodeRes);
             this.panel2.Controls.Add(this.label36);
-            this.panel2.Controls.Add(this.button5);
+            this.panel2.Controls.Add(this.btnAgregarChorizodeRes);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.label4);
@@ -301,6 +365,35 @@
             this.panel2.Padding = new System.Windows.Forms.Padding(10);
             this.panel2.Size = new System.Drawing.Size(439, 149);
             this.panel2.TabIndex = 1;
+            // 
+            // lblPrecioChorizodeRes
+            // 
+            this.lblPrecioChorizodeRes.AutoSize = true;
+            this.lblPrecioChorizodeRes.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPrecioChorizodeRes.Location = new System.Drawing.Point(265, 126);
+            this.lblPrecioChorizodeRes.Name = "lblPrecioChorizodeRes";
+            this.lblPrecioChorizodeRes.Size = new System.Drawing.Size(81, 22);
+            this.lblPrecioChorizodeRes.TabIndex = 23;
+            this.lblPrecioChorizodeRes.Text = "8500.00";
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label36.Location = new System.Drawing.Point(189, 125);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(73, 23);
+            this.label36.TabIndex = 22;
+            this.label36.Text = "Precio:";
+            // 
+            // btnAgregarChorizodeRes
+            // 
+            this.btnAgregarChorizodeRes.Location = new System.Drawing.Point(363, 123);
+            this.btnAgregarChorizodeRes.Name = "btnAgregarChorizodeRes";
+            this.btnAgregarChorizodeRes.Size = new System.Drawing.Size(76, 26);
+            this.btnAgregarChorizodeRes.TabIndex = 21;
+            this.btnAgregarChorizodeRes.Text = "Agregar";
+            this.btnAgregarChorizodeRes.UseVisualStyleBackColor = true;
             // 
             // label2
             // 
@@ -342,99 +435,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            // 
-            // label39
-            // 
-            this.label39.AutoSize = true;
-            this.label39.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label39.Location = new System.Drawing.Point(265, 126);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(81, 22);
-            this.label39.TabIndex = 23;
-            this.label39.Text = "8500.00";
-            // 
-            // label36
-            // 
-            this.label36.AutoSize = true;
-            this.label36.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label36.Location = new System.Drawing.Point(189, 125);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(73, 23);
-            this.label36.TabIndex = 22;
-            this.label36.Text = "Precio:";
-            // 
-            // button5
-            // 
-            this.button5.Location = new System.Drawing.Point(363, 123);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(76, 26);
-            this.button5.TabIndex = 21;
-            this.button5.Text = "Agregar";
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // label42
-            // 
-            this.label42.AutoSize = true;
-            this.label42.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label42.Location = new System.Drawing.Point(159, 125);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(73, 23);
-            this.label42.TabIndex = 20;
-            this.label42.Text = "Precio:";
-            // 
-            // button7
-            // 
-            this.button7.Location = new System.Drawing.Point(365, 122);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(76, 26);
-            this.button7.TabIndex = 19;
-            this.button7.Text = "Agregar";
-            this.button7.UseVisualStyleBackColor = true;
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
-            "2500.00",
-            "5000.00",
-            "10000.00"});
-            this.comboBox2.Location = new System.Drawing.Point(238, 120);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 29);
-            this.comboBox2.TabIndex = 18;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(448, 170);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(73, 23);
-            this.label1.TabIndex = 20;
-            this.label1.Text = "Precio:";
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(654, 167);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(76, 26);
-            this.button1.TabIndex = 19;
-            this.button1.Text = "Agregar";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "5000.00",
-            "9000.00",
-            "9500.00"});
-            this.comboBox1.Location = new System.Drawing.Point(527, 165);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 29);
-            this.comboBox1.TabIndex = 18;
             // 
             // FrmChorizosPedidos
             // 
@@ -491,14 +491,14 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label39;
+        private System.Windows.Forms.Label lblPrecioChorizodeRes;
         private System.Windows.Forms.Label label36;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btnAgregarChorizodeRes;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Button btnAgregarChoripincho;
+        private System.Windows.Forms.ComboBox cbPrecioChoripincho;
         private System.Windows.Forms.Label label42;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.Button btnAgregarChorizoParrilla;
+        private System.Windows.Forms.ComboBox cbPrecioChorizoParrilla;
     }
 }

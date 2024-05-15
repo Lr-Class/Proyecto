@@ -96,6 +96,14 @@ namespace DCosta
                 frmInicioCliente.Show();
                 
             }
+            if (cbTipoInicio.SelectedItem.ToString() == "Administrador")
+            {
+                string usuario = txtUser.Text;
+                FrmAdministrador frmAdministrador = new FrmAdministrador(usuario);
+                this.Hide();
+                frmAdministrador.Show();
+
+            }
         }
     }
 }

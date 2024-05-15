@@ -49,16 +49,16 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel16 = new System.Windows.Forms.Panel();
             this.panel17 = new System.Windows.Forms.Panel();
-            this.btnAgSalsas = new System.Windows.Forms.Button();
+            this.btnAgregarSalsas = new System.Windows.Forms.Button();
             this.label41 = new System.Windows.Forms.Label();
-            this.cbSalsas = new System.Windows.Forms.ComboBox();
+            this.cbPrecioSalsas = new System.Windows.Forms.ComboBox();
             this.lblPrecioSalsas = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.panel14 = new System.Windows.Forms.Panel();
             this.panel15 = new System.Windows.Forms.Panel();
-            this.btnAgPanMiniperro = new System.Windows.Forms.Button();
+            this.btnAgregarPanMiniperro = new System.Windows.Forms.Button();
             this.label39 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.lblPrecioPanMiniperro = new System.Windows.Forms.Label();
@@ -67,7 +67,7 @@
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.panel12 = new System.Windows.Forms.Panel();
             this.panel13 = new System.Windows.Forms.Panel();
-            this.btnAgPanPerro = new System.Windows.Forms.Button();
+            this.btnAgregarPanPerro = new System.Windows.Forms.Button();
             this.label31 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
             this.lblPrecioPanPerro = new System.Windows.Forms.Label();
@@ -76,7 +76,7 @@
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.panel10 = new System.Windows.Forms.Panel();
             this.panel11 = new System.Windows.Forms.Panel();
-            this.btnAgPanTajado = new System.Windows.Forms.Button();
+            this.btnAgregarPanTajado = new System.Windows.Forms.Button();
             this.label28 = new System.Windows.Forms.Label();
             this.lblPrecioPanTajado = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
@@ -85,7 +85,7 @@
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.panel6 = new System.Windows.Forms.Panel();
             this.panel9 = new System.Windows.Forms.Panel();
-            this.btnAgPanHamburguesa = new System.Windows.Forms.Button();
+            this.btnAgregarPanHamburguesa = new System.Windows.Forms.Button();
             this.label22 = new System.Windows.Forms.Label();
             this.lblPrecioPanHamburguesa = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
@@ -94,7 +94,7 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.btnAgSueroCosteño = new System.Windows.Forms.Button();
+            this.btnAgregarSueroCosteño = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.lblPrecioSueroCosteño = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -104,8 +104,8 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
             this.label43 = new System.Windows.Forms.Label();
-            this.button8 = new System.Windows.Forms.Button();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.btnAgregarQuesoDobleCrema = new System.Windows.Forms.Button();
+            this.cbPrecioQuesoDobleCrema = new System.Windows.Forms.ComboBox();
             this.label37 = new System.Windows.Forms.Label();
             this.label36 = new System.Windows.Forms.Label();
             this.label35 = new System.Windows.Forms.Label();
@@ -113,10 +113,11 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.lblQuesoDobleCrema = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel8 = new System.Windows.Forms.Panel();
             this.panel18 = new System.Windows.Forms.Panel();
             this.label42 = new System.Windows.Forms.Label();
-            this.btnAgQuesoCosteño = new System.Windows.Forms.Button();
+            this.btnAgregarQuesoCosteño = new System.Windows.Forms.Button();
             this.cbPrecioQuesoCosteño = new System.Windows.Forms.ComboBox();
             this.label34 = new System.Windows.Forms.Label();
             this.label33 = new System.Windows.Forms.Label();
@@ -125,9 +126,8 @@
             this.lblQuesoCosteño = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pnlGuardarPedido = new System.Windows.Forms.Panel();
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnGuardarPedido = new System.Windows.Forms.Button();
+            this.lstPedido = new System.Windows.Forms.ListBox();
             this.pnlArriba.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
             this.pnlPrincipal.SuspendLayout();
@@ -155,11 +155,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel3.SuspendLayout();
             this.panel7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel8.SuspendLayout();
             this.panel18.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.pnlGuardarPedido.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // pnlArriba
@@ -301,7 +301,7 @@
             this.pnlCarnicos.Location = new System.Drawing.Point(0, 0);
             this.pnlCarnicos.Margin = new System.Windows.Forms.Padding(0);
             this.pnlCarnicos.Name = "pnlCarnicos";
-            this.pnlCarnicos.Size = new System.Drawing.Size(994, 509);
+            this.pnlCarnicos.Size = new System.Drawing.Size(997, 509);
             this.pnlCarnicos.TabIndex = 7;
             // 
             // pnlContenedor
@@ -361,10 +361,10 @@
             // 
             this.pnlComplementarios.Controls.Add(this.flowLayoutPanel1);
             this.pnlComplementarios.Dock = System.Windows.Forms.DockStyle.Right;
-            this.pnlComplementarios.Location = new System.Drawing.Point(994, 0);
+            this.pnlComplementarios.Location = new System.Drawing.Point(997, 0);
             this.pnlComplementarios.Margin = new System.Windows.Forms.Padding(0);
             this.pnlComplementarios.Name = "pnlComplementarios";
-            this.pnlComplementarios.Size = new System.Drawing.Size(13, 509);
+            this.pnlComplementarios.Size = new System.Drawing.Size(10, 509);
             this.pnlComplementarios.TabIndex = 6;
             // 
             // flowLayoutPanel1
@@ -414,9 +414,9 @@
             // 
             // panel17
             // 
-            this.panel17.Controls.Add(this.btnAgSalsas);
+            this.panel17.Controls.Add(this.btnAgregarSalsas);
             this.panel17.Controls.Add(this.label41);
-            this.panel17.Controls.Add(this.cbSalsas);
+            this.panel17.Controls.Add(this.cbPrecioSalsas);
             this.panel17.Controls.Add(this.lblPrecioSalsas);
             this.panel17.Controls.Add(this.label23);
             this.panel17.Controls.Add(this.label24);
@@ -426,14 +426,14 @@
             this.panel17.Size = new System.Drawing.Size(546, 151);
             this.panel17.TabIndex = 1;
             // 
-            // btnAgSalsas
+            // btnAgregarSalsas
             // 
-            this.btnAgSalsas.Location = new System.Drawing.Point(445, 95);
-            this.btnAgSalsas.Name = "btnAgSalsas";
-            this.btnAgSalsas.Size = new System.Drawing.Size(76, 26);
-            this.btnAgSalsas.TabIndex = 24;
-            this.btnAgSalsas.Text = "Agregar";
-            this.btnAgSalsas.UseVisualStyleBackColor = true;
+            this.btnAgregarSalsas.Location = new System.Drawing.Point(445, 95);
+            this.btnAgregarSalsas.Name = "btnAgregarSalsas";
+            this.btnAgregarSalsas.Size = new System.Drawing.Size(76, 26);
+            this.btnAgregarSalsas.TabIndex = 24;
+            this.btnAgregarSalsas.Text = "Agregar";
+            this.btnAgregarSalsas.UseVisualStyleBackColor = true;
             // 
             // label41
             // 
@@ -445,11 +445,11 @@
             this.label41.TabIndex = 22;
             this.label41.Text = "Precio:";
             // 
-            // cbSalsas
+            // cbPrecioSalsas
             // 
-            this.cbSalsas.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbSalsas.FormattingEnabled = true;
-            this.cbSalsas.Items.AddRange(new object[] {
+            this.cbPrecioSalsas.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbPrecioSalsas.FormattingEnabled = true;
+            this.cbPrecioSalsas.Items.AddRange(new object[] {
             "Salsa de Tomate",
             "Mayonesa",
             "Mostaza",
@@ -462,10 +462,10 @@
             "Salsa de Soya",
             "Miel",
             "Vinagreta Dulce"});
-            this.cbSalsas.Location = new System.Drawing.Point(18, 92);
-            this.cbSalsas.Name = "cbSalsas";
-            this.cbSalsas.Size = new System.Drawing.Size(241, 29);
-            this.cbSalsas.TabIndex = 7;
+            this.cbPrecioSalsas.Location = new System.Drawing.Point(18, 92);
+            this.cbPrecioSalsas.Name = "cbPrecioSalsas";
+            this.cbPrecioSalsas.Size = new System.Drawing.Size(241, 29);
+            this.cbPrecioSalsas.TabIndex = 7;
             // 
             // lblPrecioSalsas
             // 
@@ -525,7 +525,7 @@
             // 
             // panel15
             // 
-            this.panel15.Controls.Add(this.btnAgPanMiniperro);
+            this.panel15.Controls.Add(this.btnAgregarPanMiniperro);
             this.panel15.Controls.Add(this.label39);
             this.panel15.Controls.Add(this.label19);
             this.panel15.Controls.Add(this.lblPrecioPanMiniperro);
@@ -537,14 +537,14 @@
             this.panel15.Size = new System.Drawing.Size(546, 149);
             this.panel15.TabIndex = 1;
             // 
-            // btnAgPanMiniperro
+            // btnAgregarPanMiniperro
             // 
-            this.btnAgPanMiniperro.Location = new System.Drawing.Point(445, 110);
-            this.btnAgPanMiniperro.Name = "btnAgPanMiniperro";
-            this.btnAgPanMiniperro.Size = new System.Drawing.Size(76, 26);
-            this.btnAgPanMiniperro.TabIndex = 21;
-            this.btnAgPanMiniperro.Text = "Agregar";
-            this.btnAgPanMiniperro.UseVisualStyleBackColor = true;
+            this.btnAgregarPanMiniperro.Location = new System.Drawing.Point(445, 110);
+            this.btnAgregarPanMiniperro.Name = "btnAgregarPanMiniperro";
+            this.btnAgregarPanMiniperro.Size = new System.Drawing.Size(76, 26);
+            this.btnAgregarPanMiniperro.TabIndex = 21;
+            this.btnAgregarPanMiniperro.Text = "Agregar";
+            this.btnAgregarPanMiniperro.UseVisualStyleBackColor = true;
             // 
             // label39
             // 
@@ -624,7 +624,7 @@
             // 
             // panel13
             // 
-            this.panel13.Controls.Add(this.btnAgPanPerro);
+            this.panel13.Controls.Add(this.btnAgregarPanPerro);
             this.panel13.Controls.Add(this.label31);
             this.panel13.Controls.Add(this.label30);
             this.panel13.Controls.Add(this.lblPrecioPanPerro);
@@ -636,14 +636,14 @@
             this.panel13.Size = new System.Drawing.Size(546, 149);
             this.panel13.TabIndex = 1;
             // 
-            // btnAgPanPerro
+            // btnAgregarPanPerro
             // 
-            this.btnAgPanPerro.Location = new System.Drawing.Point(445, 110);
-            this.btnAgPanPerro.Name = "btnAgPanPerro";
-            this.btnAgPanPerro.Size = new System.Drawing.Size(76, 26);
-            this.btnAgPanPerro.TabIndex = 18;
-            this.btnAgPanPerro.Text = "Agregar";
-            this.btnAgPanPerro.UseVisualStyleBackColor = true;
+            this.btnAgregarPanPerro.Location = new System.Drawing.Point(445, 110);
+            this.btnAgregarPanPerro.Name = "btnAgregarPanPerro";
+            this.btnAgregarPanPerro.Size = new System.Drawing.Size(76, 26);
+            this.btnAgregarPanPerro.TabIndex = 18;
+            this.btnAgregarPanPerro.Text = "Agregar";
+            this.btnAgregarPanPerro.UseVisualStyleBackColor = true;
             // 
             // label31
             // 
@@ -723,7 +723,7 @@
             // 
             // panel11
             // 
-            this.panel11.Controls.Add(this.btnAgPanTajado);
+            this.panel11.Controls.Add(this.btnAgregarPanTajado);
             this.panel11.Controls.Add(this.label28);
             this.panel11.Controls.Add(this.lblPrecioPanTajado);
             this.panel11.Controls.Add(this.label13);
@@ -735,14 +735,14 @@
             this.panel11.Size = new System.Drawing.Size(546, 149);
             this.panel11.TabIndex = 1;
             // 
-            // btnAgPanTajado
+            // btnAgregarPanTajado
             // 
-            this.btnAgPanTajado.Location = new System.Drawing.Point(445, 110);
-            this.btnAgPanTajado.Name = "btnAgPanTajado";
-            this.btnAgPanTajado.Size = new System.Drawing.Size(76, 26);
-            this.btnAgPanTajado.TabIndex = 15;
-            this.btnAgPanTajado.Text = "Agregar";
-            this.btnAgPanTajado.UseVisualStyleBackColor = true;
+            this.btnAgregarPanTajado.Location = new System.Drawing.Point(445, 110);
+            this.btnAgregarPanTajado.Name = "btnAgregarPanTajado";
+            this.btnAgregarPanTajado.Size = new System.Drawing.Size(76, 26);
+            this.btnAgregarPanTajado.TabIndex = 15;
+            this.btnAgregarPanTajado.Text = "Agregar";
+            this.btnAgregarPanTajado.UseVisualStyleBackColor = true;
             // 
             // label28
             // 
@@ -822,7 +822,7 @@
             // 
             // panel9
             // 
-            this.panel9.Controls.Add(this.btnAgPanHamburguesa);
+            this.panel9.Controls.Add(this.btnAgregarPanHamburguesa);
             this.panel9.Controls.Add(this.label22);
             this.panel9.Controls.Add(this.lblPrecioPanHamburguesa);
             this.panel9.Controls.Add(this.label27);
@@ -834,14 +834,14 @@
             this.panel9.Size = new System.Drawing.Size(546, 149);
             this.panel9.TabIndex = 1;
             // 
-            // btnAgPanHamburguesa
+            // btnAgregarPanHamburguesa
             // 
-            this.btnAgPanHamburguesa.Location = new System.Drawing.Point(445, 110);
-            this.btnAgPanHamburguesa.Name = "btnAgPanHamburguesa";
-            this.btnAgPanHamburguesa.Size = new System.Drawing.Size(76, 26);
-            this.btnAgPanHamburguesa.TabIndex = 15;
-            this.btnAgPanHamburguesa.Text = "Agregar";
-            this.btnAgPanHamburguesa.UseVisualStyleBackColor = true;
+            this.btnAgregarPanHamburguesa.Location = new System.Drawing.Point(445, 110);
+            this.btnAgregarPanHamburguesa.Name = "btnAgregarPanHamburguesa";
+            this.btnAgregarPanHamburguesa.Size = new System.Drawing.Size(76, 26);
+            this.btnAgregarPanHamburguesa.TabIndex = 15;
+            this.btnAgregarPanHamburguesa.Text = "Agregar";
+            this.btnAgregarPanHamburguesa.UseVisualStyleBackColor = true;
             // 
             // label22
             // 
@@ -921,7 +921,7 @@
             // 
             // panel5
             // 
-            this.panel5.Controls.Add(this.btnAgSueroCosteño);
+            this.panel5.Controls.Add(this.btnAgregarSueroCosteño);
             this.panel5.Controls.Add(this.label7);
             this.panel5.Controls.Add(this.lblPrecioSueroCosteño);
             this.panel5.Controls.Add(this.label4);
@@ -933,14 +933,14 @@
             this.panel5.Size = new System.Drawing.Size(546, 149);
             this.panel5.TabIndex = 1;
             // 
-            // btnAgSueroCosteño
+            // btnAgregarSueroCosteño
             // 
-            this.btnAgSueroCosteño.Location = new System.Drawing.Point(445, 110);
-            this.btnAgSueroCosteño.Name = "btnAgSueroCosteño";
-            this.btnAgSueroCosteño.Size = new System.Drawing.Size(76, 26);
-            this.btnAgSueroCosteño.TabIndex = 12;
-            this.btnAgSueroCosteño.Text = "Agregar";
-            this.btnAgSueroCosteño.UseVisualStyleBackColor = true;
+            this.btnAgregarSueroCosteño.Location = new System.Drawing.Point(445, 110);
+            this.btnAgregarSueroCosteño.Name = "btnAgregarSueroCosteño";
+            this.btnAgregarSueroCosteño.Size = new System.Drawing.Size(76, 26);
+            this.btnAgregarSueroCosteño.TabIndex = 12;
+            this.btnAgregarSueroCosteño.Text = "Agregar";
+            this.btnAgregarSueroCosteño.UseVisualStyleBackColor = true;
             // 
             // label7
             // 
@@ -1021,8 +1021,8 @@
             // panel7
             // 
             this.panel7.Controls.Add(this.label43);
-            this.panel7.Controls.Add(this.button8);
-            this.panel7.Controls.Add(this.comboBox3);
+            this.panel7.Controls.Add(this.btnAgregarQuesoDobleCrema);
+            this.panel7.Controls.Add(this.cbPrecioQuesoDobleCrema);
             this.panel7.Controls.Add(this.label37);
             this.panel7.Controls.Add(this.label36);
             this.panel7.Controls.Add(this.label35);
@@ -1046,29 +1046,29 @@
             this.label43.TabIndex = 17;
             this.label43.Text = "Precio:";
             // 
-            // button8
+            // btnAgregarQuesoDobleCrema
             // 
-            this.button8.Location = new System.Drawing.Point(457, 117);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(76, 26);
-            this.button8.TabIndex = 16;
-            this.button8.Text = "Agregar";
-            this.button8.UseVisualStyleBackColor = true;
+            this.btnAgregarQuesoDobleCrema.Location = new System.Drawing.Point(457, 117);
+            this.btnAgregarQuesoDobleCrema.Name = "btnAgregarQuesoDobleCrema";
+            this.btnAgregarQuesoDobleCrema.Size = new System.Drawing.Size(76, 26);
+            this.btnAgregarQuesoDobleCrema.TabIndex = 16;
+            this.btnAgregarQuesoDobleCrema.Text = "Agregar";
+            this.btnAgregarQuesoDobleCrema.UseVisualStyleBackColor = true;
             // 
-            // comboBox3
+            // cbPrecioQuesoDobleCrema
             // 
-            this.comboBox3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
+            this.cbPrecioQuesoDobleCrema.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbPrecioQuesoDobleCrema.FormattingEnabled = true;
+            this.cbPrecioQuesoDobleCrema.Items.AddRange(new object[] {
             "4825.17",
             "9650.34",
             "24125.85",
             "48251.7",
             "73780.00"});
-            this.comboBox3.Location = new System.Drawing.Point(330, 116);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(121, 29);
-            this.comboBox3.TabIndex = 15;
+            this.cbPrecioQuesoDobleCrema.Location = new System.Drawing.Point(330, 116);
+            this.cbPrecioQuesoDobleCrema.Name = "cbPrecioQuesoDobleCrema";
+            this.cbPrecioQuesoDobleCrema.Size = new System.Drawing.Size(121, 29);
+            this.cbPrecioQuesoDobleCrema.TabIndex = 15;
             // 
             // label37
             // 
@@ -1141,6 +1141,16 @@
             this.lblQuesoDobleCrema.TabIndex = 4;
             this.lblQuesoDobleCrema.Text = "Queso Doble Crema";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::DCosta.Properties.Resources.lineas_productos_complementarios_queso_doble_crema;
+            this.pictureBox1.Location = new System.Drawing.Point(18, 19);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(250, 180);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // panel8
             // 
             this.panel8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -1159,7 +1169,7 @@
             // panel18
             // 
             this.panel18.Controls.Add(this.label42);
-            this.panel18.Controls.Add(this.btnAgQuesoCosteño);
+            this.panel18.Controls.Add(this.btnAgregarQuesoCosteño);
             this.panel18.Controls.Add(this.cbPrecioQuesoCosteño);
             this.panel18.Controls.Add(this.label34);
             this.panel18.Controls.Add(this.label33);
@@ -1182,14 +1192,14 @@
             this.label42.TabIndex = 14;
             this.label42.Text = "Precio:";
             // 
-            // btnAgQuesoCosteño
+            // btnAgregarQuesoCosteño
             // 
-            this.btnAgQuesoCosteño.Location = new System.Drawing.Point(466, 66);
-            this.btnAgQuesoCosteño.Name = "btnAgQuesoCosteño";
-            this.btnAgQuesoCosteño.Size = new System.Drawing.Size(76, 26);
-            this.btnAgQuesoCosteño.TabIndex = 13;
-            this.btnAgQuesoCosteño.Text = "Agregar";
-            this.btnAgQuesoCosteño.UseVisualStyleBackColor = true;
+            this.btnAgregarQuesoCosteño.Location = new System.Drawing.Point(466, 66);
+            this.btnAgregarQuesoCosteño.Name = "btnAgregarQuesoCosteño";
+            this.btnAgregarQuesoCosteño.Size = new System.Drawing.Size(76, 26);
+            this.btnAgregarQuesoCosteño.TabIndex = 13;
+            this.btnAgregarQuesoCosteño.Text = "Agregar";
+            this.btnAgregarQuesoCosteño.UseVisualStyleBackColor = true;
             // 
             // cbPrecioQuesoCosteño
             // 
@@ -1268,34 +1278,13 @@
             // pnlGuardarPedido
             // 
             this.pnlGuardarPedido.Controls.Add(this.btnGuardarPedido);
-            this.pnlGuardarPedido.Controls.Add(this.listBox1);
+            this.pnlGuardarPedido.Controls.Add(this.lstPedido);
             this.pnlGuardarPedido.Dock = System.Windows.Forms.DockStyle.Right;
             this.pnlGuardarPedido.Location = new System.Drawing.Point(1007, 0);
             this.pnlGuardarPedido.Margin = new System.Windows.Forms.Padding(0);
             this.pnlGuardarPedido.Name = "pnlGuardarPedido";
             this.pnlGuardarPedido.Size = new System.Drawing.Size(10, 509);
             this.pnlGuardarPedido.TabIndex = 0;
-            // 
-            // listBox1
-            // 
-            this.listBox1.BackColor = System.Drawing.Color.GhostWhite;
-            this.listBox1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 21;
-            this.listBox1.Location = new System.Drawing.Point(98, 73);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(457, 319);
-            this.listBox1.TabIndex = 0;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::DCosta.Properties.Resources.lineas_productos_complementarios_queso_doble_crema;
-            this.pictureBox1.Location = new System.Drawing.Point(18, 19);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(250, 180);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // btnGuardarPedido
             // 
@@ -1308,6 +1297,17 @@
             this.btnGuardarPedido.TabIndex = 1;
             this.btnGuardarPedido.Text = "Guardar Pedido";
             this.btnGuardarPedido.UseVisualStyleBackColor = true;
+            // 
+            // lstPedido
+            // 
+            this.lstPedido.BackColor = System.Drawing.Color.GhostWhite;
+            this.lstPedido.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lstPedido.FormattingEnabled = true;
+            this.lstPedido.ItemHeight = 21;
+            this.lstPedido.Location = new System.Drawing.Point(98, 73);
+            this.lstPedido.Name = "lstPedido";
+            this.lstPedido.Size = new System.Drawing.Size(457, 319);
+            this.lstPedido.TabIndex = 0;
             // 
             // FrmPedidos
             // 
@@ -1356,12 +1356,12 @@
             this.panel3.ResumeLayout(false);
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel8.ResumeLayout(false);
             this.panel18.ResumeLayout(false);
             this.panel18.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.pnlGuardarPedido.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1437,34 +1437,34 @@
         private System.Windows.Forms.Label label37;
         private System.Windows.Forms.Label label36;
         private System.Windows.Forms.Label label35;
-        private System.Windows.Forms.ComboBox cbSalsas;
+        private System.Windows.Forms.ComboBox cbPrecioSalsas;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Button btnAgPanHamburguesa;
+        private System.Windows.Forms.Button btnAgregarPanHamburguesa;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label lblPrecioPanHamburguesa;
-        private System.Windows.Forms.Button btnAgSueroCosteño;
+        private System.Windows.Forms.Button btnAgregarSueroCosteño;
         private System.Windows.Forms.Label lblPrecioSueroCosteño;
-        private System.Windows.Forms.Button btnAgSalsas;
+        private System.Windows.Forms.Button btnAgregarSalsas;
         private System.Windows.Forms.Label label41;
         private System.Windows.Forms.Label lblPrecioSalsas;
-        private System.Windows.Forms.Button btnAgPanMiniperro;
+        private System.Windows.Forms.Button btnAgregarPanMiniperro;
         private System.Windows.Forms.Label label39;
         private System.Windows.Forms.Label lblPrecioPanMiniperro;
-        private System.Windows.Forms.Button btnAgPanPerro;
+        private System.Windows.Forms.Button btnAgregarPanPerro;
         private System.Windows.Forms.Label label31;
         private System.Windows.Forms.Label lblPrecioPanPerro;
-        private System.Windows.Forms.Button btnAgPanTajado;
+        private System.Windows.Forms.Button btnAgregarPanTajado;
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.Label lblPrecioPanTajado;
         private System.Windows.Forms.ComboBox cbPrecioQuesoCosteño;
         private System.Windows.Forms.Label label43;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.Button btnAgregarQuesoDobleCrema;
+        private System.Windows.Forms.ComboBox cbPrecioQuesoDobleCrema;
         private System.Windows.Forms.Label label42;
-        private System.Windows.Forms.Button btnAgQuesoCosteño;
+        private System.Windows.Forms.Button btnAgregarQuesoCosteño;
         private System.Windows.Forms.PictureBox btnCerrar;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnGuardarPedido;
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.ListBox lstPedido;
     }
 }

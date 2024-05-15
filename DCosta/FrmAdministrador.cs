@@ -17,6 +17,11 @@ namespace DCosta
         {
             InitializeComponent();
         }
+        public FrmAdministrador(string usuario)
+        {
+            InitializeComponent();
+            lblNombreAdmin.Text = usuario;
+        }
 
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
         private extern static void ReleaseCapture();
@@ -41,9 +46,7 @@ namespace DCosta
 
         private void btnCerrar_Click(object sender, EventArgs e)
         {
-            this.Close();
-            FrmInicioCliente frmInicioCliente = new FrmInicioCliente();
-            frmInicioCliente.ShowDialog();
+            Application.Exit();
         }
 
         private void btnMinimizar_Click(object sender, EventArgs e)
@@ -84,6 +87,34 @@ namespace DCosta
             fh.Show();
         }
 
-        
+        private void btnAgregarRepartidor_Click(object sender, EventArgs e)
+        {
+            AbrirVentanaEnPanel(new FrmAgregarRepartidor());
+        }
+
+        private void btnEliminarRepartidor_Click(object sender, EventArgs e)
+        {
+            AbrirVentanaEnPanel(new FrmEliminarRepartidor());
+        }
+
+        private void btnAgregarProducto_Click(object sender, EventArgs e)
+        {
+            AbrirVentanaEnPanel(new FrmAgregarProducto());
+        }
+
+        private void btnEliminarProducto_Click(object sender, EventArgs e)
+        {
+            AbrirVentanaEnPanel(new FrmEliminarProducto());
+        }
+
+        private void btnActualizarRepartidor_Click(object sender, EventArgs e)
+        {
+            AbrirVentanaEnPanel(new FrmActualizarRepartidor());
+        }
+
+        private void btnActualizarProducto_Click(object sender, EventArgs e)
+        {
+            AbrirVentanaEnPanel(new FrmActualizarProducto());
+        }
     }
 }

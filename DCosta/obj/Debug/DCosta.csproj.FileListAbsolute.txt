@@ -28,3 +28,10 @@ C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.FrmJamonPedido
 C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.FrmMortadelaPedidos.resources
 C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.FrmSalchichonesPedidos.resources
 C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.FrmTocinetaPedidos.resources
+C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.FrmAdministrador.resources
+C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.FrmAgregarProducto.resources
+C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.FrmAgregarRepartidor.resources
+C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.FrmEliminarProducto.resources
+C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.FrmEliminarRepartidor.resources
+C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.FrmActualizarProducto.resources
+C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.FrmActualizarRepartidor.resources
