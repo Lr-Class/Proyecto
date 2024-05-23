@@ -118,61 +118,199 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="EMBUTIDOS-1200x750" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\EMBUTIDOS-1200x750.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cuadro" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cuadro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="embutido" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\embutido.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pngwing.com" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pngwing.com.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="restar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\restar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Logo-D-costa" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Logo-D-costa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pngwing.com (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pngwing.com (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="maximizar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\maximizar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="avatar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\avatar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="usuario" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\usuario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="boton-x" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\boton-x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="embutidos" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\embutidos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="restaurar-abajo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\restaurar-abajo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Linea_productos_carnicos_Hamburguesa_de_res" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Linea_productos_carnicos_Hamburguesa_de_res.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="telefono-inteligente" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\telefono-inteligente.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="R" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\R.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="repartidor (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\repartidor (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="usuario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\usuario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cuadro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cuadro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Suero-Costeno-Dcosta-inicio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Suero-Costeno-Dcosta-inicio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EMBUTIDOS-1200x750" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EMBUTIDOS-1200x750.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Linea_productos_carnicos_Salchicha_suprema" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Linea_productos_carnicos_Salchicha_suprema.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\menu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="entrega" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\entrega.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="R" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\R.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Linea_productos_carnicos__Salchicha_Parrillera1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Linea_productos_carnicos__Salchicha_Parrillera1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngwing.com" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngwing.com.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carnicos_Salchichon-cervecero" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carnicos_Salchichon-cervecero.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngwing.com (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngwing.com (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tocino" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tocino.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="restar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\restar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chorizo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chorizo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="usuario-de-perfil" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\usuario-de-perfil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Linea_productos_carnicos__Salchicha_Extralarga" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Linea_productos_carnicos__Salchicha_Extralarga.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lineas_productos_complementarios_salsas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lineas_productos_complementarios_salsas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="controlar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\controlar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carnicos_Choripincho-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carnicos_Choripincho-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logo-D-costa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo-D-costa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="butifarra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\butifarra.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="maximizar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\maximizar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hamburguesa-con-queso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hamburguesa-con-queso.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="embutido" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\embutido.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="repartidor1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\repartidor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carnicos_Butifarra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carnicos_Butifarra.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carnicos_Salchichon-Pollo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carnicos_Salchichon-Pollo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="maximizar (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\maximizar (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nuevo-producto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nuevo-producto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lineas_productos_complementarios_pan_mini_perro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lineas_productos_complementarios_pan_mini_perro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Salchichon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Salchichon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lineas_productos_complementarios_pan_hamburguesa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lineas_productos_complementarios_pan_hamburguesa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="embutidos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\embutidos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carnicos_Tocineta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carnicos_Tocineta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Linea_productos_carnicos__Salchicha_Extralarga (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Linea_productos_carnicos__Salchicha_Extralarga (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Linea_prodcutos_complementarios_queso_costeno" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Linea_prodcutos_complementarios_queso_costeno.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Linea_productos_carnicos_salchicha_maxiperro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Linea_productos_carnicos_salchicha_maxiperro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jamon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jamon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carnicos_Mortadela" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carnicos_Mortadela.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lineas_productos_complementarios_queso_doble_crema" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lineas_productos_complementarios_queso_doble_crema.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carnicos_Salchichon-Res" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carnicos_Salchichon-Res.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Linea_productos_carnicos__Salchicha_Miniperro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Linea_productos_carnicos__Salchicha_Miniperro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boton-x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\boton-x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="repartidor (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\repartidor (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Linea_productos_carnicos__Salchicha_Super" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Linea_productos_carnicos__Salchicha_Super.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="repartidor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\repartidor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mortadela" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mortadela.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="restaurar-abajo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\restaurar-abajo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Linea_productos_carnicos_Salchikids" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Linea_productos_carnicos_Salchikids.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carnicos_Jamon-Especial" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carnicos_Jamon-Especial.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carnicos_Chorizo-Costeno" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carnicos_Chorizo-Costeno.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="avatar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\avatar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Linea_productos_carnicos__Salchicha_Extralarga1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Linea_productos_carnicos__Salchicha_Extralarga1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lineas_productos_complementarios_pan_perro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lineas_productos_complementarios_pan_perro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="restaurar-abajo (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\restaurar-abajo (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="maximizar (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\maximizar (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Carnicos_Chorizo-Parrila-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carnicos_Chorizo-Parrila-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lineas_productos_complementarios_pan_tajado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lineas_productos_complementarios_pan_tajado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Linea_productos_carnicos__Salchicha_Parrillera" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Linea_productos_carnicos__Salchicha_Parrillera.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="salchichas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\salchichas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mensajero" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mensajero.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="repartidor (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\repartidor (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

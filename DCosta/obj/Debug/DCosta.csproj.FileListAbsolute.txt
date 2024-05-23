@@ -11,26 +11,27 @@ C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.pdb
 C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.RegistroCliente.resources
 C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.FrmInicioCliente.resources
 C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.FrmProductos.resources
-C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\bin\Debug\DCosta.exe.config
-C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\bin\Debug\DCosta.exe
-C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\bin\Debug\DCosta.pdb
-C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.csproj.AssemblyReference.cache
-C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.FrmInicioCliente.resources
-C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.FrmProductos.resources
-C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.RegistroCliente.resources
-C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.FrmInicial.resources
-C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.Properties.Resources.resources
-C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.csproj.GenerateResource.cache
-C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.csproj.CoreCompileInputs.cache
-C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.exe
-C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.pdb
-C:\Users\yeimm\Documents\OneDrive\Escritorio\ProyectoCosta\Proyecto\Proyecto\DCosta\obj\Debug\DCosta.csproj.AssemblyReference.cache
-C:\Users\yeimm\Documents\OneDrive\Escritorio\ProyectoCosta\Proyecto\Proyecto\DCosta\obj\Debug\DCosta.FrmInicioCliente.resources
-C:\Users\yeimm\Documents\OneDrive\Escritorio\ProyectoCosta\Proyecto\Proyecto\DCosta\obj\Debug\DCosta.FrmProductos.resources
-C:\Users\yeimm\Documents\OneDrive\Escritorio\ProyectoCosta\Proyecto\Proyecto\DCosta\obj\Debug\DCosta.RegistroCliente.resources
-C:\Users\yeimm\Documents\OneDrive\Escritorio\ProyectoCosta\Proyecto\Proyecto\DCosta\obj\Debug\DCosta.FrmInicial.resources
-C:\Users\yeimm\Documents\OneDrive\Escritorio\ProyectoCosta\Proyecto\Proyecto\DCosta\obj\Debug\DCosta.Properties.Resources.resources
-C:\Users\yeimm\Documents\OneDrive\Escritorio\ProyectoCosta\Proyecto\Proyecto\DCosta\obj\Debug\DCosta.csproj.GenerateResource.cache
-C:\Users\yeimm\Documents\OneDrive\Escritorio\ProyectoCosta\Proyecto\Proyecto\DCosta\obj\Debug\DCosta.csproj.CoreCompileInputs.cache
-C:\Users\yeimm\Documents\OneDrive\Escritorio\ProyectoCosta\Proyecto\Proyecto\DCosta\obj\Debug\DCosta.exe
-C:\Users\yeimm\Documents\OneDrive\Escritorio\ProyectoCosta\Proyecto\Proyecto\DCosta\obj\Debug\DCosta.pdb
+C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.FrmSalchichas.resources
+C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.FrmButifarras.resources
+C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.FrmHamburguesa.resources
+C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.FrmJamon.resources
+C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.FrmMortadela.resources
+C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.FrmTocineta.resources
+C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.FrmSalchichones.resources
+C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.FrmChorizos.resources
+C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.FrmPedidos.resources
+C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.FrmSalchichasPedidos.resources
+C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.FrmButifarrasPedidos.resources
+C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.FrmChorizosPedidos.resources
+C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.FrmHamburguesaPedidos.resources
+C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.FrmJamonPedidos.resources
+C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.FrmMortadelaPedidos.resources
+C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.FrmSalchichonesPedidos.resources
+C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.FrmTocinetaPedidos.resources
+C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.FrmAdministrador.resources
+C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.FrmAgregarProducto.resources
+C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.FrmAgregarRepartidor.resources
+C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.FrmEliminarProducto.resources
+C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.FrmEliminarRepartidor.resources
+C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.FrmActualizarProducto.resources
+C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.FrmActualizarRepartidor.resources

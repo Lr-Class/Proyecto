@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.btnRegistro = new System.Windows.Forms.Button();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
@@ -60,7 +59,7 @@
             this.btnCerrar = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.pnlBarraMovimiento = new System.Windows.Forms.Panel();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -285,7 +284,6 @@
             this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(287, 26);
             this.txtPassword.TabIndex = 11;
-            this.txtPassword.TextChanged += new System.EventHandler(this.txtPassword_TextChanged);
             // 
             // label7
             // 
@@ -324,7 +322,6 @@
             this.cbTipoInicio.Name = "cbTipoInicio";
             this.cbTipoInicio.Size = new System.Drawing.Size(164, 28);
             this.cbTipoInicio.TabIndex = 8;
-            this.cbTipoInicio.SelectedIndexChanged += new System.EventHandler(this.cbTipoInicio_SelectedIndexChanged_1);
             // 
             // label5
             // 
@@ -391,7 +388,6 @@
             this.txtNumDocumento.Name = "txtNumDocumento";
             this.txtNumDocumento.Size = new System.Drawing.Size(200, 26);
             this.txtNumDocumento.TabIndex = 1;
-            this.txtNumDocumento.TextChanged += new System.EventHandler(this.txtNumDocumento_TextChanged);
             // 
             // label2
             // 
@@ -403,7 +399,6 @@
             this.label2.Size = new System.Drawing.Size(178, 21);
             this.label2.TabIndex = 0;
             this.label2.Text = "Tipo de documento: *";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // btnMinimizar
             // 
@@ -449,10 +444,13 @@
             this.pictureBox3.TabIndex = 0;
             this.pictureBox3.TabStop = false;
             // 
-            // contextMenuStrip1
+            // pnlBarraMovimiento
             // 
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            this.pnlBarraMovimiento.Location = new System.Drawing.Point(324, 3);
+            this.pnlBarraMovimiento.Name = "pnlBarraMovimiento";
+            this.pnlBarraMovimiento.Size = new System.Drawing.Size(567, 31);
+            this.pnlBarraMovimiento.TabIndex = 12;
+            this.pnlBarraMovimiento.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pnlBarraMovimiento_MouseDown);
             // 
             // RegistroCliente
             // 
@@ -466,6 +464,7 @@
             this.Controls.Add(this.btnRegistro);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pnlBarraMovimiento);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "RegistroCliente";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -518,6 +517,6 @@
         private System.Windows.Forms.TextBox txtNombreNegocio;
         private System.Windows.Forms.RadioButton rbNoNegocio;
         private System.Windows.Forms.RadioButton rbSiNegocio;
-        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.Panel pnlBarraMovimiento;
     }
 }
