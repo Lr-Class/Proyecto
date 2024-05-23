@@ -75,7 +75,7 @@ namespace DCosta
 
             if (resultado == DialogResult.Yes)
             {
-                FrmInicioCliente inicioCliente = new FrmInicioCliente();
+                InicioCliente inicioCliente = new InicioCliente();
                 this.Close();
                 inicioCliente.Show();
             }

@@ -12,14 +12,14 @@ namespace DLL
    public class ClienteRepository
     {
         SqlConnection connection;
-        List<ClsCliente> clientes;
+        List<Cliente> clientes;
         public ClienteRepository(ConexionDbDCostaFood Connection)
         {
             connection = Connection.connection;
-            clientes = new List<ClsCliente>();
+            clientes = new List<Cliente>();
 
         }
-        public void GuardarCliente(ClsCliente cliente)
+        public void GuardarCliente(Cliente cliente)
         {
             using (var comando = connection.CreateCommand())
           {
@@ -37,7 +37,7 @@ namespace DLL
                 comando.ExecuteNonQuery();
             }
         }
-        public ClsCliente Buscar(string numeroDocumento)
+        public Cliente Buscar(string numeroDocumento)
         {
             using (var Comando = connection.CreateCommand())
             {
@@ -48,7 +48,7 @@ namespace DLL
                 {
                     while (Reader.Read())
                     {
-                        ClsCliente cliente = new ClsCliente();
+                        Cliente cliente = new Cliente();
                         cliente = Mapear(Reader);
                         return cliente;
                     }
@@ -57,9 +57,9 @@ namespace DLL
             return null;
         }
 
-        public ClsCliente Mapear(SqlDataReader reader)
+        public Cliente Mapear(SqlDataReader reader)
         {
-            ClsCliente cliente = new ClsCliente();
+            Cliente cliente = new Cliente();
             cliente.TipoDocumento = (string)reader["tipoDocumento"];
             cliente.NumeroDocumento = (string)reader["numeroDocumento"];
             cliente.Nombre = (string)reader["nombre"];
@@ -84,7 +84,7 @@ namespace DLL
 
         }
 
-        public List<ClsCliente> Consultar()
+        public List<Cliente> Consultar()
         {
             clientes.Clear();
             using (var comando = connection.CreateCommand())
@@ -93,7 +93,7 @@ namespace DLL
                 var Reader = comando.ExecuteReader();
                 while (Reader.Read())
                 {
-                    ClsCliente cliente = new ClsCliente();
+                    Cliente cliente = new Cliente();
                     cliente = Mapear(Reader);
                     clientes.Add(cliente);
 
@@ -103,7 +103,7 @@ namespace DLL
         }
 
 
-        public void Modificar(ClsCliente cliente)
+        public void Modificar(Cliente cliente)
         {
             using (var comando = connection.CreateCommand())
             {
@@ -120,7 +120,7 @@ namespace DLL
             }
         }
 
-        public List<ClsCliente> BuscarContiene(string nombre)
+        public List<Cliente> BuscarContiene(string nombre)
         {
             clientes = Consultar();
             return clientes.Where(p => p.Nombre.Contains(nombre)).ToList();

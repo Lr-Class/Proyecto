@@ -46,161 +46,161 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FrmActualizarProducto.cs">
+    <Compile Include="ActualizarProducto.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmActualizarProducto.Designer.cs">
-      <DependentUpon>FrmActualizarProducto.cs</DependentUpon>
+    <Compile Include="ActualizarProducto.Designer.cs">
+      <DependentUpon>ActualizarProducto.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmAgregarProducto.cs">
+    <Compile Include="AgregarProducto.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmAgregarProducto.Designer.cs">
-      <DependentUpon>FrmAgregarProducto.cs</DependentUpon>
+    <Compile Include="AgregarProducto.Designer.cs">
+      <DependentUpon>AgregarProducto.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmActualizarRepartidor.cs">
+    <Compile Include="ActualizarRepartidor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmActualizarRepartidor.Designer.cs">
-      <DependentUpon>FrmActualizarRepartidor.cs</DependentUpon>
+    <Compile Include="ActualizarRepartidor.Designer.cs">
+      <DependentUpon>ActualizarRepartidor.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmButifarrasPedidos.cs">
+    <Compile Include="ButifarrasPedidos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmButifarrasPedidos.Designer.cs">
-      <DependentUpon>FrmButifarrasPedidos.cs</DependentUpon>
+    <Compile Include="ButifarrasPedidos.Designer.cs">
+      <DependentUpon>ButifarrasPedidos.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmButifarras.cs">
+    <Compile Include="Butifarras.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmButifarras.Designer.cs">
-      <DependentUpon>FrmButifarras.cs</DependentUpon>
+    <Compile Include="Butifarras.Designer.cs">
+      <DependentUpon>Butifarras.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmChorizosPedidos.cs">
+    <Compile Include="ChorizosPedidos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmChorizosPedidos.Designer.cs">
-      <DependentUpon>FrmChorizosPedidos.cs</DependentUpon>
+    <Compile Include="ChorizosPedidos.Designer.cs">
+      <DependentUpon>ChorizosPedidos.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmAgregarRepartidor.cs">
+    <Compile Include="AgregarRepartidor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmAgregarRepartidor.Designer.cs">
-      <DependentUpon>FrmAgregarRepartidor.cs</DependentUpon>
+    <Compile Include="AgregarRepartidor.Designer.cs">
+      <DependentUpon>AgregarRepartidor.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmEliminarProducto.cs">
+    <Compile Include="EliminarProducto.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmEliminarProducto.Designer.cs">
-      <DependentUpon>FrmEliminarProducto.cs</DependentUpon>
+    <Compile Include="EliminarProducto.Designer.cs">
+      <DependentUpon>EliminarProducto.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmEliminarRepartidor.cs">
+    <Compile Include="EliminarRepartidor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmEliminarRepartidor.Designer.cs">
-      <DependentUpon>FrmEliminarRepartidor.cs</DependentUpon>
+    <Compile Include="EliminarRepartidor.Designer.cs">
+      <DependentUpon>EliminarRepartidor.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmHamburguesaPedidos.cs">
+    <Compile Include="HamburguesaPedidos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmHamburguesaPedidos.Designer.cs">
-      <DependentUpon>FrmHamburguesaPedidos.cs</DependentUpon>
+    <Compile Include="HamburguesaPedidos.Designer.cs">
+      <DependentUpon>HamburguesaPedidos.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmJamonPedidos.cs">
+    <Compile Include="JamonPedidos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmJamonPedidos.Designer.cs">
-      <DependentUpon>FrmJamonPedidos.cs</DependentUpon>
+    <Compile Include="JamonPedidos.Designer.cs">
+      <DependentUpon>JamonPedidos.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmMortadelaPedidos.cs">
+    <Compile Include="MortadelaPedidos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmMortadelaPedidos.Designer.cs">
-      <DependentUpon>FrmMortadelaPedidos.cs</DependentUpon>
+    <Compile Include="MortadelaPedidos.Designer.cs">
+      <DependentUpon>MortadelaPedidos.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmPedidos.cs">
+    <Compile Include="Pedidos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmPedidos.Designer.cs">
-      <DependentUpon>FrmPedidos.cs</DependentUpon>
+    <Compile Include="Pedidos.Designer.cs">
+      <DependentUpon>Pedidos.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmAdministrador.cs">
+    <Compile Include="Administrador.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmAdministrador.Designer.cs">
-      <DependentUpon>FrmAdministrador.cs</DependentUpon>
+    <Compile Include="Administrador.Designer.cs">
+      <DependentUpon>Administrador.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmSalchichasPedidos.cs">
+    <Compile Include="SalchichasPedidos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmSalchichasPedidos.Designer.cs">
-      <DependentUpon>FrmSalchichasPedidos.cs</DependentUpon>
+    <Compile Include="SalchichasPedidos.Designer.cs">
+      <DependentUpon>SalchichasPedidos.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmSalchichonesPedidos.cs">
+    <Compile Include="SalchichonesPedidos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmSalchichonesPedidos.Designer.cs">
-      <DependentUpon>FrmSalchichonesPedidos.cs</DependentUpon>
+    <Compile Include="SalchichonesPedidos.Designer.cs">
+      <DependentUpon>SalchichonesPedidos.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmSalchichones.cs">
+    <Compile Include="Salchichones.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmSalchichones.Designer.cs">
-      <DependentUpon>FrmSalchichones.cs</DependentUpon>
+    <Compile Include="Salchichones.Designer.cs">
+      <DependentUpon>Salchichones.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmHamburguesa.cs">
+    <Compile Include="Hamburguesa.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmHamburguesa.Designer.cs">
-      <DependentUpon>FrmHamburguesa.cs</DependentUpon>
+    <Compile Include="Hamburguesa.Designer.cs">
+      <DependentUpon>Hamburguesa.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmInicioCliente.cs">
+    <Compile Include="InicioCliente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmInicioCliente.Designer.cs">
-      <DependentUpon>FrmInicioCliente.cs</DependentUpon>
+    <Compile Include="InicioCliente.Designer.cs">
+      <DependentUpon>InicioCliente.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmJamon.cs">
+    <Compile Include="Jamon.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmJamon.Designer.cs">
-      <DependentUpon>FrmJamon.cs</DependentUpon>
+    <Compile Include="Jamon.Designer.cs">
+      <DependentUpon>Jamon.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmMortadela.cs">
+    <Compile Include="Mortadela.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmMortadela.Designer.cs">
-      <DependentUpon>FrmMortadela.cs</DependentUpon>
+    <Compile Include="Mortadela.Designer.cs">
+      <DependentUpon>Mortadela.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmProductos.cs">
+    <Compile Include="Productos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmProductos.Designer.cs">
-      <DependentUpon>FrmProductos.cs</DependentUpon>
+    <Compile Include="Productos.Designer.cs">
+      <DependentUpon>Productos.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmSalchichas.cs">
+    <Compile Include="Salchichas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmSalchichas.Designer.cs">
-      <DependentUpon>FrmSalchichas.cs</DependentUpon>
+    <Compile Include="Salchichas.Designer.cs">
+      <DependentUpon>Salchichas.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmChorizos.cs">
+    <Compile Include="Chorizos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmChorizos.Designer.cs">
-      <DependentUpon>FrmChorizos.cs</DependentUpon>
+    <Compile Include="Chorizos.Designer.cs">
+      <DependentUpon>Chorizos.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmTocinetaPedidos.cs">
+    <Compile Include="TocinetaPedidos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmTocinetaPedidos.Designer.cs">
-      <DependentUpon>FrmTocinetaPedidos.cs</DependentUpon>
+    <Compile Include="TocinetaPedidos.Designer.cs">
+      <DependentUpon>TocinetaPedidos.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmTocineta.cs">
+    <Compile Include="Tocineta.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmTocineta.Designer.cs">
-      <DependentUpon>FrmTocineta.cs</DependentUpon>
+    <Compile Include="Tocineta.Designer.cs">
+      <DependentUpon>Tocineta.cs</DependentUpon>
     </Compile>
     <Compile Include="RegistroCliente.cs">
       <SubType>Form</SubType>
@@ -219,83 +219,83 @@
     <Compile Include="RJButton.cs">
       <SubType>Component</SubType>
     </Compile>
-    <EmbeddedResource Include="FrmActualizarProducto.resx">
-      <DependentUpon>FrmActualizarProducto.cs</DependentUpon>
+    <EmbeddedResource Include="ActualizarProducto.resx">
+      <DependentUpon>ActualizarProducto.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmAgregarProducto.resx">
-      <DependentUpon>FrmAgregarProducto.cs</DependentUpon>
+    <EmbeddedResource Include="AgregarProducto.resx">
+      <DependentUpon>AgregarProducto.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmActualizarRepartidor.resx">
-      <DependentUpon>FrmActualizarRepartidor.cs</DependentUpon>
+    <EmbeddedResource Include="ActualizarRepartidor.resx">
+      <DependentUpon>ActualizarRepartidor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmButifarrasPedidos.resx">
-      <DependentUpon>FrmButifarrasPedidos.cs</DependentUpon>
+    <EmbeddedResource Include="ButifarrasPedidos.resx">
+      <DependentUpon>ButifarrasPedidos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmButifarras.resx">
-      <DependentUpon>FrmButifarras.cs</DependentUpon>
+    <EmbeddedResource Include="Butifarras.resx">
+      <DependentUpon>Butifarras.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmChorizosPedidos.resx">
-      <DependentUpon>FrmChorizosPedidos.cs</DependentUpon>
+    <EmbeddedResource Include="ChorizosPedidos.resx">
+      <DependentUpon>ChorizosPedidos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmAgregarRepartidor.resx">
-      <DependentUpon>FrmAgregarRepartidor.cs</DependentUpon>
+    <EmbeddedResource Include="AgregarRepartidor.resx">
+      <DependentUpon>AgregarRepartidor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmEliminarProducto.resx">
-      <DependentUpon>FrmEliminarProducto.cs</DependentUpon>
+    <EmbeddedResource Include="EliminarProducto.resx">
+      <DependentUpon>EliminarProducto.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmEliminarRepartidor.resx">
-      <DependentUpon>FrmEliminarRepartidor.cs</DependentUpon>
+    <EmbeddedResource Include="EliminarRepartidor.resx">
+      <DependentUpon>EliminarRepartidor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmHamburguesaPedidos.resx">
-      <DependentUpon>FrmHamburguesaPedidos.cs</DependentUpon>
+    <EmbeddedResource Include="HamburguesaPedidos.resx">
+      <DependentUpon>HamburguesaPedidos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmJamonPedidos.resx">
-      <DependentUpon>FrmJamonPedidos.cs</DependentUpon>
+    <EmbeddedResource Include="JamonPedidos.resx">
+      <DependentUpon>JamonPedidos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmMortadelaPedidos.resx">
-      <DependentUpon>FrmMortadelaPedidos.cs</DependentUpon>
+    <EmbeddedResource Include="MortadelaPedidos.resx">
+      <DependentUpon>MortadelaPedidos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmPedidos.resx">
-      <DependentUpon>FrmPedidos.cs</DependentUpon>
+    <EmbeddedResource Include="Pedidos.resx">
+      <DependentUpon>Pedidos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmAdministrador.resx">
-      <DependentUpon>FrmAdministrador.cs</DependentUpon>
+    <EmbeddedResource Include="Administrador.resx">
+      <DependentUpon>Administrador.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmSalchichasPedidos.resx">
-      <DependentUpon>FrmSalchichasPedidos.cs</DependentUpon>
+    <EmbeddedResource Include="SalchichasPedidos.resx">
+      <DependentUpon>SalchichasPedidos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmSalchichonesPedidos.resx">
-      <DependentUpon>FrmSalchichonesPedidos.cs</DependentUpon>
+    <EmbeddedResource Include="SalchichonesPedidos.resx">
+      <DependentUpon>SalchichonesPedidos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmSalchichones.resx">
-      <DependentUpon>FrmSalchichones.cs</DependentUpon>
+    <EmbeddedResource Include="Salchichones.resx">
+      <DependentUpon>Salchichones.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmHamburguesa.resx">
-      <DependentUpon>FrmHamburguesa.cs</DependentUpon>
+    <EmbeddedResource Include="Hamburguesa.resx">
+      <DependentUpon>Hamburguesa.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmInicioCliente.resx">
-      <DependentUpon>FrmInicioCliente.cs</DependentUpon>
+    <EmbeddedResource Include="InicioCliente.resx">
+      <DependentUpon>InicioCliente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmJamon.resx">
-      <DependentUpon>FrmJamon.cs</DependentUpon>
+    <EmbeddedResource Include="Jamon.resx">
+      <DependentUpon>Jamon.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmMortadela.resx">
-      <DependentUpon>FrmMortadela.cs</DependentUpon>
+    <EmbeddedResource Include="Mortadela.resx">
+      <DependentUpon>Mortadela.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmProductos.resx">
-      <DependentUpon>FrmProductos.cs</DependentUpon>
+    <EmbeddedResource Include="Productos.resx">
+      <DependentUpon>Productos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmSalchichas.resx">
-      <DependentUpon>FrmSalchichas.cs</DependentUpon>
+    <EmbeddedResource Include="Salchichas.resx">
+      <DependentUpon>Salchichas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmChorizos.resx">
-      <DependentUpon>FrmChorizos.cs</DependentUpon>
+    <EmbeddedResource Include="Chorizos.resx">
+      <DependentUpon>Chorizos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmTocinetaPedidos.resx">
-      <DependentUpon>FrmTocinetaPedidos.cs</DependentUpon>
+    <EmbeddedResource Include="TocinetaPedidos.resx">
+      <DependentUpon>TocinetaPedidos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmTocineta.resx">
-      <DependentUpon>FrmTocineta.cs</DependentUpon>
+    <EmbeddedResource Include="Tocineta.resx">
+      <DependentUpon>Tocineta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RegistroCliente.resx">
       <DependentUpon>RegistroCliente.cs</DependentUpon>
