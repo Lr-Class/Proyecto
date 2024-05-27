@@ -40,6 +40,7 @@
             this.btnMinimizar = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.pnlBarraMovimiento = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
@@ -67,7 +68,6 @@
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 0;
             this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // txtUser
             // 
@@ -99,15 +99,15 @@
             // 
             // cbTipoInicio
             // 
-            this.cbTipoInicio.BackColor = System.Drawing.Color.Black;
+            this.cbTipoInicio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.cbTipoInicio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cbTipoInicio.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbTipoInicio.ForeColor = System.Drawing.Color.LightGray;
+            this.cbTipoInicio.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.cbTipoInicio.FormattingEnabled = true;
             this.cbTipoInicio.Items.AddRange(new object[] {
             "Administrador",
             "Cliente",
-            "Administrador"});
+            "Repartidor"});
             this.cbTipoInicio.Location = new System.Drawing.Point(450, 212);
             this.cbTipoInicio.Name = "cbTipoInicio";
             this.cbTipoInicio.Size = new System.Drawing.Size(183, 28);
@@ -128,6 +128,7 @@
             this.btnIniciar.TabIndex = 4;
             this.btnIniciar.Text = "INICIAR";
             this.btnIniciar.UseVisualStyleBackColor = false;
+            this.btnIniciar.Click += new System.EventHandler(this.btnIniciar_Click);
             // 
             // panel2
             // 
@@ -171,7 +172,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.LightGray;
+            this.label1.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label1.Location = new System.Drawing.Point(508, 12);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(64, 24);
@@ -181,7 +182,7 @@
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
-            this.linkLabel1.LinkColor = System.Drawing.Color.LightGray;
+            this.linkLabel1.LinkColor = System.Drawing.Color.Transparent;
             this.linkLabel1.Location = new System.Drawing.Point(490, 319);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(99, 13);
@@ -189,6 +190,14 @@
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "¿Registrar Cliente? ";
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            // 
+            // pnlBarraMovimiento
+            // 
+            this.pnlBarraMovimiento.Location = new System.Drawing.Point(324, 0);
+            this.pnlBarraMovimiento.Name = "pnlBarraMovimiento";
+            this.pnlBarraMovimiento.Size = new System.Drawing.Size(456, 36);
+            this.pnlBarraMovimiento.TabIndex = 10;
+            this.pnlBarraMovimiento.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pnlBarraMovimiento_MouseDown);
             // 
             // FrmInicial
             // 
@@ -207,12 +216,12 @@
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.txtUser);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pnlBarraMovimiento);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmInicial";
             this.Opacity = 0.9D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.FrmInicial_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).EndInit();
@@ -236,6 +245,7 @@
         private System.Windows.Forms.PictureBox btnMinimizar;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.Panel pnlBarraMovimiento;
     }
 }
 

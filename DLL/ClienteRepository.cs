@@ -59,11 +59,15 @@ namespace DLL
             }
             return null;
         }
+        
 
         public Cliente Mapear(SqlDataReader reader)
         {
             Cliente cliente = new Cliente();
+<<<<<<< HEAD
             cliente.Fecha = Convert.ToDateTime((string)reader["fecha"]);
+=======
+>>>>>>> cb387a640572a7c39f00a0674fa286879e238c7d
             cliente.TipoDocumento = (string)reader["tipoDocumento"];
             cliente.NumeroDocumento = (string)reader["numeroDocumento"];
             cliente.Nombre = (string)reader["nombre"];
@@ -89,6 +93,10 @@ namespace DLL
 
         }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> cb387a640572a7c39f00a0674fa286879e238c7d
         public List<Cliente> Consultar()
         {
             clientes.Clear();
@@ -106,7 +114,9 @@ namespace DLL
             }
             return clientes;
         }
+        
 
+<<<<<<< HEAD
         public Cliente BuscarPorNombreUsuario(string nombreUsuario)
         {
             using (var Comando = connection.CreateCommand())
@@ -127,6 +137,8 @@ namespace DLL
             return null;
         }
 
+=======
+>>>>>>> cb387a640572a7c39f00a0674fa286879e238c7d
         public void Modificar(Cliente cliente)
         {
             using (var comando = connection.CreateCommand())
@@ -153,6 +165,7 @@ namespace DLL
             clientes = Consultar();
             return clientes.Where(p => p.Nombre.Contains(nombre)).ToList();
         }
+       
 
         public int TotalClientes()
         {

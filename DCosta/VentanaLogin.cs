@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Runtime.InteropServices;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace DCosta
 {
@@ -16,6 +18,12 @@ namespace DCosta
         {
             InitializeComponent();
         }
+
+        [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
+        private extern static void ReleaseCapture();
+        [DllImport("user32.DLL", EntryPoint = "SendMessage")]
+        private extern static void SendMessage(System.IntPtr hwnd, int wmsg, int wparam, int lparam);
+
 
         private void btnCerrar_Click(object sender, EventArgs e)
         {
@@ -72,14 +80,30 @@ namespace DCosta
             frmregistroCliente.ShowDialog();
         }
 
-        private void pictureBox3_Click(object sender, EventArgs e)
+        private void pnlBarraMovimiento_MouseDown(object sender, MouseEventArgs e)
         {
-
+            ReleaseCapture();
+            SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
 
-        private void FrmInicial_Load(object sender, EventArgs e)
+        private void btnIniciar_Click(object sender, EventArgs e)
         {
-            
+            if (cbTipoInicio.SelectedItem.ToString() == "Cliente")
+            {
+                string usuario = txtUser.Text;
+                InicioCliente frmInicioCliente = new InicioCliente(usuario);
+                this.Hide();
+                frmInicioCliente.Show();
+                
+            }
+            if (cbTipoInicio.SelectedItem.ToString() == "Administrador")
+            {
+                string usuario = txtUser.Text;
+                Administrador frmAdministrador = new Administrador(usuario);
+                this.Hide();
+                frmAdministrador.Show();
+
+            }
         }
     }
 }

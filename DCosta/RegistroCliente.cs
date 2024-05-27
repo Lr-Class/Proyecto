@@ -1,11 +1,10 @@
-﻿using BLL;
-using ENTITY;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -18,6 +17,11 @@ namespace DCosta
         {
             InitializeComponent();
         }
+
+        [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
+        private extern static void ReleaseCapture();
+        [DllImport("user32.DLL", EntryPoint = "SendMessage")]
+        private extern static void SendMessage(System.IntPtr hwnd, int wmsg, int wparam, int lparam);
 
         private void btnCerrar_Click(object sender, EventArgs e)
         {
@@ -71,7 +75,7 @@ namespace DCosta
 
             if (resultado == DialogResult.Yes)
             {
-                FrmInicioCliente inicioCliente = new FrmInicioCliente();
+                InicioCliente inicioCliente = new InicioCliente();
                 this.Close();
                 inicioCliente.Show();
             }
@@ -81,8 +85,9 @@ namespace DCosta
             }
         }
 
-        private void cbTipoInicio_SelectedIndexChanged(object sender, EventArgs e)
+        private void pnlBarraMovimiento_MouseDown(object sender, MouseEventArgs e)
         {
+<<<<<<< HEAD
 
         }
 
@@ -173,6 +178,10 @@ namespace DCosta
         private void txtNumDocumento_TextChanged(object sender, EventArgs e)
         {
 
+=======
+            ReleaseCapture();
+            SendMessage(this.Handle, 0x112, 0xf012, 0);
+>>>>>>> cb387a640572a7c39f00a0674fa286879e238c7d
         }
     }
 }
