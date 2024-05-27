@@ -1,4 +1,5 @@
-﻿using ENTITY;
+﻿using DLL;
+using ENTITY;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -10,20 +11,40 @@ namespace BLL
 {
     public class ServicioCliente
     {
+        static ClienteRepository clienteRepository; 
+        ConexionDbDCostaFood conexion;
+        private List<Cliente> _clienteList;
         public ServicioCliente() 
-        { 
+        {
+            clienteRepository = new ClienteRepository(conexion);
+            _clienteList = new List<Cliente>();
+        }
+        public string GuardarCliente ( Cliente cliente)
+        {
+            try
+            {
+                if(clienteRepository.BuscarPorNombreUsuario(cliente.NombreUsuario)== null)
+                {
+                    clienteRepository.GuardarCliente(cliente);
+                    return $"Se ha guardado correctamente tus datos {cliente.Nombre}";
+                }
+                else
+                {
+                    return $"¡El nombre de usario registrado ya existe, Intenta nuevamente con otro";
+                }
+            }
+            catch (Exception e)
+            {
 
-        }
-        public static string RegistroCliente (string tipoDocumento, string numeroDocumento, string nombre, string apellido, string nombreUsuario, string contraseña,string direccion,string telefono)
-        {
-            Cliente cliente = new Cliente (tipoDocumento,numeroDocumento,nombre,apellido,nombreUsuario,contraseña,direccion,telefono);
+                return $"Error en la aplicacion {e.Message}";
+            }
+            
             
         }
-        public static DataTable RegistroCliente ( Cliente cliente)
-        {
-            DataTable datosClientes = new DataTable();
-            
-        }
+
+
+
+
 
     }
 }

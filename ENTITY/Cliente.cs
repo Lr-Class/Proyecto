@@ -10,9 +10,19 @@ namespace ENTITY
     {
         private string _direccion;
         private string _telefono;
+        public string Mensaje { get; set; } 
 
         public Cliente()
         {
+        }
+
+        public Cliente(Cliente cliente)
+        {
+            cliente = new Cliente();
+        }
+        public Cliente(string mensaje)
+        {
+            Mensaje = mensaje;
         }
 
         public Cliente(string tipoDocumento, string numeroDocumento, string nombre, string apellido,string nombreUsuario, string contraseña, string direccion, string telefono) : base(tipoDocumento, numeroDocumento, nombre, apellido, nombreUsuario, contraseña)

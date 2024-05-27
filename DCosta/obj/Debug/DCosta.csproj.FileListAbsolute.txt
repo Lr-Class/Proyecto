@@ -35,3 +35,40 @@ C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.FrmEliminarPro
 C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.FrmEliminarRepartidor.resources
 C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.FrmActualizarProducto.resources
 C:\Users\luism\OneDrive\Escritorio\DCosta\DCosta\obj\Debug\DCosta.FrmActualizarRepartidor.resources
+C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\bin\Debug\DCosta.exe.config
+C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\bin\Debug\DCosta.exe
+C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\bin\Debug\DCosta.pdb
+C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.ActualizarProducto.resources
+C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.AgregarProducto.resources
+C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.ActualizarRepartidor.resources
+C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.ButifarrasPedidos.resources
+C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.Butifarras.resources
+C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.ChorizosPedidos.resources
+C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.AgregarRepartidor.resources
+C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.EliminarProducto.resources
+C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.EliminarRepartidor.resources
+C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.HamburguesaPedidos.resources
+C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.JamonPedidos.resources
+C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.MortadelaPedidos.resources
+C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.Pedidos.resources
+C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.Administrador.resources
+C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.SalchichasPedidos.resources
+C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.SalchichonesPedidos.resources
+C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.Salchichones.resources
+C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.Hamburguesa.resources
+C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.InicioCliente.resources
+C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.Jamon.resources
+C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.Mortadela.resources
+C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.Productos.resources
+C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.Salchichas.resources
+C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.Chorizos.resources
+C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.TocinetaPedidos.resources
+C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.Tocineta.resources
+C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.RegistroCliente.resources
+C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.FrmInicial.resources
+C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.Properties.Resources.resources
+C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.exe
+C:\Users\User\Desktop\Project DCostaFood\Proyecto\DCosta\obj\Debug\DCosta.pdb

@@ -56,6 +56,7 @@ namespace DLL
             }
             return null;
         }
+        
 
         public Cliente Mapear(SqlDataReader reader)
         {
@@ -84,6 +85,7 @@ namespace DLL
 
         }
 
+
         public List<Cliente> Consultar()
         {
             clientes.Clear();
@@ -101,7 +103,7 @@ namespace DLL
             }
             return clientes;
         }
-
+        
 
         public void Modificar(Cliente cliente)
         {
@@ -125,6 +127,7 @@ namespace DLL
             clientes = Consultar();
             return clientes.Where(p => p.Nombre.Contains(nombre)).ToList();
         }
+       
 
         public int TotalClientes()
         {
