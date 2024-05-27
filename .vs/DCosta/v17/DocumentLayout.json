@@ -15,7 +15,7 @@
       "RelativeMoniker": "D:0:0:{E988C115-41EC-44EA-814B-F6AA118CA8D8}|DLL\\DLL.csproj|solutionrelative:dll\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E988C115-41EC-44EA-814B-F6AA118CA8D8}|DLL\\DLL.csproj|c:\\users\\user\\desktop\\project dcostafood\\proyecto\\dll\\conexiondbdcostafood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E988C115-41EC-44EA-814B-F6AA118CA8D8}|DLL\\DLL.csproj|C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\dll\\conexiondbdcostafood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E988C115-41EC-44EA-814B-F6AA118CA8D8}|DLL\\DLL.csproj|solutionrelative:dll\\conexiondbdcostafood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -58,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
@@ -72,19 +72,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-02T20:13:13.232Z",
               "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ServicioNegocioCliente.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\BLL\\ServicioNegocioCliente.cs",
-              "RelativeDocumentMoniker": "BLL\\ServicioNegocioCliente.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\BLL\\ServicioNegocioCliente.cs",
-              "RelativeToolTip": "BLL\\ServicioNegocioCliente.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T04:32:17.636Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -108,11 +95,20 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServicioNegocioCliente.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\BLL\\ServicioNegocioCliente.cs",
+              "RelativeDocumentMoniker": "BLL\\ServicioNegocioCliente.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\BLL\\ServicioNegocioCliente.cs",
+              "RelativeToolTip": "BLL\\ServicioNegocioCliente.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T04:32:17.636Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -172,8 +168,7 @@
               "RelativeToolTip": "DLL\\ConexionDbDCostaFood.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T16:16:12.078Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-06T16:16:12.078Z"
             },
             {
               "$type": "Document",
@@ -185,8 +180,7 @@
               "RelativeToolTip": "DLL\\ClienteRepository.cs",
               "ViewState": "AQIAABgAAAAAAAAAAAAowDoAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T22:23:43.171Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-26T22:23:43.171Z"
             },
             {
               "$type": "Document",
@@ -198,8 +192,7 @@
               "RelativeToolTip": "BLL\\ServicioCliente.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAACsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T22:17:17.178Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-26T22:17:17.178Z"
             },
             {
               "$type": "Document",
