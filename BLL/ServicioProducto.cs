@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +9,6 @@ namespace BLL
 {
     internal class ServicioProducto
     {
-=======
 ﻿using DLL;
 using ENTITY;
 using System;
@@ -121,6 +120,6 @@ namespace BLL
         }
       
 
->>>>>>> 2f3666f (Se agregaron los servicios Producto, Cliente, Pedido)
+
     }
 }

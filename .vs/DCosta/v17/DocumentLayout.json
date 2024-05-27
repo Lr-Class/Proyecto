@@ -3,144 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\",
   "Documents": [
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "AbsoluteMoniker": "D:0:0:{A2EE5DF0-62FF-456B-B47E-A9F8F1CC428A}|BLL\\BLL.csproj|c:\\users\\user\\desktop\\project dcostafood\\proyecto\\bll\\servicionegociocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2EE5DF0-62FF-456B-B47E-A9F8F1CC428A}|BLL\\BLL.csproj|solutionrelative:bll\\servicionegociocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2EE5DF0-62FF-456B-B47E-A9F8F1CC428A}|BLL\\BLL.csproj|C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\bll\\serviciocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2EE5DF0-62FF-456B-B47E-A9F8F1CC428A}|BLL\\BLL.csproj|solutionrelative:bll\\serviciocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-=======
-      "AbsoluteMoniker": "D:0:0:{A2EE5DF0-62FF-456B-B47E-A9F8F1CC428A}|BLL\\BLL.csproj|c:\\users\\user\\desktop\\project dcostafood\\proyecto\\bll\\serviciopedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2EE5DF0-62FF-456B-B47E-A9F8F1CC428A}|BLL\\BLL.csproj|solutionrelative:bll\\serviciopedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
->>>>>>> 6ad2b9d (actualizado)
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2EE5DF0-62FF-456B-B47E-A9F8F1CC428A}|BLL\\BLL.csproj|C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\bll\\serviciocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2EE5DF0-62FF-456B-B47E-A9F8F1CC428A}|BLL\\BLL.csproj|solutionrelative:bll\\serviciocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-<<<<<<< HEAD
-=======
-      "AbsoluteMoniker": "D:0:0:{391C6AAB-A3F4-4532-8A8C-D4525D93361E}|ENTITY\\ENTITY.csproj|c:\\users\\user\\desktop\\project dcostafood\\proyecto\\entity\\negociocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{391C6AAB-A3F4-4532-8A8C-D4525D93361E}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\negociocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2EE5DF0-62FF-456B-B47E-A9F8F1CC428A}|BLL\\BLL.csproj|c:\\users\\user\\desktop\\project dcostafood\\proyecto\\bll\\serviciofactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2EE5DF0-62FF-456B-B47E-A9F8F1CC428A}|BLL\\BLL.csproj|solutionrelative:bll\\serviciofactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2EE5DF0-62FF-456B-B47E-A9F8F1CC428A}|BLL\\BLL.csproj|c:\\users\\user\\desktop\\project dcostafood\\proyecto\\bll\\serviciorepartidor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2EE5DF0-62FF-456B-B47E-A9F8F1CC428A}|BLL\\BLL.csproj|solutionrelative:bll\\serviciorepartidor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2EE5DF0-62FF-456B-B47E-A9F8F1CC428A}|BLL\\BLL.csproj|c:\\users\\user\\desktop\\project dcostafood\\proyecto\\bll\\serviciocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2EE5DF0-62FF-456B-B47E-A9F8F1CC428A}|BLL\\BLL.csproj|solutionrelative:bll\\serviciocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{391C6AAB-A3F4-4532-8A8C-D4525D93361E}|ENTITY\\ENTITY.csproj|c:\\users\\user\\desktop\\project dcostafood\\proyecto\\entity\\repartidor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{391C6AAB-A3F4-4532-8A8C-D4525D93361E}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\repartidor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2EE5DF0-62FF-456B-B47E-A9F8F1CC428A}|BLL\\BLL.csproj|c:\\users\\user\\desktop\\project dcostafood\\proyecto\\bll\\servicioproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2EE5DF0-62FF-456B-B47E-A9F8F1CC428A}|BLL\\BLL.csproj|solutionrelative:bll\\servicioproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2EE5DF0-62FF-456B-B47E-A9F8F1CC428A}|BLL\\BLL.csproj|c:\\users\\user\\desktop\\project dcostafood\\proyecto\\bll\\serviciopedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2EE5DF0-62FF-456B-B47E-A9F8F1CC428A}|BLL\\BLL.csproj|solutionrelative:bll\\serviciopedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{391C6AAB-A3F4-4532-8A8C-D4525D93361E}|ENTITY\\ENTITY.csproj|c:\\users\\user\\desktop\\project dcostafood\\proyecto\\entity\\productoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{391C6AAB-A3F4-4532-8A8C-D4525D93361E}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\productoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{391C6AAB-A3F4-4532-8A8C-D4525D93361E}|ENTITY\\ENTITY.csproj|c:\\users\\user\\desktop\\project dcostafood\\proyecto\\entity\\pedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{391C6AAB-A3F4-4532-8A8C-D4525D93361E}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\pedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2EE5DF0-62FF-456B-B47E-A9F8F1CC428A}|BLL\\BLL.csproj|c:\\users\\user\\desktop\\project dcostafood\\proyecto\\bll\\servicionegociocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2EE5DF0-62FF-456B-B47E-A9F8F1CC428A}|BLL\\BLL.csproj|solutionrelative:bll\\servicionegociocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\BLL\\ServicioPedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BLL\\ServicioPedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\dcosta\\pedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|solutionrelative:dcosta\\pedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\DCosta\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DCosta\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E988C115-41EC-44EA-814B-F6AA118CA8D8}|DLL\\DLL.csproj|c:\\users\\user\\desktop\\project dcostafood\\proyecto\\dll\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E988C115-41EC-44EA-814B-F6AA118CA8D8}|DLL\\DLL.csproj|solutionrelative:dll\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
->>>>>>> 2f3666f (Se agregaron los servicios Producto, Cliente, Pedido)
       "AbsoluteMoniker": "D:0:0:{E988C115-41EC-44EA-814B-F6AA118CA8D8}|DLL\\DLL.csproj|C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\dll\\conexiondbdcostafood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E988C115-41EC-44EA-814B-F6AA118CA8D8}|DLL\\DLL.csproj|solutionrelative:dll\\conexiondbdcostafood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\DCosta\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DCosta\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-=======
-      "AbsoluteMoniker": "D:0:0:{A2EE5DF0-62FF-456B-B47E-A9F8F1CC428A}|BLL\\BLL.csproj|c:\\users\\user\\desktop\\project dcostafood\\proyecto\\bll\\servicioproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2EE5DF0-62FF-456B-B47E-A9F8F1CC428A}|BLL\\BLL.csproj|solutionrelative:bll\\servicioproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-<<<<<<< HEAD
-      "AbsoluteMoniker": "D:0:0:{391C6AAB-A3F4-4532-8A8C-D4525D93361E}|ENTITY\\ENTITY.csproj|c:\\users\\user\\desktop\\project dcostafood\\proyecto\\entity\\pedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{391C6AAB-A3F4-4532-8A8C-D4525D93361E}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\pedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{391C6AAB-A3F4-4532-8A8C-D4525D93361E}|ENTITY\\ENTITY.csproj|c:\\users\\user\\desktop\\project dcostafood\\proyecto\\entity\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{391C6AAB-A3F4-4532-8A8C-D4525D93361E}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
->>>>>>> 6ad2b9d (actualizado)
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\dcosta\\pedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|solutionrelative:dcosta\\pedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-<<<<<<< HEAD
-=======
-      "AbsoluteMoniker": "D:0:0:{E988C115-41EC-44EA-814B-F6AA118CA8D8}|DLL\\DLL.csproj|c:\\users\\user\\desktop\\project dcostafood\\proyecto\\dll\\conexiondbdcostafood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E988C115-41EC-44EA-814B-F6AA118CA8D8}|DLL\\DLL.csproj|solutionrelative:dll\\conexiondbdcostafood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\DCosta\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DCosta\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
->>>>>>> 6ad2b9d (actualizado)
       "AbsoluteMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\dcosta\\registrocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|solutionrelative:dcosta\\registrocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-=======
-      "AbsoluteMoniker": "D:0:0:{391C6AAB-A3F4-4532-8A8C-D4525D93361E}|ENTITY\\ENTITY.csproj|C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\entity\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{391C6AAB-A3F4-4532-8A8C-D4525D93361E}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
->>>>>>> 2f3666f (Se agregaron los servicios Producto, Cliente, Pedido)
     },
     {
       "AbsoluteMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\dcosta\\registrocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|solutionrelative:dcosta\\registrocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-<<<<<<< HEAD
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\ENTITY\\Producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ENTITY\\Producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\ENTITY\\Factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ENTITY\\Factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\ENTITY\\Pedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ENTITY\\Pedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\BLL\\ServicioCliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BLL\\ServicioCliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\BLL\\ServicioProducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BLL\\ServicioProducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\ENTITY\\Cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ENTITY\\Cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-=======
->>>>>>> 2f3666f (Se agregaron los servicios Producto, Cliente, Pedido)
     }
   ],
   "DocumentGroupContainers": [
@@ -150,27 +54,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-<<<<<<< HEAD
-<<<<<<< HEAD
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-=======
-          "SelectedChildIndex": 10,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
->>>>>>> 6ad2b9d (actualizado)
-=======
-          "SelectedChildIndex": 13,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
->>>>>>> 2f3666f (Se agregaron los servicios Producto, Cliente, Pedido)
+              "DocumentIndex": 3,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\DCosta\\Form1.cs",
               "RelativeDocumentMoniker": "DCosta\\Form1.cs",
@@ -180,10 +68,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-02T20:13:13.232Z",
               "IsPinned": true
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Bookmark",
@@ -206,63 +90,12 @@
               "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
-              "$type": "Document",
-<<<<<<< HEAD
-<<<<<<< HEAD
-              "DocumentIndex": 0,
-              "Title": "ServicioNegocioCliente.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\BLL\\ServicioNegocioCliente.cs",
-              "RelativeDocumentMoniker": "BLL\\ServicioNegocioCliente.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\BLL\\ServicioNegocioCliente.cs",
-              "RelativeToolTip": "BLL\\ServicioNegocioCliente.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T04:32:17.636Z",
-=======
-              "DocumentIndex": 4,
-              "Title": "Repartidor.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\ENTITY\\Repartidor.cs",
-              "RelativeDocumentMoniker": "ENTITY\\Repartidor.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\ENTITY\\Repartidor.cs",
-              "RelativeToolTip": "ENTITY\\Repartidor.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T16:16:31.1Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ServicioProducto.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\BLL\\ServicioProducto.cs",
-              "RelativeDocumentMoniker": "BLL\\ServicioProducto.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\BLL\\ServicioProducto.cs",
-              "RelativeToolTip": "BLL\\ServicioProducto.cs",
-              "ViewState": "AQIAADgAAAAAAAAAAAAIwFMAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T15:38:30.61Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ServicioRepartidor.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\BLL\\ServicioRepartidor.cs",
-              "RelativeDocumentMoniker": "BLL\\ServicioRepartidor.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\BLL\\ServicioRepartidor.cs",
-              "RelativeToolTip": "BLL\\ServicioRepartidor.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD8AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T16:10:34.349Z",
->>>>>>> 2f3666f (Se agregaron los servicios Producto, Cliente, Pedido)
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-=======
-              "DocumentIndex": 4,
->>>>>>> 6ad2b9d (actualizado)
+              "DocumentIndex": 6,
               "Title": "Producto.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\ENTITY\\Producto.cs",
               "RelativeDocumentMoniker": "ENTITY\\Producto.cs",
@@ -270,29 +103,11 @@
               "RelativeToolTip": "ENTITY\\Producto.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T02:03:12.603Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-27T16:55:19.392Z"
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 9,
-              "Title": "Factura.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\ENTITY\\Factura.cs",
-              "RelativeDocumentMoniker": "ENTITY\\Factura.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\ENTITY\\Factura.cs",
-              "RelativeToolTip": "ENTITY\\Factura.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T00:11:57.686Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-=======
-              "DocumentIndex": 3,
-<<<<<<< HEAD
->>>>>>> 6ad2b9d (actualizado)
+              "DocumentIndex": 7,
               "Title": "Pedidos.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\ENTITY\\Pedidos.cs",
               "RelativeDocumentMoniker": "ENTITY\\Pedidos.cs",
@@ -300,8 +115,7 @@
               "RelativeToolTip": "ENTITY\\Pedidos.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAAAkwBAAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T02:01:48.162Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-27T16:55:19.398Z"
             },
             {
               "$type": "Document",
@@ -311,34 +125,26 @@
               "RelativeDocumentMoniker": "BLL\\ServicioPedido.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\BLL\\ServicioPedido.cs",
               "RelativeToolTip": "BLL\\ServicioPedido.cs",
-              "ViewState": "AQIAADIAAAAAAAAAAAAIwCQAAAAJAAAA",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAIwCQAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T01:35:27.814Z",
+              "WhenOpened": "2024-05-27T16:55:19.404Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-=======
->>>>>>> 2f3666f (Se agregaron los servicios Producto, Cliente, Pedido)
+              "DocumentIndex": 8,
               "Title": "ServicioCliente.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\BLL\\ServicioCliente.cs",
               "RelativeDocumentMoniker": "BLL\\ServicioCliente.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\BLL\\ServicioCliente.cs",
               "RelativeToolTip": "BLL\\ServicioCliente.cs",
-<<<<<<< HEAD
               "ViewState": "AQIAAAwAAAAAAAAAAAAAAA8AAAAPAAAA",
-=======
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAANAAAA",
->>>>>>> 2f3666f (Se agregaron los servicios Producto, Cliente, Pedido)
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T22:17:17.178Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-27T16:55:19.409Z"
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "ServicioProducto.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\BLL\\ServicioProducto.cs",
               "RelativeDocumentMoniker": "BLL\\ServicioProducto.cs",
@@ -346,150 +152,22 @@
               "RelativeToolTip": "BLL\\ServicioProducto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T01:34:51.067Z",
-=======
+              "WhenOpened": "2024-05-27T16:55:19.414Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ServicioFactura.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\BLL\\ServicioFactura.cs",
-              "RelativeDocumentMoniker": "BLL\\ServicioFactura.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\BLL\\ServicioFactura.cs",
-              "RelativeToolTip": "BLL\\ServicioFactura.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T16:09:54.292Z",
->>>>>>> 2f3666f (Se agregaron los servicios Producto, Cliente, Pedido)
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 5,
-=======
-              "DocumentIndex": 8,
-              "Title": "Pedidos.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\ENTITY\\Pedidos.cs",
-              "RelativeDocumentMoniker": "ENTITY\\Pedidos.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\ENTITY\\Pedidos.cs",
-              "RelativeToolTip": "ENTITY\\Pedidos.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAA5wCAAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T14:54:42.079Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ServicioPedido.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\BLL\\ServicioPedido.cs",
-              "RelativeDocumentMoniker": "BLL\\ServicioPedido.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\BLL\\ServicioPedido.cs",
-              "RelativeToolTip": "BLL\\ServicioPedido.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T13:58:51.299Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "NegocioCliente.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\ENTITY\\NegocioCliente.cs",
-              "RelativeDocumentMoniker": "ENTITY\\NegocioCliente.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\ENTITY\\NegocioCliente.cs",
-              "RelativeToolTip": "ENTITY\\NegocioCliente.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T13:50:40.227Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ProductoResponse.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\ENTITY\\ProductoResponse.cs",
-              "RelativeDocumentMoniker": "ENTITY\\ProductoResponse.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\ENTITY\\ProductoResponse.cs",
-              "RelativeToolTip": "ENTITY\\ProductoResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T15:59:30.622Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
->>>>>>> 2f3666f (Se agregaron los servicios Producto, Cliente, Pedido)
               "Title": "Pedidos.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\DCosta\\Pedidos.cs",
               "RelativeDocumentMoniker": "DCosta\\Pedidos.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\DCosta\\Pedidos.cs [Dise\u00F1o]",
               "RelativeToolTip": "DCosta\\Pedidos.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T00:01:19.002Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-05-27T00:01:19.002Z"
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 6,
-              "Title": "ConexionDbDCostaFood.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\DLL\\ConexionDbDCostaFood.cs",
-              "RelativeDocumentMoniker": "DLL\\ConexionDbDCostaFood.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\DLL\\ConexionDbDCostaFood.cs",
-              "RelativeToolTip": "DLL\\ConexionDbDCostaFood.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T16:16:12.078Z",
-=======
-              "DocumentIndex": 9,
-              "Title": "ServicioNegocioCliente.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\BLL\\ServicioNegocioCliente.cs",
-              "RelativeDocumentMoniker": "BLL\\ServicioNegocioCliente.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\BLL\\ServicioNegocioCliente.cs",
-              "RelativeToolTip": "BLL\\ServicioNegocioCliente.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T13:46:18.438Z",
->>>>>>> 2f3666f (Se agregaron los servicios Producto, Cliente, Pedido)
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 11,
-=======
-              "DocumentIndex": 12,
-              "Title": "ClienteRepository.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\DLL\\ClienteRepository.cs",
-              "RelativeDocumentMoniker": "DLL\\ClienteRepository.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\DLL\\ClienteRepository.cs",
-              "RelativeToolTip": "DLL\\ClienteRepository.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAkwBUAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T13:49:59.714Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
->>>>>>> 2f3666f (Se agregaron los servicios Producto, Cliente, Pedido)
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\ENTITY\\Cliente.cs",
-              "RelativeDocumentMoniker": "ENTITY\\Cliente.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\ENTITY\\Cliente.cs",
-              "RelativeToolTip": "ENTITY\\Cliente.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T22:54:08.929Z"
-            },
-            {
-              "$type": "Document",
-<<<<<<< HEAD
-<<<<<<< HEAD
-              "DocumentIndex": 3,
-=======
-              "DocumentIndex": 13,
->>>>>>> 2f3666f (Se agregaron los servicios Producto, Cliente, Pedido)
+              "DocumentIndex": 2,
               "Title": "ConexionDbDCostaFood.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\DLL\\ConexionDbDCostaFood.cs",
               "RelativeDocumentMoniker": "DLL\\ConexionDbDCostaFood.cs",
@@ -501,49 +179,19 @@
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 2,
-              "Title": "ClienteRepository.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\DLL\\ClienteRepository.cs",
-              "RelativeDocumentMoniker": "DLL\\ClienteRepository.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\DLL\\ClienteRepository.cs",
-              "RelativeToolTip": "DLL\\ClienteRepository.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAowDoAAAAIAAAA",
+              "DocumentIndex": 10,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\ENTITY\\Cliente.cs",
+              "RelativeDocumentMoniker": "ENTITY\\Cliente.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\ENTITY\\Cliente.cs",
+              "RelativeToolTip": "ENTITY\\Cliente.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T22:23:43.171Z"
+              "WhenOpened": "2024-05-27T16:55:19.425Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ServicioCliente.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\BLL\\ServicioCliente.cs",
-              "RelativeDocumentMoniker": "BLL\\ServicioCliente.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\BLL\\ServicioCliente.cs",
-              "RelativeToolTip": "BLL\\ServicioCliente.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T22:17:17.178Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Pedidos.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\DCosta\\Pedidos.cs",
-              "RelativeDocumentMoniker": "DCosta\\Pedidos.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\DCosta\\Pedidos.cs [Dise\u00F1o]",
-              "RelativeToolTip": "DCosta\\Pedidos.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T00:01:19.002Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-=======
-              "DocumentIndex": 8,
->>>>>>> 6ad2b9d (actualizado)
-=======
-              "DocumentIndex": 14,
->>>>>>> 2f3666f (Se agregaron los servicios Producto, Cliente, Pedido)
+              "DocumentIndex": 4,
               "Title": "RegistroCliente.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\DCosta\\RegistroCliente.cs",
               "RelativeDocumentMoniker": "DCosta\\RegistroCliente.cs",
@@ -554,7 +202,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 5,
               "Title": "RegistroCliente.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Project DCostaFood\\Proyecto\\DCosta\\RegistroCliente.cs",
               "RelativeDocumentMoniker": "DCosta\\RegistroCliente.cs",

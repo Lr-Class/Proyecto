@@ -65,12 +65,12 @@ namespace BLL
             {
                 pedidoRepository.GuardarProducto(producto);
                 return "Se ha agregado correctamente el producto";
->>>>>>> 2f3666f (Se agregaron los servicios Producto, Cliente, Pedido)
+
             }
             catch (Exception e)
             {
 
-<<<<<<< HEAD
+
                 return $"Error al guardar el pedido:{e.Message}" + "Error:" +   MessageBoxButton.OK;
             }
         }
@@ -131,7 +131,7 @@ namespace BLL
             }
         }
 
-=======
+
                 return $"Error en la aplicacion {e.Message}";
             }
         }
@@ -153,7 +153,7 @@ namespace BLL
 
         
 
->>>>>>> 2f3666f (Se agregaron los servicios Producto, Cliente, Pedido)
+
 
     }
 }
