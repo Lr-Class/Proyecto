@@ -21,7 +21,10 @@ namespace ENTITY
         public TimeSpan HoraInicio => _horaInicio;
 
         public TimeSpan HoraFinalizacion => _horaFinalizacion;
-
+        public Pedidos()
+        {
+            
+        }
         public Pedidos(string codigo, string estadoPedido, TimeSpan horaInicio, TimeSpan horaFinalizacion, DateTime fechaPedido)
         {
             Codigo = codigo;
