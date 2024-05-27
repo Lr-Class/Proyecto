@@ -9,7 +9,7 @@ namespace BLL
 {
     public class ClsServicioNegocioCliente
     {
-        public static string RegistroNegocio(ClsCliente cliente)
+        public static string RegistroNegocio(Cliente cliente)
         {
             
         }

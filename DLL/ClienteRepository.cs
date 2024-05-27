@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Net.Mail;
+using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -12,32 +13,34 @@ namespace DLL
    public class ClienteRepository
     {
         SqlConnection connection;
-        List<ClsCliente> clientes;
+        List<Cliente> clientes;
         public ClienteRepository(ConexionDbDCostaFood Connection)
         {
             connection = Connection.connection;
-            clientes = new List<ClsCliente>();
+            clientes = new List<Cliente>();
 
         }
-        public void GuardarCliente(ClsCliente cliente)
+        public void GuardarCliente(Cliente cliente)
         {
             using (var comando = connection.CreateCommand())
           {
-                comando.CommandText = "INSERT INTO Cliente (TipoDocumento,NumeroDocumento,Nombre,Apellido,NombreUsuario,Contraseña,Telefono,Direccion) " +
-                     "VALUES(@TipoDocumento,@NumeroDocumento,@Nombre,@Apellido,@NombreUsuario,@Contraseña,@Telefono,@Direccion)";
-
+                comando.CommandText = "INSERT INTO Cliente (Fecha,TipoDocumento,NumeroDocumento,Nombre,Apellido,NombreUsuario,Clave,Direccion,Telefono,Correo,NombreNegocio)" +
+                "VALUES(@Fecha,@TipoDocumento,@NumeroDocumento,@Nombre,@Apellido,@NombreUsuario,@Clave,@Direccion,@Telefono,@Correo,@NombreNegocio)";
+                comando.Parameters.AddWithValue("@Fecha", cliente.Fecha.ToShortDateString());
                 comando.Parameters.AddWithValue("@TipoDocumento", cliente.TipoDocumento);
                 comando.Parameters.AddWithValue("@NumeroDocumento", cliente.NumeroDocumento);
                 comando.Parameters.AddWithValue("@Nombre", cliente.Nombre);
                 comando.Parameters.AddWithValue("@Apellido", cliente.Apellido);
                 comando.Parameters.AddWithValue("@NombreUsuario", cliente.NombreUsuario);
-                comando.Parameters.AddWithValue("@Contraseña", cliente.Contraseña);
-                comando.Parameters.AddWithValue("@Telefono", cliente.Telefono);
+                comando.Parameters.AddWithValue("@Clave", cliente.Clave);
                 comando.Parameters.AddWithValue("@Direccion)", cliente.Direccion);
+                comando.Parameters.AddWithValue("@Telefono", cliente.Telefono);
+                comando.Parameters.AddWithValue("@Correo", cliente.Email);
+                comando.Parameters.AddWithValue("@NombreNegocio", cliente.NombreNegocio);
                 comando.ExecuteNonQuery();
             }
         }
-        public ClsCliente Buscar(string numeroDocumento)
+        public Cliente Buscar(string numeroDocumento)
         {
             using (var Comando = connection.CreateCommand())
             {
@@ -48,7 +51,7 @@ namespace DLL
                 {
                     while (Reader.Read())
                     {
-                        ClsCliente cliente = new ClsCliente();
+                        Cliente cliente = new Cliente();
                         cliente = Mapear(Reader);
                         return cliente;
                     }
@@ -57,18 +60,20 @@ namespace DLL
             return null;
         }
 
-        public ClsCliente Mapear(SqlDataReader reader)
+        public Cliente Mapear(SqlDataReader reader)
         {
-            ClsCliente cliente = new ClsCliente();
+            Cliente cliente = new Cliente();
+            cliente.Fecha = Convert.ToDateTime((string)reader["fecha"]);
             cliente.TipoDocumento = (string)reader["tipoDocumento"];
             cliente.NumeroDocumento = (string)reader["numeroDocumento"];
             cliente.Nombre = (string)reader["nombre"];
             cliente.Apellido = (string)reader["apellido"];
             cliente.NombreUsuario = (string)reader["nombreUsuario"];
-            cliente.Contraseña = (string)reader["contraseña"];
-            cliente.Telefono = (string)reader["telefono"];
+            cliente.Clave = (string)reader["clave"];
             cliente.Direccion = (string)reader["direccion"];
-            
+            cliente.Telefono = (string)reader["telefono"];
+           cliente.Email = new MailAddress((string)reader["correo"]);
+            cliente.NombreNegocio = (string)reader["nombreNegocio"];
 
             return cliente;
         }
@@ -78,13 +83,13 @@ namespace DLL
             using (var comando = connection.CreateCommand())
             {
                 comando.CommandText = "Delete from Cliente where NumeroDocumento = @NumeroDocumento";
-                comando.Parameters.AddWithValue("@@NumeroDocumento", numeroDocumento);
+                comando.Parameters.AddWithValue("@NumeroDocumento", numeroDocumento);
                 comando.ExecuteNonQuery();
             }
 
         }
 
-        public List<ClsCliente> Consultar()
+        public List<Cliente> Consultar()
         {
             clientes.Clear();
             using (var comando = connection.CreateCommand())
@@ -93,7 +98,7 @@ namespace DLL
                 var Reader = comando.ExecuteReader();
                 while (Reader.Read())
                 {
-                    ClsCliente cliente = new ClsCliente();
+                    Cliente cliente = new Cliente();
                     cliente = Mapear(Reader);
                     clientes.Add(cliente);
 
@@ -102,25 +107,48 @@ namespace DLL
             return clientes;
         }
 
+        public Cliente BuscarPorNombreUsuario(string nombreUsuario)
+        {
+            using (var Comando = connection.CreateCommand())
+            {
+                Comando.CommandText = "Select * from Cliente where NombreUsuario = @NombreUsuario";
+                Comando.Parameters.AddWithValue("@NombreUsuario", nombreUsuario);
+                var Reader = Comando.ExecuteReader();
+                if (Reader.HasRows)
+                {
+                    while (Reader.Read())
+                    {
+                        Cliente cliente = new Cliente();
+                        cliente = Mapear(Reader);
+                        return cliente;
+                    }
+                }
+            }
+            return null;
+        }
 
-        public void Modificar(ClsCliente cliente)
+        public void Modificar(Cliente cliente)
         {
             using (var comando = connection.CreateCommand())
             {
-                comando.CommandText = "UPDATE Cliente SET TipoDocumento=@TipoDocumento,Nombre=@Nombre,Apellido=@Apellido,NombreUsuario= @NombreUsuario,Contraseña=@Contraseña,Telefono=@Telefono,Direccion=@Direccion where NumeroDocumento = @NumeroDocumento";
+                comando.CommandText = "UPDATE Cliente SET Fecha=@Fecha,TipoDocumento=@TipoDocumento,Nombre=@Nombre,Apellido=@Apellido,NombreUsuario=@NombreUsuario,Clave=@Clave,Direccion=@Direccion,Telefono=@Telefono,Correo=@Correo,NombreNegocio=@NombreNegocio WHERE NumeroDocumento = @NumeroDocumento";
+                comando.Parameters.AddWithValue("@Fecha", cliente.Fecha.ToShortDateString());
                 comando.Parameters.AddWithValue("@TipoDocumento", cliente.TipoDocumento);
                 comando.Parameters.AddWithValue("@NumeroDocumento", cliente.NumeroDocumento);
                 comando.Parameters.AddWithValue("@Nombre", cliente.Nombre);
                 comando.Parameters.AddWithValue("@Apellido", cliente.Apellido);
                 comando.Parameters.AddWithValue("@NombreUsuario", cliente.NombreUsuario);
-                comando.Parameters.AddWithValue("@Contraseña", cliente.Contraseña);
+                comando.Parameters.AddWithValue("@Clave", cliente.Clave);
+                comando.Parameters.AddWithValue("@Direccion)", cliente.Direccion);
                 comando.Parameters.AddWithValue("@Telefono", cliente.Telefono);
-                comando.Parameters.AddWithValue("@Direccion", cliente.Direccion);
+                comando.Parameters.AddWithValue("@Correo", cliente.Email);
+                comando.Parameters.AddWithValue("@NombreNegocio", cliente.NombreNegocio);
                 comando.ExecuteNonQuery();
+
             }
         }
 
-        public List<ClsCliente> BuscarContiene(string nombre)
+        public List<Cliente> BuscarContiene(string nombre)
         {
             clientes = Consultar();
             return clientes.Where(p => p.Nombre.Contains(nombre)).ToList();
@@ -132,5 +160,6 @@ namespace DLL
             return clientes.Count();
         }
 
+        
     }
 }

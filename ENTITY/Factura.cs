@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Mail;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace ENTITY
 {
-    public class ClsFactura
+    public class Factura
     {
         public DateTime FechaFactura { get; set; }
         public string CodigoFactura { get; set; }
@@ -20,5 +21,6 @@ namespace ENTITY
         public double TotalFactura { get; set; }
         public double SubTotalFactura { get; set; }
         public double TotalIvaFactura { get; set; }
+        public  MailAddress Email { get; set; }
     }
 }

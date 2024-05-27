@@ -99,7 +99,7 @@ namespace DCosta
         {
             if (ValidarTextosVacios())
             {
-                ClsCliente cliente = MapearTextoCliente();
+                Cliente cliente = MapearTextoCliente();
                 string mensaje = ClsServicioCliente.RegistroCliente(cliente);
                 NegocioCliente negocio = MapearTextoNegocio();
                 string mensaje2 = ClsServicioNegocioCliente.RegistroNegocio(negocio);
@@ -110,7 +110,7 @@ namespace DCosta
                 return "Rellene los datos faltantes";
             }
         }
-        private ClsCliente MapearTextoCliente()
+        private Cliente MapearTextoCliente()
         {
             var cliente = new ClsCliente("", "", "", "", "", "", "", "");
             cliente.TipoDocumento = MapearComboTipoDocumento(cbTipoInicio.Text);

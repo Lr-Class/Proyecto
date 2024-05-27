@@ -43,6 +43,8 @@
   <ItemGroup>
     <Compile Include="ClienteRepository.cs" />
     <Compile Include="ConexionDbDCostaFood.cs" />
+    <Compile Include="FacturaRepository.cs" />
+    <Compile Include="ProductoRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
