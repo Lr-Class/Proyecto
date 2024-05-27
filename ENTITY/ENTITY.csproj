@@ -58,11 +58,14 @@
     <Compile Include="NegocioCliente.cs" />
     <Compile Include="Pedidos.cs" />
     <Compile Include="Producto.cs" />
+<<<<<<< HEAD
 >>>>>>> cb387a640572a7c39f00a0674fa286879e238c7d
+=======
+    <Compile Include="ProductoResponse.cs" />
+>>>>>>> 2f3666f (Se agregaron los servicios Producto, Cliente, Pedido)
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repartidor.cs" />
     <Compile Include="Usuario.cs" />
-    <Compile Include="Ventas.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -12,12 +12,11 @@ namespace BLL
     public class ServicioCliente
     {
         static ClienteRepository clienteRepository; 
-        ConexionDbDCostaFood conexion;
-        private List<Cliente> _clienteList;
+        static ConexionDbDCostaFood conexion;
         public ServicioCliente() 
         {
             clienteRepository = new ClienteRepository(conexion);
-            _clienteList = new List<Cliente>();
+            
         }
         public string GuardarCliente ( Cliente cliente)
         {

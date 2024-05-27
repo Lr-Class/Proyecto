@@ -59,7 +59,25 @@ namespace DLL
             }
             return null;
         }
-        
+        public Cliente BuscarPorNombreUsuario(string nombreUsuario)
+        {
+            using (var Comando = connection.CreateCommand())
+            {
+                Comando.CommandText = "Select * from Cliente where NombreUsuario = @NombreUsuario";
+                Comando.Parameters.AddWithValue("@NombreUsuario", nombreUsuario);
+                var Reader = Comando.ExecuteReader();
+                if (Reader.HasRows)
+                {
+                    while (Reader.Read())
+                    {
+                        Cliente cliente = new Cliente();
+                        cliente = Mapear(Reader);
+                        return cliente;
+                    }
+                }
+            }
+            return null;
+        }
 
         public Cliente Mapear(SqlDataReader reader)
         {

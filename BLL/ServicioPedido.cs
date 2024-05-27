@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿using ENTITY;
 using System;
 using System.Collections.Generic;
@@ -28,10 +29,48 @@ namespace BLL
             {
                 productoRepository.GuardarPedido(pedido);
                 return $"Se ha guardado correctamente el pedido con el código {pedido.Codigo}";
+=======
+﻿using DLL;
+using ENTITY;
+using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Data.SqlClient;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace BLL
+{
+    
+    public class ServicioPedido
+    {
+        public static PedidoRepository pedidoRepository;
+        public static ConexionDbDCostaFood conexion;
+        public static Pedidos pedidos;
+        
+
+        public ServicioPedido()
+        {
+            pedidoRepository = new PedidoRepository(conexion);
+            pedidos = new Pedidos();
+        }
+        public List<Producto> GuardarListaProductoAPedido()
+        {
+            return pedidoRepository.Listar();
+        }
+        public string GuardarProducto(Producto producto)
+        {
+            try
+            {
+                pedidoRepository.GuardarProducto(producto);
+                return "Se ha agregado correctamente el producto";
+>>>>>>> 2f3666f (Se agregaron los servicios Producto, Cliente, Pedido)
             }
             catch (Exception e)
             {
 
+<<<<<<< HEAD
                 return $"Error al guardar el pedido:{e.Message}" + "Error:" +   MessageBoxButton.OK;
             }
         }
@@ -92,6 +131,29 @@ namespace BLL
             }
         }
 
+=======
+                return $"Error en la aplicacion {e.Message}";
+            }
+        }
+        public string RegistrarPedido(List<Producto> productos)
+        {
+            try
+            {
+                
+                pedidos = pedidoRepository.GuardarProducto(productos);
+                return $"Se ha registrado tu pedido Con el codigo {pedidos.Codigo} ";
+                
+            }
+            catch (Exception e)
+            {
+
+                return $"Error en la aplicacion {e.Message}";
+            }
+        }
+
+        
+
+>>>>>>> 2f3666f (Se agregaron los servicios Producto, Cliente, Pedido)
 
     }
 }

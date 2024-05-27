@@ -29,8 +29,6 @@ namespace ENTITY
         {
             Codigo = codigo;
             EstadoPedido = estadoPedido;
-            _horaInicio = horaInicio;
-            _horaFinalizacion = horaFinalizacion;
             FechaPedido = fechaPedido;
         }
     }
