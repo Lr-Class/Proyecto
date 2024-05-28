@@ -12,9 +12,15 @@ namespace DCosta
 {
     public partial class FrmHamburguesaPedidos : Form
     {
+        double[] precioHamburguesadeRes = { 7500 };
         public FrmHamburguesaPedidos()
         {
             InitializeComponent();
+        }
+
+        private void rbPresentacionHamburguesadeRes_CheckedChanged(object sender, EventArgs e)
+        {
+            lblPrecioHamburguesa.Text = precioHamburguesadeRes[0].ToString("C");
         }
     }
 }

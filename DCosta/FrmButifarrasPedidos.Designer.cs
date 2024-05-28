@@ -31,14 +31,14 @@
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel18 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.lblPrecioButifarra = new System.Windows.Forms.Label();
             this.label42 = new System.Windows.Forms.Label();
             this.btnAgregarButifarra = new System.Windows.Forms.Button();
-            this.cbPrecioButifarra = new System.Windows.Forms.ComboBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.rbPresentacionButifarra4 = new System.Windows.Forms.RadioButton();
+            this.rbPresentacionButifarra3 = new System.Windows.Forms.RadioButton();
+            this.rbPresentacionButifarra2 = new System.Windows.Forms.RadioButton();
+            this.rbPresentacionButifarra1 = new System.Windows.Forms.RadioButton();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -75,9 +75,9 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.lblPrecioButifarra);
             this.panel1.Controls.Add(this.label42);
             this.panel1.Controls.Add(this.btnAgregarButifarra);
-            this.panel1.Controls.Add(this.cbPrecioButifarra);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Location = new System.Drawing.Point(13, 13);
@@ -86,11 +86,21 @@
             this.panel1.Size = new System.Drawing.Size(761, 227);
             this.panel1.TabIndex = 5;
             // 
+            // lblPrecioButifarra
+            // 
+            this.lblPrecioButifarra.AutoSize = true;
+            this.lblPrecioButifarra.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPrecioButifarra.Location = new System.Drawing.Point(538, 186);
+            this.lblPrecioButifarra.Name = "lblPrecioButifarra";
+            this.lblPrecioButifarra.Size = new System.Drawing.Size(81, 22);
+            this.lblPrecioButifarra.TabIndex = 24;
+            this.lblPrecioButifarra.Text = "8000.00";
+            // 
             // label42
             // 
             this.label42.AutoSize = true;
             this.label42.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label42.Location = new System.Drawing.Point(446, 167);
+            this.label42.Location = new System.Drawing.Point(442, 185);
             this.label42.Name = "label42";
             this.label42.Size = new System.Drawing.Size(73, 23);
             this.label42.TabIndex = 20;
@@ -98,33 +108,19 @@
             // 
             // btnAgregarButifarra
             // 
-            this.btnAgregarButifarra.Location = new System.Drawing.Point(652, 164);
+            this.btnAgregarButifarra.Location = new System.Drawing.Point(644, 182);
             this.btnAgregarButifarra.Name = "btnAgregarButifarra";
             this.btnAgregarButifarra.Size = new System.Drawing.Size(76, 26);
             this.btnAgregarButifarra.TabIndex = 19;
             this.btnAgregarButifarra.Text = "Agregar";
             this.btnAgregarButifarra.UseVisualStyleBackColor = true;
             // 
-            // cbPrecioButifarra
-            // 
-            this.cbPrecioButifarra.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbPrecioButifarra.FormattingEnabled = true;
-            this.cbPrecioButifarra.Items.AddRange(new object[] {
-            "2500.00",
-            "5000.00",
-            "9000.00",
-            "9500.00"});
-            this.cbPrecioButifarra.Location = new System.Drawing.Point(525, 162);
-            this.cbPrecioButifarra.Name = "cbPrecioButifarra";
-            this.cbPrecioButifarra.Size = new System.Drawing.Size(121, 29);
-            this.cbPrecioButifarra.TabIndex = 18;
-            // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.label6);
-            this.panel2.Controls.Add(this.label5);
-            this.panel2.Controls.Add(this.label1);
-            this.panel2.Controls.Add(this.label2);
+            this.panel2.Controls.Add(this.rbPresentacionButifarra4);
+            this.panel2.Controls.Add(this.rbPresentacionButifarra3);
+            this.panel2.Controls.Add(this.rbPresentacionButifarra2);
+            this.panel2.Controls.Add(this.rbPresentacionButifarra1);
             this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.label4);
             this.panel2.Location = new System.Drawing.Point(289, 29);
@@ -133,45 +129,57 @@
             this.panel2.Size = new System.Drawing.Size(439, 149);
             this.panel2.TabIndex = 1;
             // 
-            // label6
+            // rbPresentacionButifarra4
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(239, 88);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(112, 21);
-            this.label6.TabIndex = 9;
-            this.label6.Text = "Tripack 370 g";
+            this.rbPresentacionButifarra4.AutoSize = true;
+            this.rbPresentacionButifarra4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbPresentacionButifarra4.Location = new System.Drawing.Point(253, 87);
+            this.rbPresentacionButifarra4.Name = "rbPresentacionButifarra4";
+            this.rbPresentacionButifarra4.Size = new System.Drawing.Size(126, 25);
+            this.rbPresentacionButifarra4.TabIndex = 31;
+            this.rbPresentacionButifarra4.TabStop = true;
+            this.rbPresentacionButifarra4.Text = "Tripack 370g";
+            this.rbPresentacionButifarra4.UseVisualStyleBackColor = true;
+            this.rbPresentacionButifarra4.CheckedChanged += new System.EventHandler(this.rbPresentacionButifarra_CheckedChanged);
             // 
-            // label5
+            // rbPresentacionButifarra3
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(172, 88);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(61, 21);
-            this.label5.TabIndex = 8;
-            this.label5.Text = "1000 g";
+            this.rbPresentacionButifarra3.AutoSize = true;
+            this.rbPresentacionButifarra3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbPresentacionButifarra3.Location = new System.Drawing.Point(172, 87);
+            this.rbPresentacionButifarra3.Name = "rbPresentacionButifarra3";
+            this.rbPresentacionButifarra3.Size = new System.Drawing.Size(75, 25);
+            this.rbPresentacionButifarra3.TabIndex = 30;
+            this.rbPresentacionButifarra3.TabStop = true;
+            this.rbPresentacionButifarra3.Text = "1000g";
+            this.rbPresentacionButifarra3.UseVisualStyleBackColor = true;
+            this.rbPresentacionButifarra3.CheckedChanged += new System.EventHandler(this.rbPresentacionButifarra_CheckedChanged);
             // 
-            // label1
+            // rbPresentacionButifarra2
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(114, 88);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(52, 21);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "500 g";
+            this.rbPresentacionButifarra2.AutoSize = true;
+            this.rbPresentacionButifarra2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbPresentacionButifarra2.Location = new System.Drawing.Point(100, 87);
+            this.rbPresentacionButifarra2.Name = "rbPresentacionButifarra2";
+            this.rbPresentacionButifarra2.Size = new System.Drawing.Size(66, 25);
+            this.rbPresentacionButifarra2.TabIndex = 29;
+            this.rbPresentacionButifarra2.TabStop = true;
+            this.rbPresentacionButifarra2.Text = "500g";
+            this.rbPresentacionButifarra2.UseVisualStyleBackColor = true;
+            this.rbPresentacionButifarra2.CheckedChanged += new System.EventHandler(this.rbPresentacionButifarra_CheckedChanged);
             // 
-            // label2
+            // rbPresentacionButifarra1
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(56, 88);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(52, 21);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "250 g";
+            this.rbPresentacionButifarra1.AutoSize = true;
+            this.rbPresentacionButifarra1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbPresentacionButifarra1.Location = new System.Drawing.Point(28, 87);
+            this.rbPresentacionButifarra1.Name = "rbPresentacionButifarra1";
+            this.rbPresentacionButifarra1.Size = new System.Drawing.Size(66, 25);
+            this.rbPresentacionButifarra1.TabIndex = 28;
+            this.rbPresentacionButifarra1.TabStop = true;
+            this.rbPresentacionButifarra1.Text = "250g";
+            this.rbPresentacionButifarra1.UseVisualStyleBackColor = true;
+            this.rbPresentacionButifarra1.CheckedChanged += new System.EventHandler(this.rbPresentacionButifarra_CheckedChanged);
             // 
             // label3
             // 
@@ -231,15 +239,15 @@
         private System.Windows.Forms.Panel panel18;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label42;
         private System.Windows.Forms.Button btnAgregarButifarra;
-        private System.Windows.Forms.ComboBox cbPrecioButifarra;
+        private System.Windows.Forms.RadioButton rbPresentacionButifarra4;
+        private System.Windows.Forms.RadioButton rbPresentacionButifarra3;
+        private System.Windows.Forms.RadioButton rbPresentacionButifarra2;
+        private System.Windows.Forms.RadioButton rbPresentacionButifarra1;
+        private System.Windows.Forms.Label lblPrecioButifarra;
     }
 }

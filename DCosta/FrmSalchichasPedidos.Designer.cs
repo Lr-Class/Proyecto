@@ -31,84 +31,84 @@
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel16 = new System.Windows.Forms.Panel();
-            this.panel17 = new System.Windows.Forms.Panel();
-            this.label35 = new System.Windows.Forms.Label();
+            this.lblPrecioSalchichaMaxiperro = new System.Windows.Forms.Label();
             this.btnAgregarSalchichaMaxiperro = new System.Windows.Forms.Button();
-            this.cbPrecioSalchichaMaxiperro = new System.Windows.Forms.ComboBox();
-            this.label31 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
+            this.label35 = new System.Windows.Forms.Label();
+            this.panel17 = new System.Windows.Forms.Panel();
+            this.rbPresentacionSalchichaMaxiperro2 = new System.Windows.Forms.RadioButton();
+            this.rbPresentacionSalchichaMaxiperro1 = new System.Windows.Forms.RadioButton();
             this.label23 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.panel14 = new System.Windows.Forms.Panel();
-            this.panel15 = new System.Windows.Forms.Panel();
             this.lblPrecioMegaSalchicha = new System.Windows.Forms.Label();
-            this.label38 = new System.Windows.Forms.Label();
-            this.btnAgregarMegaSalchicha = new System.Windows.Forms.Button();
-            this.label19 = new System.Windows.Forms.Label();
+            this.panel15 = new System.Windows.Forms.Panel();
+            this.rbPresentacionMegaSalchicha1 = new System.Windows.Forms.RadioButton();
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
+            this.label38 = new System.Windows.Forms.Label();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.btnAgregarMegaSalchicha = new System.Windows.Forms.Button();
             this.panel12 = new System.Windows.Forms.Panel();
-            this.panel13 = new System.Windows.Forms.Panel();
+            this.lblPrecioSalchichaSuper = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
-            this.btnAgregarSalchichaSuper = new System.Windows.Forms.Button();
-            this.cbPrecioSalchichaSuper = new System.Windows.Forms.ComboBox();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
+            this.panel13 = new System.Windows.Forms.Panel();
+            this.rbPresentacionSalchichaSuper2 = new System.Windows.Forms.RadioButton();
+            this.rbPresentacionSalchichaSuper1 = new System.Windows.Forms.RadioButton();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
+            this.btnAgregarSalchichaSuper = new System.Windows.Forms.Button();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.panel10 = new System.Windows.Forms.Panel();
-            this.panel11 = new System.Windows.Forms.Panel();
-            this.lblPrecioSalchichaMiniperro = new System.Windows.Forms.Label();
-            this.label37 = new System.Windows.Forms.Label();
             this.btnAgregarSalchichaMiniperro = new System.Windows.Forms.Button();
-            this.label13 = new System.Windows.Forms.Label();
+            this.lblPrecioSalchichaMiniperro = new System.Windows.Forms.Label();
+            this.panel11 = new System.Windows.Forms.Panel();
+            this.rbPresentacionSalchichaMiniperro1 = new System.Windows.Forms.RadioButton();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
+            this.label37 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.panel9 = new System.Windows.Forms.Panel();
+            this.lblPrecioSalchichaParrillera = new System.Windows.Forms.Label();
             this.label33 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.btnAgregarSalchichaParrillera = new System.Windows.Forms.Button();
-            this.label29 = new System.Windows.Forms.Label();
-            this.cbPrecioSalchichaParrillera = new System.Windows.Forms.ComboBox();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.rbPresentacionSalchichaParrillera4 = new System.Windows.Forms.RadioButton();
+            this.rbPresentacionSalchichaParrillera3 = new System.Windows.Forms.RadioButton();
+            this.rbPresentacionSalchichaParrillera2 = new System.Windows.Forms.RadioButton();
+            this.rbPresentacionSalchichaParrillera1 = new System.Windows.Forms.RadioButton();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.btnAgregarSalchichaParrillera = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
+            this.lblPrecioSalchickids = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
-            this.btnAgregarSalchikids = new System.Windows.Forms.Button();
-            this.cbPrecioSalchikids = new System.Windows.Forms.ComboBox();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.rbPresentacionSalchikids2 = new System.Windows.Forms.RadioButton();
+            this.rbPresentacionSalchikids1 = new System.Windows.Forms.RadioButton();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.btnAgregarSalchikids = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
+            this.lblPrecioSalchichaExtralarga = new System.Windows.Forms.Label();
             this.label42 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.btnAgregarSalchichaExtralarga = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.cbPrecioSalchichaExtralarga = new System.Windows.Forms.ComboBox();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.rbPresentacionSalchichaExtralarga2 = new System.Windows.Forms.RadioButton();
+            this.rbPresentacionSalchichaExtralarga1 = new System.Windows.Forms.RadioButton();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnAgregarSalchichaExtralarga = new System.Windows.Forms.Button();
             this.panel7 = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.lblPrecioSalchichaSuprema = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
-            this.btnAgregarSalchichaSuprema = new System.Windows.Forms.Button();
-            this.label10 = new System.Windows.Forms.Label();
+            this.rbPresentacionSalchichaSuprema1 = new System.Windows.Forms.RadioButton();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
+            this.lblPrecioSalchichaSuprema = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.label36 = new System.Windows.Forms.Label();
+            this.btnAgregarSalchichaSuprema = new System.Windows.Forms.Button();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel16.SuspendLayout();
@@ -175,6 +175,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel16.BackColor = System.Drawing.Color.Transparent;
             this.panel16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel16.Controls.Add(this.lblPrecioSalchichaMaxiperro);
+            this.panel16.Controls.Add(this.btnAgregarSalchichaMaxiperro);
+            this.panel16.Controls.Add(this.label35);
             this.panel16.Controls.Add(this.panel17);
             this.panel16.Controls.Add(this.pictureBox8);
             this.panel16.Location = new System.Drawing.Point(21, 1574);
@@ -183,13 +186,39 @@
             this.panel16.Size = new System.Drawing.Size(755, 214);
             this.panel16.TabIndex = 6;
             // 
+            // lblPrecioSalchichaMaxiperro
+            // 
+            this.lblPrecioSalchichaMaxiperro.AutoSize = true;
+            this.lblPrecioSalchichaMaxiperro.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPrecioSalchichaMaxiperro.Location = new System.Drawing.Point(557, 184);
+            this.lblPrecioSalchichaMaxiperro.Name = "lblPrecioSalchichaMaxiperro";
+            this.lblPrecioSalchichaMaxiperro.Size = new System.Drawing.Size(92, 22);
+            this.lblPrecioSalchichaMaxiperro.TabIndex = 21;
+            this.lblPrecioSalchichaMaxiperro.Text = "30000.00";
+            // 
+            // btnAgregarSalchichaMaxiperro
+            // 
+            this.btnAgregarSalchichaMaxiperro.Location = new System.Drawing.Point(655, 180);
+            this.btnAgregarSalchichaMaxiperro.Name = "btnAgregarSalchichaMaxiperro";
+            this.btnAgregarSalchichaMaxiperro.Size = new System.Drawing.Size(76, 26);
+            this.btnAgregarSalchichaMaxiperro.TabIndex = 19;
+            this.btnAgregarSalchichaMaxiperro.Text = "Agregar";
+            this.btnAgregarSalchichaMaxiperro.UseVisualStyleBackColor = true;
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label35.Location = new System.Drawing.Point(486, 183);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(73, 23);
+            this.label35.TabIndex = 20;
+            this.label35.Text = "Precio:";
+            // 
             // panel17
             // 
-            this.panel17.Controls.Add(this.label35);
-            this.panel17.Controls.Add(this.btnAgregarSalchichaMaxiperro);
-            this.panel17.Controls.Add(this.cbPrecioSalchichaMaxiperro);
-            this.panel17.Controls.Add(this.label31);
-            this.panel17.Controls.Add(this.label22);
+            this.panel17.Controls.Add(this.rbPresentacionSalchichaMaxiperro2);
+            this.panel17.Controls.Add(this.rbPresentacionSalchichaMaxiperro1);
             this.panel17.Controls.Add(this.label23);
             this.panel17.Controls.Add(this.label24);
             this.panel17.Location = new System.Drawing.Point(289, 29);
@@ -198,56 +227,31 @@
             this.panel17.Size = new System.Drawing.Size(439, 149);
             this.panel17.TabIndex = 1;
             // 
-            // label35
+            // rbPresentacionSalchichaMaxiperro2
             // 
-            this.label35.AutoSize = true;
-            this.label35.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label35.Location = new System.Drawing.Point(160, 125);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(73, 23);
-            this.label35.TabIndex = 20;
-            this.label35.Text = "Precio:";
+            this.rbPresentacionSalchichaMaxiperro2.AutoSize = true;
+            this.rbPresentacionSalchichaMaxiperro2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbPresentacionSalchichaMaxiperro2.Location = new System.Drawing.Point(114, 101);
+            this.rbPresentacionSalchichaMaxiperro2.Name = "rbPresentacionSalchichaMaxiperro2";
+            this.rbPresentacionSalchichaMaxiperro2.Size = new System.Drawing.Size(75, 25);
+            this.rbPresentacionSalchichaMaxiperro2.TabIndex = 38;
+            this.rbPresentacionSalchichaMaxiperro2.TabStop = true;
+            this.rbPresentacionSalchichaMaxiperro2.Text = "1000g";
+            this.rbPresentacionSalchichaMaxiperro2.UseVisualStyleBackColor = true;
+            this.rbPresentacionSalchichaMaxiperro2.CheckedChanged += new System.EventHandler(this.rbPresentacionSalchichaMaxiperro_CheckedChanged);
             // 
-            // btnAgregarSalchichaMaxiperro
+            // rbPresentacionSalchichaMaxiperro1
             // 
-            this.btnAgregarSalchichaMaxiperro.Location = new System.Drawing.Point(366, 122);
-            this.btnAgregarSalchichaMaxiperro.Name = "btnAgregarSalchichaMaxiperro";
-            this.btnAgregarSalchichaMaxiperro.Size = new System.Drawing.Size(76, 26);
-            this.btnAgregarSalchichaMaxiperro.TabIndex = 19;
-            this.btnAgregarSalchichaMaxiperro.Text = "Agregar";
-            this.btnAgregarSalchichaMaxiperro.UseVisualStyleBackColor = true;
-            // 
-            // cbPrecioSalchichaMaxiperro
-            // 
-            this.cbPrecioSalchichaMaxiperro.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbPrecioSalchichaMaxiperro.FormattingEnabled = true;
-            this.cbPrecioSalchichaMaxiperro.Items.AddRange(new object[] {
-            "10000.00",
-            "20000.00"});
-            this.cbPrecioSalchichaMaxiperro.Location = new System.Drawing.Point(239, 120);
-            this.cbPrecioSalchichaMaxiperro.Name = "cbPrecioSalchichaMaxiperro";
-            this.cbPrecioSalchichaMaxiperro.Size = new System.Drawing.Size(121, 29);
-            this.cbPrecioSalchichaMaxiperro.TabIndex = 18;
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label31.Location = new System.Drawing.Point(114, 98);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(61, 21);
-            this.label31.TabIndex = 7;
-            this.label31.Text = "1100 g";
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(56, 98);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(52, 21);
-            this.label22.TabIndex = 6;
-            this.label22.Text = "550 g";
+            this.rbPresentacionSalchichaMaxiperro1.AutoSize = true;
+            this.rbPresentacionSalchichaMaxiperro1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbPresentacionSalchichaMaxiperro1.Location = new System.Drawing.Point(42, 101);
+            this.rbPresentacionSalchichaMaxiperro1.Name = "rbPresentacionSalchichaMaxiperro1";
+            this.rbPresentacionSalchichaMaxiperro1.Size = new System.Drawing.Size(66, 25);
+            this.rbPresentacionSalchichaMaxiperro1.TabIndex = 37;
+            this.rbPresentacionSalchichaMaxiperro1.TabStop = true;
+            this.rbPresentacionSalchichaMaxiperro1.Text = "550g";
+            this.rbPresentacionSalchichaMaxiperro1.UseVisualStyleBackColor = true;
+            this.rbPresentacionSalchichaMaxiperro1.CheckedChanged += new System.EventHandler(this.rbPresentacionSalchichaMaxiperro_CheckedChanged);
             // 
             // label23
             // 
@@ -287,20 +291,30 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel14.BackColor = System.Drawing.Color.Transparent;
             this.panel14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel14.Controls.Add(this.lblPrecioMegaSalchicha);
             this.panel14.Controls.Add(this.panel15);
+            this.panel14.Controls.Add(this.label38);
             this.panel14.Controls.Add(this.pictureBox7);
+            this.panel14.Controls.Add(this.btnAgregarMegaSalchicha);
             this.panel14.Location = new System.Drawing.Point(21, 1346);
             this.panel14.Name = "panel14";
             this.panel14.Padding = new System.Windows.Forms.Padding(10);
             this.panel14.Size = new System.Drawing.Size(755, 214);
             this.panel14.TabIndex = 6;
             // 
+            // lblPrecioMegaSalchicha
+            // 
+            this.lblPrecioMegaSalchicha.AutoSize = true;
+            this.lblPrecioMegaSalchicha.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPrecioMegaSalchicha.Location = new System.Drawing.Point(557, 189);
+            this.lblPrecioMegaSalchicha.Name = "lblPrecioMegaSalchicha";
+            this.lblPrecioMegaSalchicha.Size = new System.Drawing.Size(92, 22);
+            this.lblPrecioMegaSalchicha.TabIndex = 20;
+            this.lblPrecioMegaSalchicha.Text = "30000.00";
+            // 
             // panel15
             // 
-            this.panel15.Controls.Add(this.lblPrecioMegaSalchicha);
-            this.panel15.Controls.Add(this.label38);
-            this.panel15.Controls.Add(this.btnAgregarMegaSalchicha);
-            this.panel15.Controls.Add(this.label19);
+            this.panel15.Controls.Add(this.rbPresentacionMegaSalchicha1);
             this.panel15.Controls.Add(this.label20);
             this.panel15.Controls.Add(this.label21);
             this.panel15.Location = new System.Drawing.Point(289, 29);
@@ -309,44 +323,18 @@
             this.panel15.Size = new System.Drawing.Size(439, 149);
             this.panel15.TabIndex = 1;
             // 
-            // lblPrecioMegaSalchicha
+            // rbPresentacionMegaSalchicha1
             // 
-            this.lblPrecioMegaSalchicha.AutoSize = true;
-            this.lblPrecioMegaSalchicha.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPrecioMegaSalchicha.Location = new System.Drawing.Point(268, 126);
-            this.lblPrecioMegaSalchicha.Name = "lblPrecioMegaSalchicha";
-            this.lblPrecioMegaSalchicha.Size = new System.Drawing.Size(92, 22);
-            this.lblPrecioMegaSalchicha.TabIndex = 20;
-            this.lblPrecioMegaSalchicha.Text = "30000.00";
-            // 
-            // label38
-            // 
-            this.label38.AutoSize = true;
-            this.label38.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label38.Location = new System.Drawing.Point(197, 126);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(73, 23);
-            this.label38.TabIndex = 19;
-            this.label38.Text = "Precio:";
-            // 
-            // btnAgregarMegaSalchicha
-            // 
-            this.btnAgregarMegaSalchicha.Location = new System.Drawing.Point(363, 123);
-            this.btnAgregarMegaSalchicha.Name = "btnAgregarMegaSalchicha";
-            this.btnAgregarMegaSalchicha.Size = new System.Drawing.Size(76, 26);
-            this.btnAgregarMegaSalchicha.TabIndex = 18;
-            this.btnAgregarMegaSalchicha.Text = "Agregar";
-            this.btnAgregarMegaSalchicha.UseVisualStyleBackColor = true;
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(56, 97);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(61, 21);
-            this.label19.TabIndex = 6;
-            this.label19.Text = "2850 g";
+            this.rbPresentacionMegaSalchicha1.AutoSize = true;
+            this.rbPresentacionMegaSalchicha1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbPresentacionMegaSalchicha1.Location = new System.Drawing.Point(42, 100);
+            this.rbPresentacionMegaSalchicha1.Name = "rbPresentacionMegaSalchicha1";
+            this.rbPresentacionMegaSalchicha1.Size = new System.Drawing.Size(75, 25);
+            this.rbPresentacionMegaSalchicha1.TabIndex = 39;
+            this.rbPresentacionMegaSalchicha1.TabStop = true;
+            this.rbPresentacionMegaSalchicha1.Text = "2850g";
+            this.rbPresentacionMegaSalchicha1.UseVisualStyleBackColor = true;
+            this.rbPresentacionMegaSalchicha1.CheckedChanged += new System.EventHandler(this.rbPresentacionMegaSalchicha_CheckedChanged);
             // 
             // label20
             // 
@@ -369,6 +357,16 @@
             this.label21.TabIndex = 4;
             this.label21.Text = "Mega Salchicha";
             // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label38.Location = new System.Drawing.Point(486, 188);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(73, 23);
+            this.label38.TabIndex = 19;
+            this.label38.Text = "Precio:";
+            // 
             // pictureBox7
             // 
             this.pictureBox7.Image = global::DCosta.Properties.Resources.Linea_productos_carnicos__Salchicha_Extralarga1;
@@ -379,6 +377,15 @@
             this.pictureBox7.TabIndex = 0;
             this.pictureBox7.TabStop = false;
             // 
+            // btnAgregarMegaSalchicha
+            // 
+            this.btnAgregarMegaSalchicha.Location = new System.Drawing.Point(655, 185);
+            this.btnAgregarMegaSalchicha.Name = "btnAgregarMegaSalchicha";
+            this.btnAgregarMegaSalchicha.Size = new System.Drawing.Size(76, 26);
+            this.btnAgregarMegaSalchicha.TabIndex = 18;
+            this.btnAgregarMegaSalchicha.Text = "Agregar";
+            this.btnAgregarMegaSalchicha.UseVisualStyleBackColor = true;
+            // 
             // panel12
             // 
             this.panel12.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -386,7 +393,10 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel12.BackColor = System.Drawing.Color.Transparent;
             this.panel12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel12.Controls.Add(this.lblPrecioSalchichaSuper);
+            this.panel12.Controls.Add(this.label34);
             this.panel12.Controls.Add(this.panel13);
+            this.panel12.Controls.Add(this.btnAgregarSalchichaSuper);
             this.panel12.Controls.Add(this.pictureBox6);
             this.panel12.Location = new System.Drawing.Point(21, 1121);
             this.panel12.Name = "panel12";
@@ -394,13 +404,30 @@
             this.panel12.Size = new System.Drawing.Size(755, 214);
             this.panel12.TabIndex = 5;
             // 
+            // lblPrecioSalchichaSuper
+            // 
+            this.lblPrecioSalchichaSuper.AutoSize = true;
+            this.lblPrecioSalchichaSuper.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPrecioSalchichaSuper.Location = new System.Drawing.Point(557, 188);
+            this.lblPrecioSalchichaSuper.Name = "lblPrecioSalchichaSuper";
+            this.lblPrecioSalchichaSuper.Size = new System.Drawing.Size(92, 22);
+            this.lblPrecioSalchichaSuper.TabIndex = 21;
+            this.lblPrecioSalchichaSuper.Text = "30000.00";
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label34.Location = new System.Drawing.Point(486, 187);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(73, 23);
+            this.label34.TabIndex = 20;
+            this.label34.Text = "Precio:";
+            // 
             // panel13
             // 
-            this.panel13.Controls.Add(this.label34);
-            this.panel13.Controls.Add(this.btnAgregarSalchichaSuper);
-            this.panel13.Controls.Add(this.cbPrecioSalchichaSuper);
-            this.panel13.Controls.Add(this.label16);
-            this.panel13.Controls.Add(this.label30);
+            this.panel13.Controls.Add(this.rbPresentacionSalchichaSuper2);
+            this.panel13.Controls.Add(this.rbPresentacionSalchichaSuper1);
             this.panel13.Controls.Add(this.label17);
             this.panel13.Controls.Add(this.label18);
             this.panel13.Location = new System.Drawing.Point(289, 29);
@@ -409,56 +436,31 @@
             this.panel13.Size = new System.Drawing.Size(439, 149);
             this.panel13.TabIndex = 1;
             // 
-            // label34
+            // rbPresentacionSalchichaSuper2
             // 
-            this.label34.AutoSize = true;
-            this.label34.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label34.Location = new System.Drawing.Point(160, 125);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(73, 23);
-            this.label34.TabIndex = 20;
-            this.label34.Text = "Precio:";
+            this.rbPresentacionSalchichaSuper2.AutoSize = true;
+            this.rbPresentacionSalchichaSuper2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbPresentacionSalchichaSuper2.Location = new System.Drawing.Point(114, 90);
+            this.rbPresentacionSalchichaSuper2.Name = "rbPresentacionSalchichaSuper2";
+            this.rbPresentacionSalchichaSuper2.Size = new System.Drawing.Size(75, 25);
+            this.rbPresentacionSalchichaSuper2.TabIndex = 36;
+            this.rbPresentacionSalchichaSuper2.TabStop = true;
+            this.rbPresentacionSalchichaSuper2.Text = "1000g";
+            this.rbPresentacionSalchichaSuper2.UseVisualStyleBackColor = true;
+            this.rbPresentacionSalchichaSuper2.CheckedChanged += new System.EventHandler(this.rbPresentacionSalchichaSuper_CheckedChanged);
             // 
-            // btnAgregarSalchichaSuper
+            // rbPresentacionSalchichaSuper1
             // 
-            this.btnAgregarSalchichaSuper.Location = new System.Drawing.Point(366, 122);
-            this.btnAgregarSalchichaSuper.Name = "btnAgregarSalchichaSuper";
-            this.btnAgregarSalchichaSuper.Size = new System.Drawing.Size(76, 26);
-            this.btnAgregarSalchichaSuper.TabIndex = 19;
-            this.btnAgregarSalchichaSuper.Text = "Agregar";
-            this.btnAgregarSalchichaSuper.UseVisualStyleBackColor = true;
-            // 
-            // cbPrecioSalchichaSuper
-            // 
-            this.cbPrecioSalchichaSuper.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbPrecioSalchichaSuper.FormattingEnabled = true;
-            this.cbPrecioSalchichaSuper.Items.AddRange(new object[] {
-            "7000.00",
-            "14000.00"});
-            this.cbPrecioSalchichaSuper.Location = new System.Drawing.Point(239, 120);
-            this.cbPrecioSalchichaSuper.Name = "cbPrecioSalchichaSuper";
-            this.cbPrecioSalchichaSuper.Size = new System.Drawing.Size(121, 29);
-            this.cbPrecioSalchichaSuper.TabIndex = 18;
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(114, 87);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(61, 21);
-            this.label16.TabIndex = 13;
-            this.label16.Text = "1000 g";
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.Location = new System.Drawing.Point(56, 87);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(52, 21);
-            this.label30.TabIndex = 12;
-            this.label30.Text = "500 g";
+            this.rbPresentacionSalchichaSuper1.AutoSize = true;
+            this.rbPresentacionSalchichaSuper1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbPresentacionSalchichaSuper1.Location = new System.Drawing.Point(42, 90);
+            this.rbPresentacionSalchichaSuper1.Name = "rbPresentacionSalchichaSuper1";
+            this.rbPresentacionSalchichaSuper1.Size = new System.Drawing.Size(66, 25);
+            this.rbPresentacionSalchichaSuper1.TabIndex = 35;
+            this.rbPresentacionSalchichaSuper1.TabStop = true;
+            this.rbPresentacionSalchichaSuper1.Text = "500g";
+            this.rbPresentacionSalchichaSuper1.UseVisualStyleBackColor = true;
+            this.rbPresentacionSalchichaSuper1.CheckedChanged += new System.EventHandler(this.rbPresentacionSalchichaSuper_CheckedChanged);
             // 
             // label17
             // 
@@ -481,6 +483,15 @@
             this.label18.TabIndex = 4;
             this.label18.Text = "Salchicha Super";
             // 
+            // btnAgregarSalchichaSuper
+            // 
+            this.btnAgregarSalchichaSuper.Location = new System.Drawing.Point(655, 184);
+            this.btnAgregarSalchichaSuper.Name = "btnAgregarSalchichaSuper";
+            this.btnAgregarSalchichaSuper.Size = new System.Drawing.Size(76, 26);
+            this.btnAgregarSalchichaSuper.TabIndex = 19;
+            this.btnAgregarSalchichaSuper.Text = "Agregar";
+            this.btnAgregarSalchichaSuper.UseVisualStyleBackColor = true;
+            // 
             // pictureBox6
             // 
             this.pictureBox6.Image = global::DCosta.Properties.Resources.Linea_productos_carnicos__Salchicha_Super;
@@ -498,7 +509,10 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel10.BackColor = System.Drawing.Color.Transparent;
             this.panel10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel10.Controls.Add(this.btnAgregarSalchichaMiniperro);
+            this.panel10.Controls.Add(this.lblPrecioSalchichaMiniperro);
             this.panel10.Controls.Add(this.panel11);
+            this.panel10.Controls.Add(this.label37);
             this.panel10.Controls.Add(this.pictureBox5);
             this.panel10.Location = new System.Drawing.Point(21, 893);
             this.panel10.Name = "panel10";
@@ -506,12 +520,28 @@
             this.panel10.Size = new System.Drawing.Size(755, 214);
             this.panel10.TabIndex = 3;
             // 
+            // btnAgregarSalchichaMiniperro
+            // 
+            this.btnAgregarSalchichaMiniperro.Location = new System.Drawing.Point(655, 184);
+            this.btnAgregarSalchichaMiniperro.Name = "btnAgregarSalchichaMiniperro";
+            this.btnAgregarSalchichaMiniperro.Size = new System.Drawing.Size(76, 26);
+            this.btnAgregarSalchichaMiniperro.TabIndex = 18;
+            this.btnAgregarSalchichaMiniperro.Text = "Agregar";
+            this.btnAgregarSalchichaMiniperro.UseVisualStyleBackColor = true;
+            // 
+            // lblPrecioSalchichaMiniperro
+            // 
+            this.lblPrecioSalchichaMiniperro.AutoSize = true;
+            this.lblPrecioSalchichaMiniperro.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPrecioSalchichaMiniperro.Location = new System.Drawing.Point(568, 184);
+            this.lblPrecioSalchichaMiniperro.Name = "lblPrecioSalchichaMiniperro";
+            this.lblPrecioSalchichaMiniperro.Size = new System.Drawing.Size(81, 22);
+            this.lblPrecioSalchichaMiniperro.TabIndex = 20;
+            this.lblPrecioSalchichaMiniperro.Text = "3200.00";
+            // 
             // panel11
             // 
-            this.panel11.Controls.Add(this.lblPrecioSalchichaMiniperro);
-            this.panel11.Controls.Add(this.label37);
-            this.panel11.Controls.Add(this.btnAgregarSalchichaMiniperro);
-            this.panel11.Controls.Add(this.label13);
+            this.panel11.Controls.Add(this.rbPresentacionSalchichaMiniperro1);
             this.panel11.Controls.Add(this.label14);
             this.panel11.Controls.Add(this.label15);
             this.panel11.Location = new System.Drawing.Point(289, 29);
@@ -520,44 +550,18 @@
             this.panel11.Size = new System.Drawing.Size(439, 149);
             this.panel11.TabIndex = 1;
             // 
-            // lblPrecioSalchichaMiniperro
+            // rbPresentacionSalchichaMiniperro1
             // 
-            this.lblPrecioSalchichaMiniperro.AutoSize = true;
-            this.lblPrecioSalchichaMiniperro.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPrecioSalchichaMiniperro.Location = new System.Drawing.Point(276, 126);
-            this.lblPrecioSalchichaMiniperro.Name = "lblPrecioSalchichaMiniperro";
-            this.lblPrecioSalchichaMiniperro.Size = new System.Drawing.Size(81, 22);
-            this.lblPrecioSalchichaMiniperro.TabIndex = 20;
-            this.lblPrecioSalchichaMiniperro.Text = "3200.00";
-            // 
-            // label37
-            // 
-            this.label37.AutoSize = true;
-            this.label37.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label37.Location = new System.Drawing.Point(197, 125);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(73, 23);
-            this.label37.TabIndex = 19;
-            this.label37.Text = "Precio:";
-            // 
-            // btnAgregarSalchichaMiniperro
-            // 
-            this.btnAgregarSalchichaMiniperro.Location = new System.Drawing.Point(366, 123);
-            this.btnAgregarSalchichaMiniperro.Name = "btnAgregarSalchichaMiniperro";
-            this.btnAgregarSalchichaMiniperro.Size = new System.Drawing.Size(76, 26);
-            this.btnAgregarSalchichaMiniperro.TabIndex = 18;
-            this.btnAgregarSalchichaMiniperro.Text = "Agregar";
-            this.btnAgregarSalchichaMiniperro.UseVisualStyleBackColor = true;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(56, 97);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(52, 21);
-            this.label13.TabIndex = 6;
-            this.label13.Text = "250 g";
+            this.rbPresentacionSalchichaMiniperro1.AutoSize = true;
+            this.rbPresentacionSalchichaMiniperro1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbPresentacionSalchichaMiniperro1.Location = new System.Drawing.Point(42, 100);
+            this.rbPresentacionSalchichaMiniperro1.Name = "rbPresentacionSalchichaMiniperro1";
+            this.rbPresentacionSalchichaMiniperro1.Size = new System.Drawing.Size(66, 25);
+            this.rbPresentacionSalchichaMiniperro1.TabIndex = 33;
+            this.rbPresentacionSalchichaMiniperro1.TabStop = true;
+            this.rbPresentacionSalchichaMiniperro1.Text = "250g";
+            this.rbPresentacionSalchichaMiniperro1.UseVisualStyleBackColor = true;
+            this.rbPresentacionSalchichaMiniperro1.CheckedChanged += new System.EventHandler(this.rbPresentacionSalchichaMiniperro_CheckedChanged);
             // 
             // label14
             // 
@@ -580,6 +584,16 @@
             this.label15.TabIndex = 4;
             this.label15.Text = "Salchicha Miniperro";
             // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label37.Location = new System.Drawing.Point(486, 181);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(73, 23);
+            this.label37.TabIndex = 19;
+            this.label37.Text = "Precio:";
+            // 
             // pictureBox5
             // 
             this.pictureBox5.Image = global::DCosta.Properties.Resources.Linea_productos_carnicos__Salchicha_Miniperro;
@@ -597,23 +611,43 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel6.BackColor = System.Drawing.Color.Transparent;
             this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel6.Controls.Add(this.lblPrecioSalchichaParrillera);
+            this.panel6.Controls.Add(this.label33);
             this.panel6.Controls.Add(this.panel9);
             this.panel6.Controls.Add(this.pictureBox3);
+            this.panel6.Controls.Add(this.btnAgregarSalchichaParrillera);
             this.panel6.Location = new System.Drawing.Point(21, 673);
             this.panel6.Name = "panel6";
             this.panel6.Padding = new System.Windows.Forms.Padding(10);
             this.panel6.Size = new System.Drawing.Size(755, 214);
             this.panel6.TabIndex = 3;
             // 
+            // lblPrecioSalchichaParrillera
+            // 
+            this.lblPrecioSalchichaParrillera.AutoSize = true;
+            this.lblPrecioSalchichaParrillera.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPrecioSalchichaParrillera.Location = new System.Drawing.Point(557, 187);
+            this.lblPrecioSalchichaParrillera.Name = "lblPrecioSalchichaParrillera";
+            this.lblPrecioSalchichaParrillera.Size = new System.Drawing.Size(92, 22);
+            this.lblPrecioSalchichaParrillera.TabIndex = 22;
+            this.lblPrecioSalchichaParrillera.Text = "30000.00";
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label33.Location = new System.Drawing.Point(486, 186);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(73, 23);
+            this.label33.TabIndex = 23;
+            this.label33.Text = "Precio:";
+            // 
             // panel9
             // 
-            this.panel9.Controls.Add(this.label33);
-            this.panel9.Controls.Add(this.label28);
-            this.panel9.Controls.Add(this.btnAgregarSalchichaParrillera);
-            this.panel9.Controls.Add(this.label29);
-            this.panel9.Controls.Add(this.cbPrecioSalchichaParrillera);
-            this.panel9.Controls.Add(this.label27);
-            this.panel9.Controls.Add(this.label7);
+            this.panel9.Controls.Add(this.rbPresentacionSalchichaParrillera4);
+            this.panel9.Controls.Add(this.rbPresentacionSalchichaParrillera3);
+            this.panel9.Controls.Add(this.rbPresentacionSalchichaParrillera2);
+            this.panel9.Controls.Add(this.rbPresentacionSalchichaParrillera1);
             this.panel9.Controls.Add(this.label8);
             this.panel9.Controls.Add(this.label9);
             this.panel9.Location = new System.Drawing.Point(289, 29);
@@ -622,78 +656,57 @@
             this.panel9.Size = new System.Drawing.Size(439, 149);
             this.panel9.TabIndex = 1;
             // 
-            // label33
+            // rbPresentacionSalchichaParrillera4
             // 
-            this.label33.AutoSize = true;
-            this.label33.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.Location = new System.Drawing.Point(157, 126);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(73, 23);
-            this.label33.TabIndex = 23;
-            this.label33.Text = "Precio:";
+            this.rbPresentacionSalchichaParrillera4.AutoSize = true;
+            this.rbPresentacionSalchichaParrillera4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbPresentacionSalchichaParrillera4.Location = new System.Drawing.Point(267, 89);
+            this.rbPresentacionSalchichaParrillera4.Name = "rbPresentacionSalchichaParrillera4";
+            this.rbPresentacionSalchichaParrillera4.Size = new System.Drawing.Size(126, 25);
+            this.rbPresentacionSalchichaParrillera4.TabIndex = 35;
+            this.rbPresentacionSalchichaParrillera4.TabStop = true;
+            this.rbPresentacionSalchichaParrillera4.Text = "Tripack 370g";
+            this.rbPresentacionSalchichaParrillera4.UseVisualStyleBackColor = true;
+            this.rbPresentacionSalchichaParrillera4.CheckedChanged += new System.EventHandler(this.rbPresentacionSalchichaParrillera_CheckedChanged);
             // 
-            // label28
+            // rbPresentacionSalchichaParrillera3
             // 
-            this.label28.AutoSize = true;
-            this.label28.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.Location = new System.Drawing.Point(168, 87);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(61, 21);
-            this.label28.TabIndex = 11;
-            this.label28.Text = "1000 g";
+            this.rbPresentacionSalchichaParrillera3.AutoSize = true;
+            this.rbPresentacionSalchichaParrillera3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbPresentacionSalchichaParrillera3.Location = new System.Drawing.Point(186, 89);
+            this.rbPresentacionSalchichaParrillera3.Name = "rbPresentacionSalchichaParrillera3";
+            this.rbPresentacionSalchichaParrillera3.Size = new System.Drawing.Size(75, 25);
+            this.rbPresentacionSalchichaParrillera3.TabIndex = 34;
+            this.rbPresentacionSalchichaParrillera3.TabStop = true;
+            this.rbPresentacionSalchichaParrillera3.Text = "1000g";
+            this.rbPresentacionSalchichaParrillera3.UseVisualStyleBackColor = true;
+            this.rbPresentacionSalchichaParrillera3.CheckedChanged += new System.EventHandler(this.rbPresentacionSalchichaParrillera_CheckedChanged);
             // 
-            // btnAgregarSalchichaParrillera
+            // rbPresentacionSalchichaParrillera2
             // 
-            this.btnAgregarSalchichaParrillera.Location = new System.Drawing.Point(363, 123);
-            this.btnAgregarSalchichaParrillera.Name = "btnAgregarSalchichaParrillera";
-            this.btnAgregarSalchichaParrillera.Size = new System.Drawing.Size(76, 26);
-            this.btnAgregarSalchichaParrillera.TabIndex = 22;
-            this.btnAgregarSalchichaParrillera.Text = "Agregar";
-            this.btnAgregarSalchichaParrillera.UseVisualStyleBackColor = true;
+            this.rbPresentacionSalchichaParrillera2.AutoSize = true;
+            this.rbPresentacionSalchichaParrillera2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbPresentacionSalchichaParrillera2.Location = new System.Drawing.Point(114, 89);
+            this.rbPresentacionSalchichaParrillera2.Name = "rbPresentacionSalchichaParrillera2";
+            this.rbPresentacionSalchichaParrillera2.Size = new System.Drawing.Size(66, 25);
+            this.rbPresentacionSalchichaParrillera2.TabIndex = 33;
+            this.rbPresentacionSalchichaParrillera2.TabStop = true;
+            this.rbPresentacionSalchichaParrillera2.Text = "500g";
+            this.rbPresentacionSalchichaParrillera2.UseVisualStyleBackColor = true;
+            this.rbPresentacionSalchichaParrillera2.CheckedChanged += new System.EventHandler(this.rbPresentacionSalchichaParrillera_CheckedChanged);
             // 
-            // label29
+            // rbPresentacionSalchichaParrillera1
             // 
-            this.label29.AutoSize = true;
-            this.label29.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.Location = new System.Drawing.Point(235, 87);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(112, 21);
-            this.label29.TabIndex = 10;
-            this.label29.Text = "Tripack 370 g";
-            // 
-            // cbPrecioSalchichaParrillera
-            // 
-            this.cbPrecioSalchichaParrillera.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbPrecioSalchichaParrillera.FormattingEnabled = true;
-            this.cbPrecioSalchichaParrillera.Items.AddRange(new object[] {
-            "4500.00",
-            "7500.00",
-            "11000.00",
-            "12500.00"});
-            this.cbPrecioSalchichaParrillera.Location = new System.Drawing.Point(236, 121);
-            this.cbPrecioSalchichaParrillera.Name = "cbPrecioSalchichaParrillera";
-            this.cbPrecioSalchichaParrillera.Size = new System.Drawing.Size(121, 29);
-            this.cbPrecioSalchichaParrillera.TabIndex = 21;
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(52, 87);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(52, 21);
-            this.label27.TabIndex = 9;
-            this.label27.Text = "250 g";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(110, 87);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(52, 21);
-            this.label7.TabIndex = 6;
-            this.label7.Text = "500 g";
+            this.rbPresentacionSalchichaParrillera1.AutoSize = true;
+            this.rbPresentacionSalchichaParrillera1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbPresentacionSalchichaParrillera1.Location = new System.Drawing.Point(42, 89);
+            this.rbPresentacionSalchichaParrillera1.Name = "rbPresentacionSalchichaParrillera1";
+            this.rbPresentacionSalchichaParrillera1.Size = new System.Drawing.Size(66, 25);
+            this.rbPresentacionSalchichaParrillera1.TabIndex = 32;
+            this.rbPresentacionSalchichaParrillera1.TabStop = true;
+            this.rbPresentacionSalchichaParrillera1.Text = "250g";
+            this.rbPresentacionSalchichaParrillera1.UseVisualStyleBackColor = true;
+            this.rbPresentacionSalchichaParrillera1.CheckedChanged += new System.EventHandler(this.rbPresentacionSalchichaParrillera_CheckedChanged);
             // 
             // label8
             // 
@@ -726,6 +739,15 @@
             this.pictureBox3.TabIndex = 0;
             this.pictureBox3.TabStop = false;
             // 
+            // btnAgregarSalchichaParrillera
+            // 
+            this.btnAgregarSalchichaParrillera.Location = new System.Drawing.Point(655, 183);
+            this.btnAgregarSalchichaParrillera.Name = "btnAgregarSalchichaParrillera";
+            this.btnAgregarSalchichaParrillera.Size = new System.Drawing.Size(76, 26);
+            this.btnAgregarSalchichaParrillera.TabIndex = 22;
+            this.btnAgregarSalchichaParrillera.Text = "Agregar";
+            this.btnAgregarSalchichaParrillera.UseVisualStyleBackColor = true;
+            // 
             // panel4
             // 
             this.panel4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -733,7 +755,10 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel4.BackColor = System.Drawing.Color.Transparent;
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel4.Controls.Add(this.lblPrecioSalchickids);
+            this.panel4.Controls.Add(this.label32);
             this.panel4.Controls.Add(this.panel5);
+            this.panel4.Controls.Add(this.btnAgregarSalchikids);
             this.panel4.Controls.Add(this.pictureBox2);
             this.panel4.Location = new System.Drawing.Point(21, 453);
             this.panel4.Name = "panel4";
@@ -741,13 +766,30 @@
             this.panel4.Size = new System.Drawing.Size(755, 214);
             this.panel4.TabIndex = 4;
             // 
+            // lblPrecioSalchickids
+            // 
+            this.lblPrecioSalchickids.AutoSize = true;
+            this.lblPrecioSalchickids.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPrecioSalchickids.Location = new System.Drawing.Point(557, 184);
+            this.lblPrecioSalchickids.Name = "lblPrecioSalchickids";
+            this.lblPrecioSalchickids.Size = new System.Drawing.Size(92, 22);
+            this.lblPrecioSalchickids.TabIndex = 21;
+            this.lblPrecioSalchickids.Text = "30000.00";
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label32.Location = new System.Drawing.Point(486, 183);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(73, 23);
+            this.label32.TabIndex = 20;
+            this.label32.Text = "Precio:";
+            // 
             // panel5
             // 
-            this.panel5.Controls.Add(this.label32);
-            this.panel5.Controls.Add(this.btnAgregarSalchikids);
-            this.panel5.Controls.Add(this.cbPrecioSalchikids);
-            this.panel5.Controls.Add(this.label26);
-            this.panel5.Controls.Add(this.label4);
+            this.panel5.Controls.Add(this.rbPresentacionSalchikids2);
+            this.panel5.Controls.Add(this.rbPresentacionSalchikids1);
             this.panel5.Controls.Add(this.label5);
             this.panel5.Controls.Add(this.label6);
             this.panel5.Location = new System.Drawing.Point(289, 29);
@@ -756,56 +798,31 @@
             this.panel5.Size = new System.Drawing.Size(439, 149);
             this.panel5.TabIndex = 1;
             // 
-            // label32
+            // rbPresentacionSalchikids2
             // 
-            this.label32.AutoSize = true;
-            this.label32.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.Location = new System.Drawing.Point(157, 126);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(73, 23);
-            this.label32.TabIndex = 20;
-            this.label32.Text = "Precio:";
+            this.rbPresentacionSalchikids2.AutoSize = true;
+            this.rbPresentacionSalchikids2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbPresentacionSalchikids2.Location = new System.Drawing.Point(114, 85);
+            this.rbPresentacionSalchikids2.Name = "rbPresentacionSalchikids2";
+            this.rbPresentacionSalchikids2.Size = new System.Drawing.Size(126, 25);
+            this.rbPresentacionSalchikids2.TabIndex = 35;
+            this.rbPresentacionSalchikids2.TabStop = true;
+            this.rbPresentacionSalchikids2.Text = "Tripack 355g";
+            this.rbPresentacionSalchikids2.UseVisualStyleBackColor = true;
+            this.rbPresentacionSalchikids2.CheckedChanged += new System.EventHandler(this.rbPresentacionSalchikids_CheckedChanged);
             // 
-            // btnAgregarSalchikids
+            // rbPresentacionSalchikids1
             // 
-            this.btnAgregarSalchikids.Location = new System.Drawing.Point(363, 123);
-            this.btnAgregarSalchikids.Name = "btnAgregarSalchikids";
-            this.btnAgregarSalchikids.Size = new System.Drawing.Size(76, 26);
-            this.btnAgregarSalchikids.TabIndex = 19;
-            this.btnAgregarSalchikids.Text = "Agregar";
-            this.btnAgregarSalchikids.UseVisualStyleBackColor = true;
-            // 
-            // cbPrecioSalchikids
-            // 
-            this.cbPrecioSalchikids.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbPrecioSalchikids.FormattingEnabled = true;
-            this.cbPrecioSalchikids.Items.AddRange(new object[] {
-            "4500.00",
-            "6000.00"});
-            this.cbPrecioSalchikids.Location = new System.Drawing.Point(236, 121);
-            this.cbPrecioSalchikids.Name = "cbPrecioSalchikids";
-            this.cbPrecioSalchikids.Size = new System.Drawing.Size(121, 29);
-            this.cbPrecioSalchikids.TabIndex = 18;
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.Location = new System.Drawing.Point(170, 89);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(52, 21);
-            this.label26.TabIndex = 8;
-            this.label26.Text = "500 g";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(52, 89);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(112, 21);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "Tripack 355 g";
+            this.rbPresentacionSalchikids1.AutoSize = true;
+            this.rbPresentacionSalchikids1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbPresentacionSalchikids1.Location = new System.Drawing.Point(42, 85);
+            this.rbPresentacionSalchikids1.Name = "rbPresentacionSalchikids1";
+            this.rbPresentacionSalchikids1.Size = new System.Drawing.Size(66, 25);
+            this.rbPresentacionSalchikids1.TabIndex = 34;
+            this.rbPresentacionSalchikids1.TabStop = true;
+            this.rbPresentacionSalchikids1.Text = "500g";
+            this.rbPresentacionSalchikids1.UseVisualStyleBackColor = true;
+            this.rbPresentacionSalchikids1.CheckedChanged += new System.EventHandler(this.rbPresentacionSalchikids_CheckedChanged);
             // 
             // label5
             // 
@@ -828,6 +845,15 @@
             this.label6.TabIndex = 4;
             this.label6.Text = "Salchikids";
             // 
+            // btnAgregarSalchikids
+            // 
+            this.btnAgregarSalchikids.Location = new System.Drawing.Point(655, 180);
+            this.btnAgregarSalchikids.Name = "btnAgregarSalchikids";
+            this.btnAgregarSalchikids.Size = new System.Drawing.Size(76, 26);
+            this.btnAgregarSalchikids.TabIndex = 19;
+            this.btnAgregarSalchikids.Text = "Agregar";
+            this.btnAgregarSalchikids.UseVisualStyleBackColor = true;
+            // 
             // pictureBox2
             // 
             this.pictureBox2.Image = global::DCosta.Properties.Resources.Linea_productos_carnicos_Salchikids;
@@ -845,21 +871,41 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel2.BackColor = System.Drawing.Color.Transparent;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.lblPrecioSalchichaExtralarga);
+            this.panel2.Controls.Add(this.label42);
             this.panel2.Controls.Add(this.panel3);
             this.panel2.Controls.Add(this.pictureBox1);
+            this.panel2.Controls.Add(this.btnAgregarSalchichaExtralarga);
             this.panel2.Location = new System.Drawing.Point(21, 233);
             this.panel2.Name = "panel2";
             this.panel2.Padding = new System.Windows.Forms.Padding(10);
             this.panel2.Size = new System.Drawing.Size(755, 214);
             this.panel2.TabIndex = 3;
             // 
+            // lblPrecioSalchichaExtralarga
+            // 
+            this.lblPrecioSalchichaExtralarga.AutoSize = true;
+            this.lblPrecioSalchichaExtralarga.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPrecioSalchichaExtralarga.Location = new System.Drawing.Point(557, 184);
+            this.lblPrecioSalchichaExtralarga.Name = "lblPrecioSalchichaExtralarga";
+            this.lblPrecioSalchichaExtralarga.Size = new System.Drawing.Size(92, 22);
+            this.lblPrecioSalchichaExtralarga.TabIndex = 21;
+            this.lblPrecioSalchichaExtralarga.Text = "30000.00";
+            // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label42.Location = new System.Drawing.Point(486, 184);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(73, 23);
+            this.label42.TabIndex = 17;
+            this.label42.Text = "Precio:";
+            // 
             // panel3
             // 
-            this.panel3.Controls.Add(this.label42);
-            this.panel3.Controls.Add(this.label25);
-            this.panel3.Controls.Add(this.btnAgregarSalchichaExtralarga);
-            this.panel3.Controls.Add(this.label1);
-            this.panel3.Controls.Add(this.cbPrecioSalchichaExtralarga);
+            this.panel3.Controls.Add(this.rbPresentacionSalchichaExtralarga2);
+            this.panel3.Controls.Add(this.rbPresentacionSalchichaExtralarga1);
             this.panel3.Controls.Add(this.label2);
             this.panel3.Controls.Add(this.label3);
             this.panel3.Location = new System.Drawing.Point(289, 29);
@@ -868,56 +914,31 @@
             this.panel3.Size = new System.Drawing.Size(439, 149);
             this.panel3.TabIndex = 1;
             // 
-            // label42
+            // rbPresentacionSalchichaExtralarga2
             // 
-            this.label42.AutoSize = true;
-            this.label42.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label42.Location = new System.Drawing.Point(151, 125);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(73, 23);
-            this.label42.TabIndex = 17;
-            this.label42.Text = "Precio:";
+            this.rbPresentacionSalchichaExtralarga2.AutoSize = true;
+            this.rbPresentacionSalchichaExtralarga2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbPresentacionSalchichaExtralarga2.Location = new System.Drawing.Point(118, 91);
+            this.rbPresentacionSalchichaExtralarga2.Name = "rbPresentacionSalchichaExtralarga2";
+            this.rbPresentacionSalchichaExtralarga2.Size = new System.Drawing.Size(75, 25);
+            this.rbPresentacionSalchichaExtralarga2.TabIndex = 34;
+            this.rbPresentacionSalchichaExtralarga2.TabStop = true;
+            this.rbPresentacionSalchichaExtralarga2.Text = "2125g";
+            this.rbPresentacionSalchichaExtralarga2.UseVisualStyleBackColor = true;
+            this.rbPresentacionSalchichaExtralarga2.CheckedChanged += new System.EventHandler(this.rbPresentacionSalchichaExtralarga_CheckedChanged);
             // 
-            // label25
+            // rbPresentacionSalchichaExtralarga1
             // 
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(114, 88);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(61, 21);
-            this.label25.TabIndex = 7;
-            this.label25.Text = "2125 g";
-            // 
-            // btnAgregarSalchichaExtralarga
-            // 
-            this.btnAgregarSalchichaExtralarga.Location = new System.Drawing.Point(357, 122);
-            this.btnAgregarSalchichaExtralarga.Name = "btnAgregarSalchichaExtralarga";
-            this.btnAgregarSalchichaExtralarga.Size = new System.Drawing.Size(76, 26);
-            this.btnAgregarSalchichaExtralarga.TabIndex = 16;
-            this.btnAgregarSalchichaExtralarga.Text = "Agregar";
-            this.btnAgregarSalchichaExtralarga.UseVisualStyleBackColor = true;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(56, 88);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(52, 21);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "500 g";
-            // 
-            // cbPrecioSalchichaExtralarga
-            // 
-            this.cbPrecioSalchichaExtralarga.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbPrecioSalchichaExtralarga.FormattingEnabled = true;
-            this.cbPrecioSalchichaExtralarga.Items.AddRange(new object[] {
-            "7000.00",
-            "21000.00"});
-            this.cbPrecioSalchichaExtralarga.Location = new System.Drawing.Point(230, 120);
-            this.cbPrecioSalchichaExtralarga.Name = "cbPrecioSalchichaExtralarga";
-            this.cbPrecioSalchichaExtralarga.Size = new System.Drawing.Size(121, 29);
-            this.cbPrecioSalchichaExtralarga.TabIndex = 15;
+            this.rbPresentacionSalchichaExtralarga1.AutoSize = true;
+            this.rbPresentacionSalchichaExtralarga1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbPresentacionSalchichaExtralarga1.Location = new System.Drawing.Point(42, 91);
+            this.rbPresentacionSalchichaExtralarga1.Name = "rbPresentacionSalchichaExtralarga1";
+            this.rbPresentacionSalchichaExtralarga1.Size = new System.Drawing.Size(66, 25);
+            this.rbPresentacionSalchichaExtralarga1.TabIndex = 33;
+            this.rbPresentacionSalchichaExtralarga1.TabStop = true;
+            this.rbPresentacionSalchichaExtralarga1.Text = "500g";
+            this.rbPresentacionSalchichaExtralarga1.UseVisualStyleBackColor = true;
+            this.rbPresentacionSalchichaExtralarga1.CheckedChanged += new System.EventHandler(this.rbPresentacionSalchichaExtralarga_CheckedChanged);
             // 
             // label2
             // 
@@ -950,6 +971,15 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // btnAgregarSalchichaExtralarga
+            // 
+            this.btnAgregarSalchichaExtralarga.Location = new System.Drawing.Point(652, 184);
+            this.btnAgregarSalchichaExtralarga.Name = "btnAgregarSalchichaExtralarga";
+            this.btnAgregarSalchichaExtralarga.Size = new System.Drawing.Size(76, 26);
+            this.btnAgregarSalchichaExtralarga.TabIndex = 16;
+            this.btnAgregarSalchichaExtralarga.Text = "Agregar";
+            this.btnAgregarSalchichaExtralarga.UseVisualStyleBackColor = true;
+            // 
             // panel7
             // 
             this.panel7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -958,7 +988,10 @@
             this.panel7.BackColor = System.Drawing.Color.Transparent;
             this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel7.Controls.Add(this.panel8);
+            this.panel7.Controls.Add(this.lblPrecioSalchichaSuprema);
             this.panel7.Controls.Add(this.pictureBox4);
+            this.panel7.Controls.Add(this.label36);
+            this.panel7.Controls.Add(this.btnAgregarSalchichaSuprema);
             this.panel7.Location = new System.Drawing.Point(21, 13);
             this.panel7.Name = "panel7";
             this.panel7.Padding = new System.Windows.Forms.Padding(10);
@@ -967,10 +1000,7 @@
             // 
             // panel8
             // 
-            this.panel8.Controls.Add(this.lblPrecioSalchichaSuprema);
-            this.panel8.Controls.Add(this.label36);
-            this.panel8.Controls.Add(this.btnAgregarSalchichaSuprema);
-            this.panel8.Controls.Add(this.label10);
+            this.panel8.Controls.Add(this.rbPresentacionSalchichaSuprema1);
             this.panel8.Controls.Add(this.label11);
             this.panel8.Controls.Add(this.label12);
             this.panel8.Location = new System.Drawing.Point(289, 29);
@@ -979,44 +1009,18 @@
             this.panel8.Size = new System.Drawing.Size(439, 149);
             this.panel8.TabIndex = 1;
             // 
-            // lblPrecioSalchichaSuprema
+            // rbPresentacionSalchichaSuprema1
             // 
-            this.lblPrecioSalchichaSuprema.AutoSize = true;
-            this.lblPrecioSalchichaSuprema.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPrecioSalchichaSuprema.Location = new System.Drawing.Point(265, 126);
-            this.lblPrecioSalchichaSuprema.Name = "lblPrecioSalchichaSuprema";
-            this.lblPrecioSalchichaSuprema.Size = new System.Drawing.Size(92, 22);
-            this.lblPrecioSalchichaSuprema.TabIndex = 20;
-            this.lblPrecioSalchichaSuprema.Text = "10000.00";
-            // 
-            // label36
-            // 
-            this.label36.AutoSize = true;
-            this.label36.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label36.Location = new System.Drawing.Point(189, 125);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(73, 23);
-            this.label36.TabIndex = 19;
-            this.label36.Text = "Precio:";
-            // 
-            // btnAgregarSalchichaSuprema
-            // 
-            this.btnAgregarSalchichaSuprema.Location = new System.Drawing.Point(363, 123);
-            this.btnAgregarSalchichaSuprema.Name = "btnAgregarSalchichaSuprema";
-            this.btnAgregarSalchichaSuprema.Size = new System.Drawing.Size(76, 26);
-            this.btnAgregarSalchichaSuprema.TabIndex = 18;
-            this.btnAgregarSalchichaSuprema.Text = "Agregar";
-            this.btnAgregarSalchichaSuprema.UseVisualStyleBackColor = true;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(56, 89);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(65, 21);
-            this.label10.TabIndex = 6;
-            this.label10.Text = "1.000 g";
+            this.rbPresentacionSalchichaSuprema1.AutoSize = true;
+            this.rbPresentacionSalchichaSuprema1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbPresentacionSalchichaSuprema1.Location = new System.Drawing.Point(42, 92);
+            this.rbPresentacionSalchichaSuprema1.Name = "rbPresentacionSalchichaSuprema1";
+            this.rbPresentacionSalchichaSuprema1.Size = new System.Drawing.Size(75, 25);
+            this.rbPresentacionSalchichaSuprema1.TabIndex = 33;
+            this.rbPresentacionSalchichaSuprema1.TabStop = true;
+            this.rbPresentacionSalchichaSuprema1.Text = "1000g";
+            this.rbPresentacionSalchichaSuprema1.UseVisualStyleBackColor = true;
+            this.rbPresentacionSalchichaSuprema1.CheckedChanged += new System.EventHandler(this.rbPresentacionSalchichaSuprema_CheckedChanged);
             // 
             // label11
             // 
@@ -1039,6 +1043,16 @@
             this.label12.TabIndex = 4;
             this.label12.Text = "Salchicha Suprema";
             // 
+            // lblPrecioSalchichaSuprema
+            // 
+            this.lblPrecioSalchichaSuprema.AutoSize = true;
+            this.lblPrecioSalchichaSuprema.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPrecioSalchichaSuprema.Location = new System.Drawing.Point(554, 184);
+            this.lblPrecioSalchichaSuprema.Name = "lblPrecioSalchichaSuprema";
+            this.lblPrecioSalchichaSuprema.Size = new System.Drawing.Size(92, 22);
+            this.lblPrecioSalchichaSuprema.TabIndex = 20;
+            this.lblPrecioSalchichaSuprema.Text = "10000.00";
+            // 
             // pictureBox4
             // 
             this.pictureBox4.Image = global::DCosta.Properties.Resources.Linea_productos_carnicos_Salchicha_suprema;
@@ -1048,6 +1062,25 @@
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 0;
             this.pictureBox4.TabStop = false;
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label36.Location = new System.Drawing.Point(486, 184);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(73, 23);
+            this.label36.TabIndex = 19;
+            this.label36.Text = "Precio:";
+            // 
+            // btnAgregarSalchichaSuprema
+            // 
+            this.btnAgregarSalchichaSuprema.Location = new System.Drawing.Point(652, 184);
+            this.btnAgregarSalchichaSuprema.Name = "btnAgregarSalchichaSuprema";
+            this.btnAgregarSalchichaSuprema.Size = new System.Drawing.Size(76, 26);
+            this.btnAgregarSalchichaSuprema.TabIndex = 18;
+            this.btnAgregarSalchichaSuprema.Text = "Agregar";
+            this.btnAgregarSalchichaSuprema.UseVisualStyleBackColor = true;
             // 
             // FrmSalchichasPedidos
             // 
@@ -1063,34 +1096,42 @@
             this.flowLayoutPanel1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel16.ResumeLayout(false);
+            this.panel16.PerformLayout();
             this.panel17.ResumeLayout(false);
             this.panel17.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.panel14.ResumeLayout(false);
+            this.panel14.PerformLayout();
             this.panel15.ResumeLayout(false);
             this.panel15.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.panel12.ResumeLayout(false);
+            this.panel12.PerformLayout();
             this.panel13.ResumeLayout(false);
             this.panel13.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.panel10.ResumeLayout(false);
+            this.panel10.PerformLayout();
             this.panel11.ResumeLayout(false);
             this.panel11.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.panel6.ResumeLayout(false);
+            this.panel6.PerformLayout();
             this.panel9.ResumeLayout(false);
             this.panel9.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel7.ResumeLayout(false);
+            this.panel7.PerformLayout();
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
@@ -1109,13 +1150,11 @@
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.Panel panel11;
-        private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Panel panel9;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.PictureBox pictureBox3;
@@ -1126,52 +1165,34 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Panel panel16;
         private System.Windows.Forms.Panel panel17;
-        private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.Panel panel14;
         private System.Windows.Forms.Panel panel15;
-        private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label30;
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.Button btnAgregarSalchichaMaxiperro;
-        private System.Windows.Forms.ComboBox cbPrecioSalchichaMaxiperro;
         private System.Windows.Forms.Label label34;
         private System.Windows.Forms.Button btnAgregarSalchichaSuper;
-        private System.Windows.Forms.ComboBox cbPrecioSalchichaSuper;
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.Button btnAgregarSalchichaParrillera;
-        private System.Windows.Forms.ComboBox cbPrecioSalchichaParrillera;
         private System.Windows.Forms.Label label32;
         private System.Windows.Forms.Button btnAgregarSalchikids;
-        private System.Windows.Forms.ComboBox cbPrecioSalchikids;
         private System.Windows.Forms.Label label42;
         private System.Windows.Forms.Button btnAgregarSalchichaExtralarga;
-        private System.Windows.Forms.ComboBox cbPrecioSalchichaExtralarga;
         private System.Windows.Forms.Label label36;
         private System.Windows.Forms.Button btnAgregarSalchichaSuprema;
         private System.Windows.Forms.Label label38;
@@ -1181,5 +1202,25 @@
         private System.Windows.Forms.Label lblPrecioMegaSalchicha;
         private System.Windows.Forms.Label lblPrecioSalchichaMiniperro;
         private System.Windows.Forms.Label lblPrecioSalchichaSuprema;
+        private System.Windows.Forms.RadioButton rbPresentacionSalchichaSuprema1;
+        private System.Windows.Forms.Label lblPrecioSalchichaMaxiperro;
+        private System.Windows.Forms.Label lblPrecioSalchichaSuper;
+        private System.Windows.Forms.Label lblPrecioSalchichaParrillera;
+        private System.Windows.Forms.Label lblPrecioSalchickids;
+        private System.Windows.Forms.Label lblPrecioSalchichaExtralarga;
+        private System.Windows.Forms.RadioButton rbPresentacionSalchichaExtralarga2;
+        private System.Windows.Forms.RadioButton rbPresentacionSalchichaExtralarga1;
+        private System.Windows.Forms.RadioButton rbPresentacionSalchichaParrillera4;
+        private System.Windows.Forms.RadioButton rbPresentacionSalchichaParrillera3;
+        private System.Windows.Forms.RadioButton rbPresentacionSalchichaParrillera2;
+        private System.Windows.Forms.RadioButton rbPresentacionSalchichaParrillera1;
+        private System.Windows.Forms.RadioButton rbPresentacionSalchichaMiniperro1;
+        private System.Windows.Forms.RadioButton rbPresentacionSalchichaMaxiperro2;
+        private System.Windows.Forms.RadioButton rbPresentacionSalchichaMaxiperro1;
+        private System.Windows.Forms.RadioButton rbPresentacionMegaSalchicha1;
+        private System.Windows.Forms.RadioButton rbPresentacionSalchichaSuper2;
+        private System.Windows.Forms.RadioButton rbPresentacionSalchichaSuper1;
+        private System.Windows.Forms.RadioButton rbPresentacionSalchikids2;
+        private System.Windows.Forms.RadioButton rbPresentacionSalchikids1;
     }
 }

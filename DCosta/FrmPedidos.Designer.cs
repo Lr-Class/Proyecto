@@ -128,6 +128,7 @@
             this.pnlGuardarPedido = new System.Windows.Forms.Panel();
             this.btnGuardarPedido = new System.Windows.Forms.Button();
             this.lstPedido = new System.Windows.Forms.ListBox();
+            this.btnSiguiente = new System.Windows.Forms.Button();
             this.pnlArriba.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
             this.pnlPrincipal.SuspendLayout();
@@ -293,6 +294,7 @@
             // 
             // pnlCarnicos
             // 
+            this.pnlCarnicos.Controls.Add(this.btnSiguiente);
             this.pnlCarnicos.Controls.Add(this.pnlContenedor);
             this.pnlCarnicos.Controls.Add(this.btnMostrar);
             this.pnlCarnicos.Controls.Add(this.cbTipoCarnico);
@@ -306,7 +308,7 @@
             // 
             // pnlContenedor
             // 
-            this.pnlContenedor.Location = new System.Drawing.Point(98, 63);
+            this.pnlContenedor.Location = new System.Drawing.Point(67, 55);
             this.pnlContenedor.Name = "pnlContenedor";
             this.pnlContenedor.Size = new System.Drawing.Size(830, 408);
             this.pnlContenedor.TabIndex = 9;
@@ -1309,6 +1311,22 @@
             this.lstPedido.Size = new System.Drawing.Size(457, 319);
             this.lstPedido.TabIndex = 0;
             // 
+            // btnSiguiente
+            // 
+            this.btnSiguiente.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.btnSiguiente.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.btnSiguiente.FlatAppearance.BorderSize = 10;
+            this.btnSiguiente.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Aqua;
+            this.btnSiguiente.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Teal;
+            this.btnSiguiente.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.btnSiguiente.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSiguiente.Location = new System.Drawing.Point(814, 469);
+            this.btnSiguiente.Name = "btnSiguiente";
+            this.btnSiguiente.Size = new System.Drawing.Size(159, 29);
+            this.btnSiguiente.TabIndex = 10;
+            this.btnSiguiente.Text = "Siguiente";
+            this.btnSiguiente.UseVisualStyleBackColor = false;
+            // 
             // FrmPedidos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1466,5 +1484,6 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnGuardarPedido;
         private System.Windows.Forms.ListBox lstPedido;
+        private System.Windows.Forms.Button btnSiguiente;
     }
 }

@@ -32,13 +32,13 @@
             this.panel18 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.lblPrecioHamburguesa = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
-            this.btnAgregarHamburguesa = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
+            this.rbPresentacionHamburguesadeRes1 = new System.Windows.Forms.RadioButton();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.lblPrecioHamburguesa = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label36 = new System.Windows.Forms.Label();
+            this.btnAgregarHamburguesa = new System.Windows.Forms.Button();
             this.flowLayoutPanel2.SuspendLayout();
             this.panel18.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -73,7 +73,10 @@
             this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.panel2);
+            this.panel1.Controls.Add(this.lblPrecioHamburguesa);
             this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Controls.Add(this.label36);
+            this.panel1.Controls.Add(this.btnAgregarHamburguesa);
             this.panel1.Location = new System.Drawing.Point(13, 13);
             this.panel1.Name = "panel1";
             this.panel1.Padding = new System.Windows.Forms.Padding(10);
@@ -82,10 +85,7 @@
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.lblPrecioHamburguesa);
-            this.panel2.Controls.Add(this.label36);
-            this.panel2.Controls.Add(this.btnAgregarHamburguesa);
-            this.panel2.Controls.Add(this.label2);
+            this.panel2.Controls.Add(this.rbPresentacionHamburguesadeRes1);
             this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.label4);
             this.panel2.Location = new System.Drawing.Point(289, 29);
@@ -94,44 +94,18 @@
             this.panel2.Size = new System.Drawing.Size(439, 149);
             this.panel2.TabIndex = 1;
             // 
-            // lblPrecioHamburguesa
+            // rbPresentacionHamburguesadeRes1
             // 
-            this.lblPrecioHamburguesa.AutoSize = true;
-            this.lblPrecioHamburguesa.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPrecioHamburguesa.Location = new System.Drawing.Point(263, 127);
-            this.lblPrecioHamburguesa.Name = "lblPrecioHamburguesa";
-            this.lblPrecioHamburguesa.Size = new System.Drawing.Size(81, 22);
-            this.lblPrecioHamburguesa.TabIndex = 23;
-            this.lblPrecioHamburguesa.Text = "8000.00";
-            // 
-            // label36
-            // 
-            this.label36.AutoSize = true;
-            this.label36.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label36.Location = new System.Drawing.Point(187, 126);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(73, 23);
-            this.label36.TabIndex = 22;
-            this.label36.Text = "Precio:";
-            // 
-            // btnAgregarHamburguesa
-            // 
-            this.btnAgregarHamburguesa.Location = new System.Drawing.Point(361, 124);
-            this.btnAgregarHamburguesa.Name = "btnAgregarHamburguesa";
-            this.btnAgregarHamburguesa.Size = new System.Drawing.Size(76, 26);
-            this.btnAgregarHamburguesa.TabIndex = 21;
-            this.btnAgregarHamburguesa.Text = "Agregar";
-            this.btnAgregarHamburguesa.UseVisualStyleBackColor = true;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(56, 88);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(52, 21);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "500 g";
+            this.rbPresentacionHamburguesadeRes1.AutoSize = true;
+            this.rbPresentacionHamburguesadeRes1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbPresentacionHamburguesadeRes1.Location = new System.Drawing.Point(46, 91);
+            this.rbPresentacionHamburguesadeRes1.Name = "rbPresentacionHamburguesadeRes1";
+            this.rbPresentacionHamburguesadeRes1.Size = new System.Drawing.Size(66, 25);
+            this.rbPresentacionHamburguesadeRes1.TabIndex = 30;
+            this.rbPresentacionHamburguesadeRes1.TabStop = true;
+            this.rbPresentacionHamburguesadeRes1.Text = "500g";
+            this.rbPresentacionHamburguesadeRes1.UseVisualStyleBackColor = true;
+            this.rbPresentacionHamburguesadeRes1.CheckedChanged += new System.EventHandler(this.rbPresentacionHamburguesadeRes_CheckedChanged);
             // 
             // label3
             // 
@@ -154,6 +128,16 @@
             this.label4.TabIndex = 4;
             this.label4.Text = "Hamburguesa De Res";
             // 
+            // lblPrecioHamburguesa
+            // 
+            this.lblPrecioHamburguesa.AutoSize = true;
+            this.lblPrecioHamburguesa.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPrecioHamburguesa.Location = new System.Drawing.Point(558, 181);
+            this.lblPrecioHamburguesa.Name = "lblPrecioHamburguesa";
+            this.lblPrecioHamburguesa.Size = new System.Drawing.Size(81, 22);
+            this.lblPrecioHamburguesa.TabIndex = 23;
+            this.lblPrecioHamburguesa.Text = "8000.00";
+            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::DCosta.Properties.Resources.Linea_productos_carnicos_Hamburguesa_de_res;
@@ -163,6 +147,25 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label36.Location = new System.Drawing.Point(479, 180);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(73, 23);
+            this.label36.TabIndex = 22;
+            this.label36.Text = "Precio:";
+            // 
+            // btnAgregarHamburguesa
+            // 
+            this.btnAgregarHamburguesa.Location = new System.Drawing.Point(652, 181);
+            this.btnAgregarHamburguesa.Name = "btnAgregarHamburguesa";
+            this.btnAgregarHamburguesa.Size = new System.Drawing.Size(76, 26);
+            this.btnAgregarHamburguesa.TabIndex = 21;
+            this.btnAgregarHamburguesa.Text = "Agregar";
+            this.btnAgregarHamburguesa.UseVisualStyleBackColor = true;
             // 
             // FrmHamburguesaPedidos
             // 
@@ -177,6 +180,7 @@
             this.flowLayoutPanel2.ResumeLayout(false);
             this.panel18.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -190,12 +194,12 @@
         private System.Windows.Forms.Panel panel18;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label lblPrecioHamburguesa;
         private System.Windows.Forms.Label label36;
         private System.Windows.Forms.Button btnAgregarHamburguesa;
+        private System.Windows.Forms.RadioButton rbPresentacionHamburguesadeRes1;
     }
 }

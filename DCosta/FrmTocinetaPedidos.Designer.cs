@@ -31,15 +31,15 @@
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel18 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.lblPrecioTocinetaAhumada = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label42 = new System.Windows.Forms.Label();
-            this.btnAgregarTocineta = new System.Windows.Forms.Button();
-            this.cbEscogerPrecio = new System.Windows.Forms.ComboBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.rbPresentacionTocinetaAhumada2 = new System.Windows.Forms.RadioButton();
+            this.rbPresentacionTocinetaAhumada1 = new System.Windows.Forms.RadioButton();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label42 = new System.Windows.Forms.Label();
+            this.btnAgregarTocineta = new System.Windows.Forms.Button();
             this.flowLayoutPanel2.SuspendLayout();
             this.panel18.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -73,21 +73,31 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.lblPrecioTocinetaAhumada);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Controls.Add(this.label42);
+            this.panel1.Controls.Add(this.btnAgregarTocineta);
             this.panel1.Location = new System.Drawing.Point(13, 13);
             this.panel1.Name = "panel1";
             this.panel1.Padding = new System.Windows.Forms.Padding(10);
             this.panel1.Size = new System.Drawing.Size(761, 227);
             this.panel1.TabIndex = 5;
             // 
+            // lblPrecioTocinetaAhumada
+            // 
+            this.lblPrecioTocinetaAhumada.AutoSize = true;
+            this.lblPrecioTocinetaAhumada.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPrecioTocinetaAhumada.Location = new System.Drawing.Point(566, 189);
+            this.lblPrecioTocinetaAhumada.Name = "lblPrecioTocinetaAhumada";
+            this.lblPrecioTocinetaAhumada.Size = new System.Drawing.Size(81, 22);
+            this.lblPrecioTocinetaAhumada.TabIndex = 24;
+            this.lblPrecioTocinetaAhumada.Text = "8500.00";
+            // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.label42);
-            this.panel2.Controls.Add(this.btnAgregarTocineta);
-            this.panel2.Controls.Add(this.cbEscogerPrecio);
-            this.panel2.Controls.Add(this.label1);
-            this.panel2.Controls.Add(this.label2);
+            this.panel2.Controls.Add(this.rbPresentacionTocinetaAhumada2);
+            this.panel2.Controls.Add(this.rbPresentacionTocinetaAhumada1);
             this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.label4);
             this.panel2.Location = new System.Drawing.Point(289, 29);
@@ -96,56 +106,31 @@
             this.panel2.Size = new System.Drawing.Size(439, 149);
             this.panel2.TabIndex = 1;
             // 
-            // label42
+            // rbPresentacionTocinetaAhumada2
             // 
-            this.label42.AutoSize = true;
-            this.label42.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label42.Location = new System.Drawing.Point(148, 122);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(73, 23);
-            this.label42.TabIndex = 20;
-            this.label42.Text = "Precio:";
+            this.rbPresentacionTocinetaAhumada2.AutoSize = true;
+            this.rbPresentacionTocinetaAhumada2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbPresentacionTocinetaAhumada2.Location = new System.Drawing.Point(106, 91);
+            this.rbPresentacionTocinetaAhumada2.Name = "rbPresentacionTocinetaAhumada2";
+            this.rbPresentacionTocinetaAhumada2.Size = new System.Drawing.Size(66, 25);
+            this.rbPresentacionTocinetaAhumada2.TabIndex = 29;
+            this.rbPresentacionTocinetaAhumada2.TabStop = true;
+            this.rbPresentacionTocinetaAhumada2.Text = "500g";
+            this.rbPresentacionTocinetaAhumada2.UseVisualStyleBackColor = true;
+            this.rbPresentacionTocinetaAhumada2.CheckedChanged += new System.EventHandler(this.rbPresentacionTocinetaAhumada_CheckedChanged);
             // 
-            // btnAgregarTocineta
+            // rbPresentacionTocinetaAhumada1
             // 
-            this.btnAgregarTocineta.Location = new System.Drawing.Point(363, 123);
-            this.btnAgregarTocineta.Name = "btnAgregarTocineta";
-            this.btnAgregarTocineta.Size = new System.Drawing.Size(76, 26);
-            this.btnAgregarTocineta.TabIndex = 19;
-            this.btnAgregarTocineta.Text = "Agregar";
-            this.btnAgregarTocineta.UseVisualStyleBackColor = true;
-            // 
-            // cbEscogerPrecio
-            // 
-            this.cbEscogerPrecio.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbEscogerPrecio.FormattingEnabled = true;
-            this.cbEscogerPrecio.Items.AddRange(new object[] {
-            "7500.00",
-            "9500.00"});
-            this.cbEscogerPrecio.Location = new System.Drawing.Point(227, 121);
-            this.cbEscogerPrecio.Name = "cbEscogerPrecio";
-            this.cbEscogerPrecio.Size = new System.Drawing.Size(130, 29);
-            this.cbEscogerPrecio.TabIndex = 18;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(114, 88);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(52, 21);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "500 g";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(56, 88);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(52, 21);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "250 g";
+            this.rbPresentacionTocinetaAhumada1.AutoSize = true;
+            this.rbPresentacionTocinetaAhumada1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbPresentacionTocinetaAhumada1.Location = new System.Drawing.Point(34, 91);
+            this.rbPresentacionTocinetaAhumada1.Name = "rbPresentacionTocinetaAhumada1";
+            this.rbPresentacionTocinetaAhumada1.Size = new System.Drawing.Size(66, 25);
+            this.rbPresentacionTocinetaAhumada1.TabIndex = 28;
+            this.rbPresentacionTocinetaAhumada1.TabStop = true;
+            this.rbPresentacionTocinetaAhumada1.Text = "250g";
+            this.rbPresentacionTocinetaAhumada1.UseVisualStyleBackColor = true;
+            this.rbPresentacionTocinetaAhumada1.CheckedChanged += new System.EventHandler(this.rbPresentacionTocinetaAhumada_CheckedChanged);
             // 
             // label3
             // 
@@ -178,6 +163,25 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label42.Location = new System.Drawing.Point(487, 188);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(73, 23);
+            this.label42.TabIndex = 20;
+            this.label42.Text = "Precio:";
+            // 
+            // btnAgregarTocineta
+            // 
+            this.btnAgregarTocineta.Location = new System.Drawing.Point(662, 185);
+            this.btnAgregarTocineta.Name = "btnAgregarTocineta";
+            this.btnAgregarTocineta.Size = new System.Drawing.Size(76, 26);
+            this.btnAgregarTocineta.TabIndex = 19;
+            this.btnAgregarTocineta.Text = "Agregar";
+            this.btnAgregarTocineta.UseVisualStyleBackColor = true;
+            // 
             // FrmTocinetaPedidos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -191,6 +195,7 @@
             this.flowLayoutPanel2.ResumeLayout(false);
             this.panel18.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -204,13 +209,13 @@
         private System.Windows.Forms.Panel panel18;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label42;
         private System.Windows.Forms.Button btnAgregarTocineta;
-        private System.Windows.Forms.ComboBox cbEscogerPrecio;
+        private System.Windows.Forms.RadioButton rbPresentacionTocinetaAhumada2;
+        private System.Windows.Forms.RadioButton rbPresentacionTocinetaAhumada1;
+        private System.Windows.Forms.Label lblPrecioTocinetaAhumada;
     }
 }
