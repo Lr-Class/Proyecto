@@ -1,7 +1,32 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|c:\\users\\luism\\onedrive\\escritorio\\dcosta\\dcosta\\salchichones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|solutionrelative:dcosta\\salchichones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|c:\\users\\luism\\onedrive\\escritorio\\dcosta\\dcosta\\butifarras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|solutionrelative:dcosta\\butifarras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|c:\\users\\luism\\onedrive\\escritorio\\dcosta\\dcosta\\chorizos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|solutionrelative:dcosta\\chorizos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|c:\\users\\luism\\onedrive\\escritorio\\dcosta\\dcosta\\hamburguesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|solutionrelative:dcosta\\hamburguesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|c:\\users\\luism\\onedrive\\escritorio\\dcosta\\dcosta\\jamon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|solutionrelative:dcosta\\jamon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|c:\\users\\luism\\onedrive\\escritorio\\dcosta\\dcosta\\mortadela.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75217F96-0D26-4BEE-B5B5-F192D9663427}|DCosta\\DCosta.csproj|solutionrelative:dcosta\\mortadela.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,6 +51,84 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Salchichones.cs",
+              "DocumentMoniker": "C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\DCosta\\Salchichones.cs",
+              "RelativeDocumentMoniker": "DCosta\\Salchichones.cs",
+              "ToolTip": "C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\DCosta\\Salchichones.cs",
+              "RelativeToolTip": "DCosta\\Salchichones.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADsAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T19:22:42.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Mortadela.cs",
+              "DocumentMoniker": "C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\DCosta\\Mortadela.cs",
+              "RelativeDocumentMoniker": "DCosta\\Mortadela.cs",
+              "ToolTip": "C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\DCosta\\Mortadela.cs",
+              "RelativeToolTip": "DCosta\\Mortadela.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAQwDsAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T19:22:41.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Jamon.cs",
+              "DocumentMoniker": "C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\DCosta\\Jamon.cs",
+              "RelativeDocumentMoniker": "DCosta\\Jamon.cs",
+              "ToolTip": "C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\DCosta\\Jamon.cs",
+              "RelativeToolTip": "DCosta\\Jamon.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAQwDsAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T19:22:40.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Hamburguesa.cs",
+              "DocumentMoniker": "C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\DCosta\\Hamburguesa.cs",
+              "RelativeDocumentMoniker": "DCosta\\Hamburguesa.cs",
+              "ToolTip": "C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\DCosta\\Hamburguesa.cs",
+              "RelativeToolTip": "DCosta\\Hamburguesa.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAQwDsAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T19:22:38.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Chorizos.cs",
+              "DocumentMoniker": "C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\DCosta\\Chorizos.cs",
+              "RelativeDocumentMoniker": "DCosta\\Chorizos.cs",
+              "ToolTip": "C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\DCosta\\Chorizos.cs",
+              "RelativeToolTip": "DCosta\\Chorizos.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAQwDsAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T19:22:37.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Butifarras.cs",
+              "DocumentMoniker": "C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\DCosta\\Butifarras.cs",
+              "RelativeDocumentMoniker": "DCosta\\Butifarras.cs",
+              "ToolTip": "C:\\Users\\luism\\OneDrive\\Escritorio\\DCosta\\DCosta\\Butifarras.cs",
+              "RelativeToolTip": "DCosta\\Butifarras.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T19:21:36.918Z",
+              "EditorCaption": ""
             }
           ]
         }

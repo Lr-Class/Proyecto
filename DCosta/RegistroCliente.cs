@@ -16,6 +16,8 @@ namespace DCosta
         public RegistroCliente()
         {
             InitializeComponent();
+            label10.Hide();
+            txtNombreNegocio.Hide();
         }
 
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
@@ -48,11 +50,11 @@ namespace DCosta
             if (rbSiNegocio.Checked)
             {
                 Color miColor = Color.FromArgb(15, 15, 15);
-
-                txtDireccionNegocio.Enabled = true;
+                txtNombreNegocio.Show();
+                label10.Show();
                 txtNombreNegocio.Enabled = true;
 
-                txtDireccionNegocio.BackColor = miColor;
+                //txtDireccionNegocio.BackColor = miColor;
                 txtNombreNegocio.BackColor = miColor;
             }
         }
@@ -61,10 +63,11 @@ namespace DCosta
         {
             if (rbNoNegocio.Checked)
             {
-                txtDireccionNegocio.Enabled = false;
+                txtNombreNegocio.Hide();
+                label10.Hide();
                 txtNombreNegocio.Enabled = false;
 
-                txtDireccionNegocio.BackColor = Color.DarkRed;
+                //txtDireccionNegocio.BackColor = Color.DarkRed;
                 txtNombreNegocio.BackColor = Color.DarkRed;
             }
         }
@@ -75,7 +78,7 @@ namespace DCosta
 
             if (resultado == DialogResult.Yes)
             {
-                FrmInicioCliente inicioCliente = new FrmInicioCliente();
+                InicioCliente inicioCliente = new InicioCliente();
                 this.Close();
                 inicioCliente.Show();
             }

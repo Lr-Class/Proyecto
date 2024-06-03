@@ -32,8 +32,6 @@
             this.btnRegistro = new System.Windows.Forms.Button();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label11 = new System.Windows.Forms.Label();
-            this.txtDireccionNegocio = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.txtNombreNegocio = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -60,6 +58,8 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pnlBarraMovimiento = new System.Windows.Forms.Panel();
+            this.label12 = new System.Windows.Forms.Label();
+            this.txtCorreo = new System.Windows.Forms.TextBox();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -110,8 +110,8 @@
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.label11);
-            this.panel2.Controls.Add(this.txtDireccionNegocio);
+            this.panel2.Controls.Add(this.label12);
+            this.panel2.Controls.Add(this.txtCorreo);
             this.panel2.Controls.Add(this.label10);
             this.panel2.Controls.Add(this.txtNombreNegocio);
             this.panel2.Controls.Add(this.groupBox1);
@@ -133,38 +133,16 @@
             this.panel2.Controls.Add(this.label2);
             this.panel2.Location = new System.Drawing.Point(3, 3);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(492, 840);
+            this.panel2.Size = new System.Drawing.Size(492, 866);
             this.panel2.TabIndex = 0;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label11.Location = new System.Drawing.Point(65, 744);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(193, 21);
-            this.label11.TabIndex = 21;
-            this.label11.Text = "Direccion del negocio: *";
-            // 
-            // txtDireccionNegocio
-            // 
-            this.txtDireccionNegocio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
-            this.txtDireccionNegocio.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtDireccionNegocio.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDireccionNegocio.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.txtDireccionNegocio.Location = new System.Drawing.Point(69, 770);
-            this.txtDireccionNegocio.Name = "txtDireccionNegocio";
-            this.txtDireccionNegocio.Size = new System.Drawing.Size(287, 26);
-            this.txtDireccionNegocio.TabIndex = 20;
             // 
             // label10
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label10.Location = new System.Drawing.Point(64, 665);
+            this.label10.Location = new System.Drawing.Point(64, 756);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(183, 21);
             this.label10.TabIndex = 19;
@@ -176,7 +154,7 @@
             this.txtNombreNegocio.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtNombreNegocio.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNombreNegocio.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.txtNombreNegocio.Location = new System.Drawing.Point(68, 689);
+            this.txtNombreNegocio.Location = new System.Drawing.Point(68, 780);
             this.txtNombreNegocio.Name = "txtNombreNegocio";
             this.txtNombreNegocio.Size = new System.Drawing.Size(287, 26);
             this.txtNombreNegocio.TabIndex = 18;
@@ -187,7 +165,7 @@
             this.groupBox1.Controls.Add(this.rbSiNegocio);
             this.groupBox1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.groupBox1.Location = new System.Drawing.Point(69, 526);
+            this.groupBox1.Location = new System.Drawing.Point(69, 617);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(211, 109);
             this.groupBox1.TabIndex = 17;
@@ -452,6 +430,28 @@
             this.pnlBarraMovimiento.TabIndex = 12;
             this.pnlBarraMovimiento.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pnlBarraMovimiento_MouseDown);
             // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.label12.Location = new System.Drawing.Point(65, 531);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(73, 21);
+            this.label12.TabIndex = 23;
+            this.label12.Text = "Correo:*";
+            // 
+            // txtCorreo
+            // 
+            this.txtCorreo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
+            this.txtCorreo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtCorreo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCorreo.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.txtCorreo.Location = new System.Drawing.Point(69, 557);
+            this.txtCorreo.Name = "txtCorreo";
+            this.txtCorreo.Size = new System.Drawing.Size(287, 26);
+            this.txtCorreo.TabIndex = 22;
+            // 
             // RegistroCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -511,12 +511,12 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox txtTelefono;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox txtDireccionNegocio;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.TextBox txtNombreNegocio;
         private System.Windows.Forms.RadioButton rbNoNegocio;
         private System.Windows.Forms.RadioButton rbSiNegocio;
         private System.Windows.Forms.Panel pnlBarraMovimiento;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.TextBox txtCorreo;
     }
 }
